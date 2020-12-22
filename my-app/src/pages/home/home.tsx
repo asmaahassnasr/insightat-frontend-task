@@ -1,4 +1,5 @@
 import React from 'react';
+import {NavigationBar} from '../MainNavBar/navigationBar';
 import {NavLink} from 'react-router-dom';
 import contact_us_background from '../assets/image/contact_us_background.png';
 import drag_drop from '../assets/image/drag_drop.png';
@@ -6,6 +7,7 @@ import './home.css';
 export const Home = () => {
     return (
         <> 
+        <NavigationBar />
             <div className="home">
             <img className="home__background__img" src={contact_us_background} />
             <div className="row home__wrapper">

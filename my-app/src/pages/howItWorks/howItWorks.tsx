@@ -3,12 +3,14 @@ import create_your_project from '../assets/image/create_your_project.png';
 import build_your_project from '../assets/image/build_your_project.png';
 import design_your_project from '../assets/image/design_your_project.png';
 import share_your_project from '../assets/image/share_your_project.png';
+import {NavigationBar} from '../MainNavBar/navigationBar';
 import analyze_your_project from '../assets/image/analyze_your_project.png';
 import './howItWorks.css'
 
 export const HowItWorks = () => {
     return (
         <> 
+        <NavigationBar />
             <div className="how-it-works">
             <div className="how-it-works__item">
                 <div className="how-it-works__item__desc">

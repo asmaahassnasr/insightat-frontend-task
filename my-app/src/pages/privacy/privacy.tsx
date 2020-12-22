@@ -1,8 +1,10 @@
+import {NavigationBar} from '../MainNavBar/navigationBar';
 import React from 'react';
 import './privacy.css'
 export const Privacy = () => {
     return (
         <div>
+        <NavigationBar />
             <div className="privacy container">
             <h1>Insightat | Privacy Policy</h1>
             <p>

@@ -1,9 +1,11 @@
 import React from 'react';
+import {NavigationBar} from '../MainNavBar/navigationBar';
 import './terms.css'
 
 export const Terms = () => {
     return (
         <div>
+            <NavigationBar />
             <div className="privacy container">
             <h1>Insightat | Terms of Use</h1>
             <p>

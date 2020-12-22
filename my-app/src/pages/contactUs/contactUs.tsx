@@ -1,11 +1,13 @@
 import React from 'react';
 import question from '../assets/image/question.png';
+import {NavigationBar} from '../MainNavBar/navigationBar';
 import customer from '../assets/image/customer.png';
 import './contactUs.css';
 
 export const ContactUs = () => {
     return (
         <div>
+        <NavigationBar />
             <div className="contact container row">
             <div className="contact__left col-xl-6 col-12">
                 <div className="contact__form">
