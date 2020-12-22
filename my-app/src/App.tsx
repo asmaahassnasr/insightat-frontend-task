@@ -12,6 +12,8 @@ import {LogIn} from './pages/logIn/logIn';
 import {SignUp} from './pages/signUp/signUp';
 import {Pricing} from './pages/pricing/pricing';
 import {Template} from './pages/template/template';
+import {Profile} from './pages/profile/profile';
+import {EditProfile} from './pages/profile/editProfile';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'font-awesome/css/font-awesome.css';
 import { ImportsNotUsedAsValues } from 'typescript';
@@ -31,6 +33,8 @@ function App() {
       <Route  path="/logIn" component={LogIn}/>
       <Route  path="/signUp" component={SignUp}/>
       <Route  path="/template" component={Template}/>
+      <Route  path="/profile" component={Profile}/>
+      <Route  path="/editProfile" component={EditProfile}/>
       </Switch>
       <Footer />
     </React.Fragment>
