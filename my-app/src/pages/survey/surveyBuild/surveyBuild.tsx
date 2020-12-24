@@ -4,6 +4,7 @@ import logic from '../components/icon/logic.svg';
 import move from '../components/icon/move.svg';
 import icon_duplicate from '../components/icon/icon_duplicate.svg';
 import icon_trash from '../components/icon/icon_trash.svg';
+import {RadioGroupQuestion} from '../components/radioGroupQuestion';
 import {BooleanQuestion} from '../components/booleanQuestion';
 import Rectangle_18 from "../components/icon/Rectangle_18.svg" ;
 import '../skeleton.css';
@@ -79,41 +80,19 @@ export const SurveyBuild = () => {
                                 </div>
                                 <div className="color-section">
                                     <div className="color-header color-radio-header">
-                                        <p className="color-header-number">3</p>
-                                        <p className="color-header-text color-radio-header-text"><span>
-                                            What is your favorite color ?</span> </p>
-                                    </div>
-                                    <div className="color-header">
-                                        <p className="color-header-number">
-                                            <input type="radio"
-                                                name="color" className="option-input radio" id="one" />  <label htmlFor="one">  </label>
-                                        </p>
-                                        <p className="color-header-text"> <span>Red</span> </p>
-                                    </div>
-                                    <div className="color-header">
-                                        <p className="color-header-number"><input type="radio" name="color" className="option-input radio" id="two" /> <label htmlFor="two"></label> </p>
-                                        <p className="color-header-text"> <span>Black</span> </p>
-                                    </div>
-                                    <div className="color-header">
-                                        <p className="color-header-number"><input type="radio" name="color" className="option-input radio" id="three" />  <label htmlFor="three" ></label> </p>
-                                        <p className="color-header-text"> <span>Blue</span> </p>
-                                    </div>
-                                    <div className="color-header">
-                                        <p className="color-header-number"><input type="radio" name="color" className="option-input radio" id="four" />   <label htmlFor="four"></label>
-                                        </p>
-                                        <p className="color-header-text"> <span>White</span> </p>
-                                    </div>
-                                    <div className="color-header color-line" >
-                                        <p className="color-header-number"><input type="radio" name="color" className="option-input radio" id="five" />   <label htmlFor="five"></label>
-                                        </p>
-                                        <img src={Rectangle_18} alt="" />
+                                        <RadioGroupQuestion />
                                     </div>
                                 </div>
+                               
+                               
+                               
                                 <div className="line-color">
                                     <button className="cancel-btn">Cancel</button>
                                     <button className="save-btn">Save</button>
 
                                 </div>
+
+
 
                             </div>
                             <div className="user-data">
