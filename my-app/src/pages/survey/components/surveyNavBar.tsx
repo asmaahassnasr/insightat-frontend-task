@@ -25,10 +25,10 @@ export const SurveyNavBar = () => {
             <div className="col-lg-2 col-md-2 col-sm-2 col-xs-2 offset-2">
                 <div className="navbar-link ">
                 <ul className="navbar-list">
-                    <li className="navbar-item border-click"><NavLink to="/surveyBuild">build</NavLink></li>
-                    <li className="navbar-item"><NavLink to="/surveyDesign">design</NavLink></li>
-                    <li className="navbar-item active"><NavLink to="/surveyShare">share</NavLink></li>
-                    <li className="navbar-item"><NavLink to="/surveyAnalyze">analyze</NavLink></li>
+                    <li className="navbar-item border-click"><NavLink to="/build">build</NavLink></li>
+                    <li className="navbar-item"><NavLink to="/design">design</NavLink></li>
+                    <li className="navbar-item active"><NavLink to="/share">share</NavLink></li>
+                    <li className="navbar-item"><NavLink to="/analyze">analyze</NavLink></li>
                 </ul>
                 </div>
             </div>
