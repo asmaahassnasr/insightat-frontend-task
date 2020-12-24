@@ -4,8 +4,7 @@ import logic from '../components/icon/logic.svg';
 import move from '../components/icon/move.svg';
 import icon_duplicate from '../components/icon/icon_duplicate.svg';
 import icon_trash from '../components/icon/icon_trash.svg';
-import pill_inactive from "../components/icon/pill_inactive.svg";
-import pill_active from "../components/icon/pill_active.svg";
+import {BooleanQuestion} from '../components/booleanQuestion';
 import Rectangle_18 from "../components/icon/Rectangle_18.svg" ;
 import '../skeleton.css';
 import './surveyBuild.css';
@@ -13,7 +12,6 @@ export const SurveyBuild = () => {
     return (
         <>
             <SurveyNavBar />
-
             <div className="container-fluid build-content-sec">
                 <div className="row">
                     <SurveyBuildSideBar />
@@ -69,16 +67,13 @@ export const SurveyBuild = () => {
                                 <div className="user-data">
                                     <div className="user-data-option" id="wlcome-screan" >
                                         <div className="activeOption">
-                                            <span>add "other" option</span>
-                                            <img src={pill_inactive} alt="" />
+                                            <BooleanQuestion theLabel="Add other option"/>
                                         </div>
                                         <div className="activeOption">
-                                            <span>required</span>
-                                            <img src={pill_active} alt="" />
+                                        <BooleanQuestion theLabel="Required"/>
                                         </div>
                                         <div className="activeOption">
-                                            <span>randomize</span>
-                                            <img src={pill_inactive} alt="" />
+                                        <BooleanQuestion theLabel="Randomized"/>
                                         </div>
                                     </div>
                                 </div>
