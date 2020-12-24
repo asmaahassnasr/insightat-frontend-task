@@ -11,6 +11,7 @@ import k_k from "../components/icon/k_k.svg";
 import chuttersnap_617671_unsplash from "../components/icon/chuttersnap_617671_unsplash.svg";
 import fog_foggy_forest_4827 from "../components/icon/fog_foggy_forest_4827.jpg";
 import { TextQuestion } from '../components/textQuestion';
+import {RatingQuestion} from '../components/ratingQuestion';
 import { CheckBoxQuestion } from '../components/checkBoxQuestion';
 import '../skeleton.css';
 import './surveyDesign.css';
@@ -124,6 +125,8 @@ export const SurveyDesign = () => {
                                         thePlaceHolder="Select an option..." />
                                 </div>
                             </div>
+                          
+                          
                             <div className="user-data user-informaion-container">
                                 <div className="sub-middle-height numberBox number-user-data-container recommended-section-text">
                                     <span className="pt-4"> 7</span>
@@ -131,10 +134,13 @@ export const SurveyDesign = () => {
                                 </div>
                                 <div className="sub-middle-height user-data-input design-user-data-container favourite-artist-container recommended-section-text"
                                     id="wlcome-screan">
-
-                                    <p>How likely is it that you would recommend the event to a friend or colleague?</p>
+                                    {/* <p>How likely is it that you would recommend the event to a friend or colleague?</p> */}
                                     <div className="cobtainer-recommended-box">
-                                        <div className="recommended-box">
+                                        <RatingQuestion 
+                                        theTitle="How likely is it that you would recommend the event to a friend or colleague?"
+                                        theMin="Disagree" theMax="Agree"
+                                        />
+                                        {/* <div className="recommended-box">
                                             <div className="recommended-box-content"><span>0</span></div>
                                         </div>
                                         <div className="recommended-box">
@@ -166,14 +172,13 @@ export const SurveyDesign = () => {
                                         </div>
                                         <div className="recommended-box">
                                             <div className="recommended-box-content"><span>10</span></div>
-                                        </div>
+                                        </div> */}
                                     </div>
-
-                                    <div className="recommended-agree">
+                                    {/* <div className="recommended-agree">
                                         <p>Disagree</p>
                                         <p></p>
                                         <p>Agree</p>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                             <div className="user-data user-informaion-container">
