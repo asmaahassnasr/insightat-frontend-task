@@ -12,6 +12,7 @@ import chuttersnap_617671_unsplash from "../components/icon/chuttersnap_617671_u
 import fog_foggy_forest_4827 from "../components/icon/fog_foggy_forest_4827.jpg";
 import { TextQuestion } from '../components/textQuestion';
 import {RatingQuestion} from '../components/ratingQuestion';
+import {DropDownQuestion} from '../components/dropDownQuestion';
 import { CheckBoxQuestion } from '../components/checkBoxQuestion';
 import '../skeleton.css';
 import './surveyDesign.css';
@@ -408,42 +409,21 @@ export const SurveyDesign = () => {
                                 <div className="user-data-input design-user-data-container color-container-boxex-text favourite-artist-container" id="wlcome-screan" >
                                     <p> How would you rate the popular brands of chocolate? </p>
                                     <div className="choclate-brand-container">
-                                        <span>1</span>
                                         <div className="choclate-brand-container-select-img">
-                                            <select name="" id="">
-                                                <option value="1"></option>
-                                                <option value="2">2</option>
-                                                <option value="3">3</option>
-                                                <option value="4">4</option>
-                                                <option value="5">5</option>
-
-                                            </select>
+                                            <DropDownQuestion theTitle="1" theName="Brand1"
+                                            theVal={["1","2","3"]}/>
                                         </div>
                                     </div>
                                     <div className="choclate-brand-container">
-                                        <span>2</span>
-                                        <div className="choclate-brand-container-select-img">
-                                            <select name="" id="">
-                                                <option value="1"></option>
-                                                <option value="2">2</option>
-                                                <option value="3">3</option>
-                                                <option value="4">4</option>
-                                                <option value="5">5</option>
-
-                                            </select>
+                                    <div className="choclate-brand-container-select-img">
+                                            <DropDownQuestion theTitle="2" theName="Brand2"
+                                            theVal={["1","2","3","4","5"]}/>
                                         </div>
                                     </div>
                                     <div className="choclate-brand-container">
-                                        <span>3</span>
                                         <div className="choclate-brand-container-select-img">
-                                            <select name="" id="">
-                                                <option value="1"></option>
-                                                <option value="2">2</option>
-                                                <option value="3">3</option>
-                                                <option value="4">4</option>
-                                                <option value="5">5</option>
-
-                                            </select>
+                                            <DropDownQuestion theTitle="3" theName="Brand3"
+                                            theVal={["1","2","3"]}/>
                                         </div>
                                     </div>
                                 </div>
