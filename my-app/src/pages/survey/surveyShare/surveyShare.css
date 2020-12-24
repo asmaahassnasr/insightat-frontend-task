@@ -1,0 +1,103 @@
+a:hover{
+    color: unset;
+  }
+  
+  .share-content{
+    width: 80%;
+    margin-top: 50px;
+  }
+  
+  .web-link-box{
+    border: 1px solid #f3f3f5;
+    padding: 36px 59px;
+    width: 98%;
+  }
+  .web-link-box-caption{
+    margin-left: 9px;
+    margin-bottom: 26px;
+  }
+  .web-link-box-caption span:first-child{
+    font-weight: bold;
+    line-height: 2.2;
+    display: block;
+  }
+  .link-container{
+    margin-top: 10px;
+  }
+  .lerom-link{
+    background-color: #F3F3F5;
+    width: 435px;
+    height: 45px;
+    border-radius: 151px;
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 10px;
+    color: #333;
+    margin-right: 20px;
+    }
+    .copy{
+      background-color: #FD6969;
+      width: 83px;
+      height: 40px;
+      border-radius: 151px;
+      text-align: center;
+      padding-top: 11px;
+      padding-left: 3px;
+      color: #fff;
+      margin-right: 20px;
+    }
+    .copy:hover{
+      color: #fff;
+    }
+    
+    .download{
+      border-radius: 151px;
+      text-transform: capitalize;
+      border-color: #f3f3f5;
+      color: #333;
+    }
+    .download img{
+      width: 10px;
+      height: 12px;
+    }
+    .box-container{
+      display: flex;
+    }
+    .socail-box{
+      border: 1px solid #f3f3f5;
+      width: 32.7%;
+      height: 220px;
+      padding-right: 16px;
+      padding-left: 16px;
+      /* margin-top: -2px; */
+  
+    }
+  
+  .socail-box-caption p{
+    font-size: 14px;
+  }
+  .socail-box-caption p:first-child{
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  .socail-box-caption p:last-child{
+    font-size: 12px;
+  }
+  .icon-socaol-media-box span{
+    background-color: #f3f3f5;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 7px;
+    padding-top: 7px;
+    font-size: 15px;
+  }
+  .icon-socaol-media-box span:hover{
+    background-color:  #001D25;
+    color: #fff;
+    transition: .5s;
+  }
+  .Copy-Code{
+    border-radius: 20px;
+  }

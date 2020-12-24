@@ -16,6 +16,7 @@ import {Profile} from './pages/profile/profile';
 import {SurveyAnalyze} from './pages/survey/surveyAnalyze/surveyAnalyze';
 import {EditProfile} from './pages/profile/editProfile';
 import {SurveyDesign} from './pages/survey/surveyDesign/surveyDesign';
+import {SurveyShare} from './pages/survey/surveyShare/surveyShare';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'font-awesome/css/font-awesome.css';
 import { ImportsNotUsedAsValues } from 'typescript';
@@ -38,6 +39,7 @@ function App() {
       <Route  path="/editProfile" component={EditProfile}/>
       <Route path="/design" component={SurveyDesign} />
       <Route path="/analyze" component={SurveyAnalyze} />
+      <Route path="/share" component={SurveyShare} />
       </Switch>
       {/* <Footer /> */}
     </React.Fragment>
