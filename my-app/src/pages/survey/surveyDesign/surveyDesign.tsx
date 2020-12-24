@@ -124,8 +124,7 @@ export const SurveyDesign = () => {
                                     <TextQuestion theTitle="In which department do you work?"
                                         thePlaceHolder="Select an option..." />
                                 </div>
-                            </div>
-                          
+                            </div>         
                           
                             <div className="user-data user-informaion-container">
                                 <div className="sub-middle-height numberBox number-user-data-container recommended-section-text">
@@ -134,51 +133,13 @@ export const SurveyDesign = () => {
                                 </div>
                                 <div className="sub-middle-height user-data-input design-user-data-container favourite-artist-container recommended-section-text"
                                     id="wlcome-screan">
-                                    {/* <p>How likely is it that you would recommend the event to a friend or colleague?</p> */}
                                     <div className="cobtainer-recommended-box">
                                         <RatingQuestion 
                                         theTitle="How likely is it that you would recommend the event to a friend or colleague?"
                                         theMin="Disagree" theMax="Agree"
+                                        theVal={["1","2","3","4","5","6","7","8","9","10"]}
                                         />
-                                        {/* <div className="recommended-box">
-                                            <div className="recommended-box-content"><span>0</span></div>
-                                        </div>
-                                        <div className="recommended-box">
-                                            <div className="recommended-box-content"><span>1</span></div>
-                                        </div>
-                                        <div className="recommended-box">
-                                            <div className="recommended-box-content"><span>2</span></div>
-                                        </div>
-                                        <div className="recommended-box">
-                                            <div className="recommended-box-content"><span>3</span></div>
-                                        </div>
-                                        <div className="recommended-box">
-                                            <div className="recommended-box-content"><span>4</span></div>
-                                        </div>
-                                        <div className="recommended-box">
-                                            <div className="recommended-box-content"><span>5</span></div>
-                                        </div>
-                                        <div className="recommended-box">
-                                            <div className="recommended-box-content"><span>6</span></div>
-                                        </div>
-                                        <div className="recommended-box">
-                                            <div className="recommended-box-content"><span>7</span></div>
-                                        </div>
-                                        <div className="recommended-box">
-                                            <div className="recommended-box-content"><span>8</span></div>
-                                        </div>
-                                        <div className="recommended-box">
-                                            <div className="recommended-box-content"><span>9</span></div>
-                                        </div>
-                                        <div className="recommended-box">
-                                            <div className="recommended-box-content"><span>10</span></div>
-                                        </div> */}
                                     </div>
-                                    {/* <div className="recommended-agree">
-                                        <p>Disagree</p>
-                                        <p></p>
-                                        <p>Agree</p>
-                                    </div> */}
                                 </div>
                             </div>
                             <div className="user-data user-informaion-container">
@@ -662,48 +623,11 @@ export const SurveyDesign = () => {
                                     <img src={Rectangle_141} alt="" />
                                 </div>
                                 <div className="sub-middle-height user-data-input design-user-data-container favourite-artist-container recommended-section-text" id="wlcome-screan" >
-                                    <p>How likely is it that you would recommend the event to a friend or colleague?</p>
-                                    <div className="recommended-box">
-                                        <div className="recommended-box-content"><span>0</span></div>
-                                    </div>
-                                    <div className="recommended-box">
-                                        <div className="recommended-box-content"><span>1</span></div>
-                                    </div>
-                                    <div className="recommended-box">
-                                        <div className="recommended-box-content"><span>2</span></div>
-                                    </div>
-                                    <div className="recommended-box">
-                                        <div className="recommended-box-content"><span>3</span></div>
-                                    </div>
-                                    <div className="recommended-box">
-                                        <div className="recommended-box-content"><span>4</span></div>
-                                    </div>
-                                    <div className="recommended-box">
-                                        <div className="recommended-box-content"><span>5</span></div>
-                                    </div>
-                                    <div className="recommended-box">
-                                        <div className="recommended-box-content"><span>6</span></div>
-                                    </div>
-                                    <div className="recommended-box">
-                                        <div className="recommended-box-content"><span>7</span></div>
-                                    </div>
-                                    <div className="recommended-box">
-                                        <div className="recommended-box-content"><span>8</span></div>
-                                    </div>
-                                    <div className="recommended-box">
-                                        <div className="recommended-box-content"><span>9</span></div>
-                                    </div>
-                                    <div className="recommended-box">
-                                        <div className="recommended-box-content"><span>10</span></div>
-                                    </div>
-                                    <div className="recommended-agree">
-                                        <p>Not at all likely</p>
-                                        <p></p>
-
-                                        <p>Extremely likely</p>
-                                    </div>
+                                    <RatingQuestion theTitle="How likely is it that you would recommend the event to a friend or colleague?"
+                                    theMin="Not at all likely"
+                                    theMax="Extremely likely"
+                                    theVal={["1","2","3","4","5","6","7","8","9","10"]} />
                                 </div>
-
                             </div>
                             <div className="container-submit-data">
                                 <button className="submit-data">submit</button>

@@ -4,11 +4,12 @@ import "survey-react/survey.css";
 interface IProps{
     theTitle:string,
     theMin:string,
-    theMax:string
+    theMax:string,
+    theVal:string[]
 }
 
 
-export const RatingQuestion:React.SFC<IProps>  = ({theTitle,theMin,theMax}) =>{
+export const RatingQuestion:React.SFC<IProps>  = ({theTitle,theMin,theMax,theVal}) =>{
     const json = {
         questions: [
             {
@@ -17,7 +18,7 @@ export const RatingQuestion:React.SFC<IProps>  = ({theTitle,theMin,theMax}) =>{
                 title: theTitle,
                 minRateDescription: theMin,
                 maxRateDescription: theMax,
-                rateValues:10
+                rateValues:[...theVal]
             }
         ]
     };
