@@ -14,10 +14,10 @@ import {Pricing} from './pages/pricing/pricing';
 import {Template} from './pages/template/template';
 import {Profile} from './pages/profile/profile';
 import {EditProfile} from './pages/profile/editProfile';
+import {BuildSurvey} from './pages/survey/build/build'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'font-awesome/css/font-awesome.css';
 import { ImportsNotUsedAsValues } from 'typescript';
-
 function App() {
   return (   
     <React.Fragment>
@@ -35,6 +35,7 @@ function App() {
       <Route  path="/template" component={Template}/>
       <Route  path="/profile" component={Profile}/>
       <Route  path="/editProfile" component={EditProfile}/>
+      <Route path="/build" component={BuildSurvey} />
       </Switch>
       <Footer />
     </React.Fragment>
