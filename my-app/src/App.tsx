@@ -13,6 +13,7 @@ import {SignUp} from './pages/signUp/signUp';
 import {Pricing} from './pages/pricing/pricing';
 import {Template} from './pages/template/template';
 import {Profile} from './pages/profile/profile';
+import {SurveyAnalyze} from './pages/survey/surveyAnalyze/surveyAnalyze';
 import {EditProfile} from './pages/profile/editProfile';
 import {SurveyDesign} from './pages/survey/surveyDesign/surveyDesign';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -36,6 +37,7 @@ function App() {
       <Route  path="/profile" component={Profile}/>
       <Route  path="/editProfile" component={EditProfile}/>
       <Route path="/design" component={SurveyDesign} />
+      <Route path="/analyze" component={SurveyAnalyze} />
       </Switch>
       {/* <Footer /> */}
     </React.Fragment>

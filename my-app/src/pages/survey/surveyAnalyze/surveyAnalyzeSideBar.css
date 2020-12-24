@@ -1,0 +1,18 @@
+.analyze-link{
+    background-color: #fff;
+    height: 100vh;
+    margin-left: -14px;
+  
+  }
+  .analyze-link-box{
+    width: 114%;
+    border: 1px solid #f3f3f5;
+    border-left: unset;
+    border-right: unset;
+    padding-left: 10px;
+  }
+  .analyze-link-box p a{
+    padding-top: 10px;
+    color: rgba(0, 0, 0, 0.497);
+  }
+  
