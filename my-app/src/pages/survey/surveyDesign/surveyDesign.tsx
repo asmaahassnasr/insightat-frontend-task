@@ -10,7 +10,8 @@ import shifaaz_shamoon_1113388_unsplash from "../components/icon/shifaaz_shamoon
 import k_k from "../components/icon/k_k.svg";
 import chuttersnap_617671_unsplash from "../components/icon/chuttersnap_617671_unsplash.svg";
 import fog_foggy_forest_4827 from "../components/icon/fog_foggy_forest_4827.jpg";
-import {TextQuestion} from '../components/textQuestion';
+import { TextQuestion } from '../components/textQuestion';
+import { CheckBoxQuestion } from '../components/checkBoxQuestion';
 import '../skeleton.css';
 import './surveyDesign.css';
 export const SurveyDesign = () => {
@@ -35,8 +36,8 @@ export const SurveyDesign = () => {
                                     <span className="pt-4"> 1</span>
                                     <img src={Rectangle_141} alt="" />
                                 </div>
-                                <div className="user-data-input design-user-data-container" 
-                                id="wlcome-screan" >
+                                <div className="user-data-input design-user-data-container"
+                                    id="wlcome-screan" >
                                     <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero</p>
                                 </div>
                             </div>
@@ -48,8 +49,8 @@ export const SurveyDesign = () => {
                                 </div>
                                 <div className="user-data-input design-user-data-container 
                                 favourite-artist-container" id="wlcome-screan" >
-                                    <TextQuestion theTitle="Who is your favorite artist?" 
-                                    thePlaceHolder="Type your Favorite here .........." />
+                                    <TextQuestion theTitle="Who is your favorite artist?"
+                                        thePlaceHolder="Type your Favorite here .........." />
                                 </div>
                             </div>
 
@@ -61,42 +62,28 @@ export const SurveyDesign = () => {
                                     <img src={Rectangle_141} alt="" />
                                 </div>
                                 <div className="user-data-input design-user-data-container favourite-artist-container" id="wlcome-screan" >
-                               
-                                    <TextQuestion theTitle="Do you have any further comments?" 
-                                    thePlaceHolder="Type your comment here..." />
+
+                                    <TextQuestion theTitle="Do you have any further comments?"
+                                        thePlaceHolder="Type your comment here..." />
                                 </div>
                             </div>
-                            
+
                             <div className="user-data user-informaion-container ">
                                 <div className="numberBox number-user-data-container color-container-boxex-number">
                                     <span className="pt-4"> 4</span>
-
                                     <img src={Rectangle_141} alt="" />
                                 </div>
-                                <div className="user-data-input design-user-data-container color-container-boxex-text favourite-artist-container" id="wlcome-screan" >
-                                    <p>What is your favorite color?</p>
-                                    <div className="user-informaion-continer-box-color">
-                                        <div className="user-informaion-continer-box-color-inside-content">
-                                            <span>a</span>
-                                            <span >red</span>
-                                        </div>
-                                        <div className="user-informaion-continer-box-color-inside-content">
-                                            <span>b</span>
-                                            <span >black</span>
-                                        </div>
-                                        <div className="user-informaion-continer-box-color-inside-content">
-                                            <span>c</span>
-                                            <span >blue</span>
-                                        </div>
-                                        <div className="user-informaion-continer-box-color-inside-content">
-                                            <span>d</span>
-                                            <span >white</span>
-                                        </div>
 
+                                <div className="user-data-input design-user-data-container color-container-boxex-text favourite-artist-container"
+                                    id="wlcome-screan">
+                                    <div className="user-informaion-continer-box-color">
+                                        <CheckBoxQuestion theTitle="What is your favorite color?"
+                                            theValues={["red", "black", "blue", "green"]}
+                                        />
                                     </div>
                                 </div>
                             </div>
-                         
+
                             <div className="user-data user-informaion-container ">
                                 <div className="numberBox number-user-data-container color-container-boxex-number">
                                     <span className="pt-4"> 5 </span>
@@ -126,15 +113,15 @@ export const SurveyDesign = () => {
                                     </div>
                                 </div>
                             </div>
-                           
+
                             <div className="user-data user-informaion-container">
                                 <div className="numberBox number-user-data-container">
                                     <span className="pt-4"> 6</span>
                                     <img src={Rectangle_141} alt="" />
                                 </div>
                                 <div className="user-data-input design-user-data-container favourite-artist-container" id="wlcome-screan" >
-                                    <TextQuestion theTitle="In which department do you work?" 
-                                    thePlaceHolder="Select an option..." />
+                                    <TextQuestion theTitle="In which department do you work?"
+                                        thePlaceHolder="Select an option..." />
                                 </div>
                             </div>
                             <div className="user-data user-informaion-container">
