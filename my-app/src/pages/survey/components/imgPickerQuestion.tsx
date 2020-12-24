@@ -29,7 +29,6 @@ export const ImgPickerQuestion = () =>{
             }
         ]
     };
-    
         return (
             <>
                  <Survey.Survey json={json} 

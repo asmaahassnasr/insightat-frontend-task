@@ -12,6 +12,7 @@ import chuttersnap_617671_unsplash from "../components/icon/chuttersnap_617671_u
 import fog_foggy_forest_4827 from "../components/icon/fog_foggy_forest_4827.jpg";
 import { TextQuestion } from '../components/textQuestion';
 import {RatingQuestion} from '../components/ratingQuestion';
+import {MatrixQuestion} from "../components/matrixQuestion";
 import {DropDownQuestion} from '../components/dropDownQuestion';
 import {ImgPickerQuestion} from "../components/imgPickerQuestion";
 import { CheckBoxQuestion } from '../components/checkBoxQuestion';
@@ -179,53 +180,9 @@ export const SurveyDesign = () => {
                                     <img src={Rectangle_141} alt="" />
                                 </div>
                                 <div className="user-data-input design-user-data-container color-container-boxex-text favourite-artist-container table-container-box" id="wlcome-screan" >
-                                    <p>How often do you use following features:</p>
-                                    <div className="user-informaion-continer-box-color table">
-                                        <div className="table-content">
-                                            <div className="table-content-box">
-                                                <span></span>
-                                                <span>Strongly <br />Agree</span>
-                                                <span>Somewhat agree</span>
-                                                <span>Neither agree nor disagree</span>
-                                                <span>Somewhat disagree</span>
-                                                <span>Strongly disagree</span>
-                                            </div>
-                                            <div className="table-content-box">
-                                                <span className="sub-title-table">Feature A </span>
-                                                <span><input type="radio" name="first" id="" /></span>
-                                                <span><input type="radio" name="first" id="" /></span>
-                                                <span><input type="radio" name="first" id="" /></span>
-                                                <span><input type="radio" name="first" id="" /></span>
-                                                <span><input type="radio" name="first" id="" /></span>
-                                            </div>
-                                            <div className="table-content-box table-content-box-with-background">
-                                                <span className="sub-title-table">Feature b </span>
-                                                <span><input type="radio" name="second" id="" /></span>
-                                                <span><input type="radio" name="second" id="" /></span>
-                                                <span><input type="radio" name="second" id="" /></span>
-                                                <span><input type="radio" name="second" id="" /></span>
-                                                <span><input type="radio" name="second" id="" /></span>
-                                            </div>
-                                            <div className="table-content-box">
-                                                <span className="sub-title-table">Feature c</span>
-                                                <span><input type="radio" name="third" id="" /></span>
-                                                <span><input type="radio" name="third" id="" /></span>
-                                                <span><input type="radio" name="third" id="" /></span>
-                                                <span><input type="radio" name="third" id="" /></span>
-                                                <span><input type="radio" name="third" id="" /></span>
-                                            </div>
-                                            <div className="table-content-box">
-                                                <span className="sub-title-table">Feature A </span>
-                                                <span><input type="radio" name="four" id="" /></span>
-                                                <span><input type="radio" name="four" id="" /></span>
-                                                <span><input type="radio" name="four" id="" /></span>
-                                                <span><input type="radio" name="four" id="" /></span>
-                                                <span><input type="radio" name="four" id="" /></span>
-                                            </div>
-                                        </div>
-                                    </div>
+                                <MatrixQuestion />
+                                    
                                 </div>
-
                             </div>
                             <div className="user-data user-informaion-container ">
                                 <div className="numberBox number-user-data-container color-container-boxex-number">
