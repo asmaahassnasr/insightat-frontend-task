@@ -37,7 +37,7 @@ function App() {
       <Route  path="/editProfile" component={EditProfile}/>
       <Route path="/design" component={SurveyDesign} />
       </Switch>
-      <Footer />
+      {/* <Footer /> */}
     </React.Fragment>
   );
 }
