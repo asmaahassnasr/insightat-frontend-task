@@ -1,20 +1,13 @@
 
-import React, { useState } from 'react';
+import React from 'react';
 import { SurveyNavBar } from '../components/surveyNavBar';
 import { SurveyDesignSideBar } from './surveyDesignSideBar';
 import Rectangle_141 from "../components/icon/Rectangle_141.svg";
-import fernando_paredes_murillo_462122_unsplash from "../components/icon/fernando_paredes_murillo_462122_unsplash.svg";
-import hd_wallpaper_landscape_mountain_peak_51387 from "../components/icon/hd_wallpaper_landscape_mountain_peak_51387.svg";
-import aaron_burden_363695_unsplash from "../components/icon/aaron_burden_363695_unsplash.svg";
-import shifaaz_shamoon_1113388_unsplash from "../components/icon/shifaaz_shamoon_1113388_unsplash.svg";
-import k_k from "../components/icon/k_k.svg";
-import chuttersnap_617671_unsplash from "../components/icon/chuttersnap_617671_unsplash.svg";
-import fog_foggy_forest_4827 from "../components/icon/fog_foggy_forest_4827.jpg";
 import { TextQuestion } from '../components/textQuestion';
-import {RatingQuestion} from '../components/ratingQuestion';
-import {MatrixQuestion} from "../components/matrixQuestion";
-import {DropDownQuestion} from '../components/dropDownQuestion';
-import {ImgPickerQuestion} from "../components/imgPickerQuestion";
+import { RatingQuestion } from '../components/ratingQuestion';
+import { MatrixQuestion } from "../components/matrixQuestion";
+import { DropDownQuestion } from '../components/dropDownQuestion';
+import { ImgPickerQuestion } from "../components/imgPickerQuestion";
 import { CheckBoxQuestion } from '../components/checkBoxQuestion';
 import '../skeleton.css';
 import './surveyDesign.css';
@@ -127,8 +120,8 @@ export const SurveyDesign = () => {
                                     <TextQuestion theTitle="In which department do you work?"
                                         thePlaceHolder="Select an option..." />
                                 </div>
-                            </div>         
-                          
+                            </div>
+
                             <div className="user-data user-informaion-container">
                                 <div className="sub-middle-height numberBox number-user-data-container recommended-section-text">
                                     <span className="pt-4"> 7</span>
@@ -137,10 +130,10 @@ export const SurveyDesign = () => {
                                 <div className="sub-middle-height user-data-input design-user-data-container favourite-artist-container recommended-section-text"
                                     id="wlcome-screan">
                                     <div className="cobtainer-recommended-box">
-                                        <RatingQuestion 
-                                        theTitle="How likely is it that you would recommend the event to a friend or colleague?"
-                                        theMin="Disagree" theMax="Agree"
-                                        theVal={["1","2","3","4","5","6","7","8","9","10"]}
+                                        <RatingQuestion
+                                            theTitle="How likely is it that you would recommend the event to a friend or colleague?"
+                                            theMin="Disagree" theMax="Agree"
+                                            theVal={["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]}
                                         />
                                     </div>
                                 </div>
@@ -153,23 +146,23 @@ export const SurveyDesign = () => {
                                 <div className="user-data-input design-user-data-container favourite-artist-container" id="wlcome-screan" >
                                     <p>How would you rate our product?</p>
                                     <div className="star-cotent">
-                                        <i className="far fa-star rate"></i>
+                                        <i className="fa fa-star rate"></i>
                                         <span>1</span>
-                                    </div>
+                                    </div>  
                                     <div className="star-cotent">
-                                        <i className="far fa-star rate"></i>
+                                        <i className="fa fa-star rate"></i>
                                         <span>2</span>
                                     </div>
                                     <div className="star-cotent">
-                                        <i className="far fa-star rate"></i>
+                                        <i className="fa fa-star rate"></i>
                                         <span>3</span>
                                     </div>
                                     <div className="star-cotent">
-                                        <i className="far fa-star rate"></i>
+                                        <i className="fa fa-star rate"></i>
                                         <span>4</span>
                                     </div>
                                     <div className="star-cotent">
-                                        <i className="far fa-star rate"></i>
+                                        <i className="fa fa-star rate"></i>
                                         <span>5</span>
                                     </div>
                                 </div>
@@ -180,8 +173,8 @@ export const SurveyDesign = () => {
                                     <img src={Rectangle_141} alt="" />
                                 </div>
                                 <div className="user-data-input design-user-data-container color-container-boxex-text favourite-artist-container table-container-box" id="wlcome-screan" >
-                                <MatrixQuestion />
-                                    
+                                    <MatrixQuestion />
+
                                 </div>
                             </div>
                             <div className="user-data user-informaion-container ">
@@ -367,25 +360,43 @@ export const SurveyDesign = () => {
                                 <div className="user-data-input design-user-data-container color-container-boxex-text favourite-artist-container" id="wlcome-screan" >
                                     <p> How would you rate the popular brands of chocolate? </p>
                                     <div className="choclate-brand-container">
+                                        <span>2</span>
                                         <div className="choclate-brand-container-select-img">
-                                            <DropDownQuestion theTitle="1" theName="Brand1"
-                                            theVal={["1","2","3"]}/>
+                                            <select name="" id="">
+                                                <option value="1"></option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                                <option value="4">4</option>
+                                                <option value="5">5</option>
+                                            </select>
                                         </div>
                                     </div>
                                     <div className="choclate-brand-container">
-                                    <div className="choclate-brand-container-select-img">
-                                            <DropDownQuestion theTitle="2" theName="Brand2"
-                                            theVal={["1","2","3","4","5"]}/>
+                                        <span>2</span>
+                                        <div className="choclate-brand-container-select-img">
+                                            <select name="" id="">
+                                                <option value="1"></option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                                <option value="4">4</option>
+                                                <option value="5">5</option>
+                                            </select>
                                         </div>
                                     </div>
                                     <div className="choclate-brand-container">
+                                        <span>3</span>
                                         <div className="choclate-brand-container-select-img">
-                                            <DropDownQuestion theTitle="3" theName="Brand3"
-                                            theVal={["1","2","3"]}/>
+                                            <select name="" id="">
+                                                <option value="1"></option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                                <option value="4">4</option>
+                                                <option value="5">5</option>
+                                            </select>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                                </div>\
                             <div className="user-data user-informaion-container ">
                                 <div className="numberBox number-user-data-container color-container-boxex-number">
                                     <span className="pt-4"> 14 </span>
@@ -396,51 +407,51 @@ export const SurveyDesign = () => {
                                     <div className="rate-choclate-brand-container">
                                         <span>Toblerone</span>
                                         <div className="rate-choclate-brand-container-star">
-                                            <i className="far fa-star rate"></i>
-                                            <i className="far fa-star rate"></i>
-                                            <i className="far fa-star rate"></i>
-                                            <i className="far fa-star rate"></i>
-                                            <i className="far fa-star rate"></i>
+                                            <i className="fa fa-star rate"></i>
+                                            <i className="fa fa-star rate"></i>
+                                            <i className="fa fa-star rate"></i>
+                                            <i className="fa fa-star rate"></i>
+                                            <i className="fa fa-star rate"></i>
                                         </div>
                                     </div>
                                     <div className="rate-choclate-brand-container">
                                         <span>Ferrero Rocher</span>
                                         <div className="rate-choclate-brand-container-star">
-                                            <i className="far fa-star rate"></i>
-                                            <i className="far fa-star rate"></i>
-                                            <i className="far fa-star rate"></i>
-                                            <i className="far fa-star rate"></i>
-                                            <i className="far fa-star rate"></i>
+                                            <i className="fa fa-star rate"></i>
+                                            <i className="fa fa-star rate"></i>
+                                            <i className="fa fa-star rate"></i>
+                                            <i className="fa fa-star rate"></i>
+                                            <i className="fa fa-star rate"></i>
                                         </div>
                                     </div>
                                     <div className="rate-choclate-brand-container">
                                         <span>Lindt</span>
                                         <div className="rate-choclate-brand-container-star">
-                                            <i className="far fa-star rate"></i>
-                                            <i className="far fa-star rate"></i>
-                                            <i className="far fa-star rate"></i>
-                                            <i className="far fa-star rate"></i>
-                                            <i className="far fa-star rate"></i>
+                                            <i className="fa fa-star rate"></i>
+                                            <i className="fa fa-star rate"></i>
+                                            <i className="fa fa-star rate"></i>
+                                            <i className="fa fa-star rate"></i>
+                                            <i className="fa fa-star rate"></i>
                                         </div>
                                     </div>
                                     <div className="rate-choclate-brand-container">
                                         <span>Hershey's</span>
                                         <div className="rate-choclate-brand-container-star">
-                                            <i className="far fa-star rate"></i>
-                                            <i className="far fa-star rate"></i>
-                                            <i className="far fa-star rate"></i>
-                                            <i className="far fa-star rate"></i>
-                                            <i className="far fa-star rate"></i>
+                                            <i className="fa fa-star rate"></i>
+                                            <i className="fa fa-star rate"></i>
+                                            <i className="fa fa-star rate"></i>
+                                            <i className="fa fa-star rate"></i>
+                                            <i className="fa fa-star rate"></i>
                                         </div>
                                     </div>
                                     <div className="rate-choclate-brand-container">
                                         <span>Cadbury</span>
                                         <div className="rate-choclate-brand-container-star">
-                                            <i className="far fa-star rate"></i>
-                                            <i className="far fa-star rate"></i>
-                                            <i className="far fa-star rate"></i>
-                                            <i className="far fa-star rate"></i>
-                                            <i className="far fa-star rate"></i>
+                                            <i className="fa fa-star rate"></i>
+                                            <i className="fa fa-star rate"></i>
+                                            <i className="fa fa-star rate"></i>
+                                            <i className="fa fa-star rate"></i>
+                                            <i className="fa fa-star rate"></i>
                                         </div>
                                     </div>
 
@@ -499,7 +510,7 @@ export const SurveyDesign = () => {
                                     <div className="nature-photo-content">
                                         <div className="nature-photo-content-item">
                                             <div className="nature-photo-content-box">
-                                               <ImgPickerQuestion />
+                                                <ImgPickerQuestion />
                                             </div>
                                         </div>
                                     </div>
@@ -512,14 +523,13 @@ export const SurveyDesign = () => {
                                 </div>
                                 <div className="sub-middle-height user-data-input design-user-data-container favourite-artist-container recommended-section-text" id="wlcome-screan" >
                                     <RatingQuestion theTitle="How likely is it that you would recommend the event to a friend or colleague?"
-                                    theMin="Not at all likely"
-                                    theMax="Extremely likely"
-                                    theVal={["1","2","3","4","5","6","7","8","9","10"]} />
+                                        theMin="Not at all likely"
+                                        theMax="Extremely likely"
+                                        theVal={["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]} />
                                 </div>
                             </div>
                             <div className="container-submit-data">
                                 <button className="submit-data">submit</button>
-
                             </div>
                         </div>
                     </div>
