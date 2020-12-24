@@ -13,6 +13,7 @@ import fog_foggy_forest_4827 from "../components/icon/fog_foggy_forest_4827.jpg"
 import { TextQuestion } from '../components/textQuestion';
 import {RatingQuestion} from '../components/ratingQuestion';
 import {DropDownQuestion} from '../components/dropDownQuestion';
+import {ImgPickerQuestion} from "../components/imgPickerQuestion";
 import { CheckBoxQuestion } from '../components/checkBoxQuestion';
 import '../skeleton.css';
 import './surveyDesign.css';
@@ -538,60 +539,10 @@ export const SurveyDesign = () => {
                                     <img src={Rectangle_141} alt="" />
                                 </div>
                                 <div className="user-data-input nature-photo-container" id="wlcome-screan" >
-                                    <p>Who should win the best nature photo of the year?</p>
                                     <div className="nature-photo-content">
                                         <div className="nature-photo-content-item">
                                             <div className="nature-photo-content-box">
-                                                <img src={chuttersnap_617671_unsplash} alt="" />
-                                                <span className="nature-photo-number"> <span>A</span></span>
-
-                                                <span className="nature-photo-address"><span>image 1</span></span>
-                                            </div>
-                                            <div className="nature-photo-content-box">
-                                                <img src={k_k} alt="" />
-                                                <span className="nature-photo-number"> <span>b</span></span>
-
-                                                <span className="nature-photo-address"><span>image 2</span></span>
-                                            </div>
-                                            <div className="nature-photo-content-box">
-                                                <img src={fog_foggy_forest_4827} alt="" />
-                                                <span className="nature-photo-number"> <span>c</span></span>
-
-                                                <span className="nature-photo-address"><span>image 3</span></span>
-                                            </div>
-                                            <div className="nature-photo-content-box">
-                                                <img src={fog_foggy_forest_4827} alt="" />
-                                                <span className="nature-photo-number"> <span>d</span></span>
-
-                                                <span className="nature-photo-address"><span>image 4</span></span>
-                                            </div>
-                                        </div>
-                                        <div className="nature-photo-content-item">
-
-                                            <div className="nature-photo-content-box">
-                                                <img src={fernando_paredes_murillo_462122_unsplash} alt="" />
-                                                <span className="nature-photo-number"> <span>e</span></span>
-
-                                                <span className="nature-photo-address"><span>image 5</span></span>
-                                            </div>
-
-                                            <div className="nature-photo-content-box">
-                                                <img src={hd_wallpaper_landscape_mountain_peak_51387} alt="" />
-                                                <span className="nature-photo-number"> <span>f</span></span>
-
-                                                <span className="nature-photo-address"><span>image 6</span></span>
-                                            </div>
-                                            <div className="nature-photo-content-box">
-                                                <img src={aaron_burden_363695_unsplash} alt="" />
-                                                <span className="nature-photo-number"> <span>g</span></span>
-
-                                                <span className="nature-photo-address"><span>image 7</span></span>
-                                            </div>
-                                            <div className="nature-photo-content-box">
-                                                <img src={shifaaz_shamoon_1113388_unsplash} alt="" />
-                                                <span className="nature-photo-number"> <span>h</span></span>
-
-                                                <span className="nature-photo-address"><span>image 8</span></span>
+                                               <ImgPickerQuestion />
                                             </div>
                                         </div>
                                     </div>
