@@ -1,22 +1,22 @@
 
-input{
+.build-navbar-sec input{
     outline: transparent;
   }
   
-  i{
+  .build-navbar-sec i{
     display: inline-block;
   }
   
   .build-navbar-sec hr{
     margin-top: -2rem;
   }
-  
+  .design_cont{
+    margin: 0px !important;
+  }
   .design-content-sec{
     background-color: #f3f3f5;
-    width: 100%;
-    height: 200vh;
     position: relative;
-    margin-top: 0px;
+    margin-top: 2px;
   }
   
   .header-sidebar{
@@ -109,6 +109,7 @@ input{
   .user-data-input{
   width: 100%;
   height: 54px;
+  padding: 0 !important;
   background-color: #fff;
   text-align: left;
   border-radius: 3px;
@@ -354,7 +355,7 @@ input{
   color: #fff;
   }
   .design-user-data-container{
-    height: 130px;
+    height: auto;
     padding:30px 0px;
    
   }
@@ -365,9 +366,10 @@ input{
   }
   
   .number-user-data-container{
-    height: 130px;
+    height: auto;
     border-right: none;
     width: 90px;
+    padding-bottom: 4%;
   }
   .number-user-data-container span{
     font-size: 14px;
@@ -382,6 +384,8 @@ input{
   .user-informaion-container{
     border-bottom: 2px solid #efefef;
     margin-bottom: 0;
+    height: auto;
+    overflow: hidden;
   }
   .favourite-artist-container{
     display: block;
@@ -438,7 +442,7 @@ input{
     margin-left: 9px;
   }
   .color-container-boxex-text,.color-container-boxex-number{
-    height: 300px;
+    height: auto;
   }
   .color-container-boxex-text-header{
   display: block;
@@ -519,7 +523,8 @@ input{
   
   }
   .table-container-box{
-    height: 380px;
+    height: auto;
+    overflow: hidden;
   }
   .table-content-box-with-background{
     background-color:  #f3f3f5;
@@ -658,13 +663,11 @@ input{
     width: 12%;
   
   }
-  .design-navbar-sec{
-    height: 191vh;
-  }
+ 
   .choclate-brand-container {
    display: flex;
    justify-content: space-around;
-   width: 60%;
+   width: 100%;
   }
   .choclate-brand-container span{
     margin-top: 10px;
@@ -676,6 +679,7 @@ input{
   }
   .choclate-brand-container-select-img{
     position: relative;
+    width: 100% !important;
   }
   .choclate-brand-container-select-img select
   {
@@ -789,5 +793,56 @@ input{
   }
   
   .sub-middle-height{
-    height: 200px;
+    height: auto;
+  }
+  .days-box{
+    width: 100% !important;
+  }
+  .days-box .checolate-name-container{
+    width: 100% !important;
+  }
+  .sv_main .sv_custom_header,
+  .sv_main.sv_default_css .sv_body,
+  .sv_main.sv_default_css .sv_body  .sv_p_root ,
+  .days-box .sv_main .sv_p_root .sv_row ,
+  .days-box .sv_main .sv_p_root .sv_row  .sv_q.sv_qstn
+  {width:100% !important}
+  .days-box .sv_main .sv_p_root .sv_row  .sv_q.sv_qstn div:first-child{
+    width: 30%;
+    float: left;
+    overflow: hidden;
+  }
+  .days-box .sv_main .sv_p_root .sv_row  .sv_q.sv_qstn div:last-child{
+    width: 70%;
+    float: left;
+    display: inline;
+    overflow: hidden;
+  }
+  
+  .choclate-brand-container-select-img .sv_q.sv_qstn div:first-child{
+    display: inline;
+    width: 10%;
+    float: left;
+    overflow: hidden;
+}
+.choclate-brand-container-select-img .sv_q.sv_qstn div:last-child{
+    display: inline !important;
+    width: 80%;
+    float: left;
+    overflow: hidden;
+}
+
+  .choclate-brand-container-select-img .sv_q.sv_qstn div:first-child .sv_q_title span:first-child,
+  .choclate-brand-container-select-img .sv_q.sv_qstn div:first-child .sv_q_title span:nth-child(1)
+   {display: none !important}
+   .choclate-brand-container-select-img .sv_q.sv_qstn div:first-child .sv_q_title span:last-child{
+    display: inline !important;
+    font-size: small;
+    font-weight: bold;
+  }
+  .choclate-brand-container-select-img .sv_main .sv_container .sv_body .sv_p_root .sv_q .sv_select_wrapper:before {
+    padding: 1em;
+    position: absolute;
+    right: 85px !important;
+    top: 15px !important;
   }

@@ -18,9 +18,11 @@ import {EditProfile} from './pages/profile/editProfile';
 import {SurveyDesign} from './pages/survey/surveyDesign/surveyDesign';
 import {SurveyShare} from './pages/survey/surveyShare/surveyShare';
 import {SurveyBuild} from './pages/survey/surveyBuild/surveyBuild';
-import 'bootstrap/dist/css/bootstrap.min.css';
+
+import 'bootstrap/dist/css/bootstrap.css';
+import "survey-react/survey.css";
 import 'font-awesome/css/font-awesome.css';
-import { ImportsNotUsedAsValues } from 'typescript';
+
 function App() {
   return (   
     <React.Fragment>
@@ -43,7 +45,7 @@ function App() {
       <Route path="/share" component={SurveyShare} />
       <Route path="/build" component={SurveyBuild} />
       </Switch>
-      {/* <Footer /> */}
+      <Footer />
     </React.Fragment>
   );
 }

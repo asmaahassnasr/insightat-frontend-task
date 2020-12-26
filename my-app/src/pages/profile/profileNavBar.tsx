@@ -1,10 +1,11 @@
+import {NavLink} from 'react-router-dom';
 import './profileNav.css';
 import Group_250 from './Group_250.svg';
 export const ProfileNavBar = () => {
     return (
         <> 
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
-            <a className="navbar-brand" href="#">Insightat</a>
+            <NavLink className="navbar-brand" to="/">Insightat</NavLink>
             <button className="navbar-toggler" type="button" data-toggle="collapse" 
             data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
             aria-expanded="false" aria-label="Toggle navigation">
@@ -23,7 +24,7 @@ export const ProfileNavBar = () => {
                         <span className="navbar-survey__search__border"
                         ><i className="fa fa-search"></i
                         ></span>
-                        <input type="text" 
+                        <input type="text"  className="search_box"
                         placeholder="Search companies" />
                     </div>
                     </form>

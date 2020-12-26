@@ -21,7 +21,7 @@ export const NavigationBar = () => {
                     <NavLink className="nav-link"  to="/howItWorks">How It Works</NavLink>
                 </li>
                 <li className="nav-item">
-                    <NavLink className="nav-link"  to="/template">Templates</NavLink>
+                    <NavLink className="nav-link"  to="/profile">Profile</NavLink>
                 </li>
                 <li className="nav-item">
                     <NavLink className="nav-link"  to="/pricing">Pricing</NavLink>
@@ -32,11 +32,14 @@ export const NavigationBar = () => {
                 <li className="nav-item">
                     <NavLink className="nav-link"  to="/contactUs">Contact Us</NavLink>
                 </li>
-                <li className="nav-item nav__login">
-                <NavLink to="/logIn"> Log In</NavLink>
+                <li className="nav-item">
+                    <NavLink className="nav-link"  to="/build">Survey</NavLink>
+                </li>
+                <li className="nav-item nav__login ">
+                <NavLink to="/logIn" className="login_color"> Log In</NavLink>
                 </li>
                 <li className="nav-item nav__signup">
-                <NavLink to="/signUp">Sign Up</NavLink>
+                <NavLink to="/signUp" className="signUp_color">Sign Up</NavLink>
                 </li>
                 </ul>
             </div>

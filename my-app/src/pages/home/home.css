@@ -11,6 +11,7 @@
 }
 .home__wrapper {
     overflow-x: hidden;
+    padding-top: 3%;
 }
 .home__footer {
     position: relative;

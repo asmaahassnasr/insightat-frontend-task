@@ -50,7 +50,7 @@ export const MatrixQuestion= () =>{
                  <Survey.Survey json={json} 
                   applyTheme="modern"
                  showNavigationButtons={false} 
-                 />; 
+                 />
             </>
         )
 }

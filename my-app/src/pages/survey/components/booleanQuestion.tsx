@@ -25,7 +25,7 @@ export const BooleanQuestion:React.SFC<IProps>  = ({theLabel}) =>{
                  <Survey.Survey json={json} 
                   applyTheme="modern"
                  showNavigationButtons={false} 
-                 />; 
+                 />
             </>
         )
 }

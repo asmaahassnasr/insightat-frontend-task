@@ -34,7 +34,7 @@ export const ImgPickerQuestion = () =>{
                  <Survey.Survey json={json} 
                   applyTheme="modern"
                  showNavigationButtons={false} 
-                 />; 
+                 />
             </>
         )
 }

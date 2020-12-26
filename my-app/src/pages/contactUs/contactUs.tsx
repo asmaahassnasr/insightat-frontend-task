@@ -19,7 +19,7 @@ export const ContactUs = () => {
                 <input className="contact__input" placeholder="Type your email here..." />
 
                 <p className="contact__label">Message</p>
-                <textarea className="contact__textarea" rows={5}></textarea><br />
+                <textarea className="contact__textarea" rows={10}></textarea><br />
 
                 <button className="contact__button">Send</button>
                 </div>

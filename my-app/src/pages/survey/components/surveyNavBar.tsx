@@ -4,7 +4,7 @@ import Group_250 from './icon/Group_250.svg';
 import Rectangle_153 from './icon/Rectangle_153.svg';
 import icon_home from './icon/icon_home.svg';
 import round_arrow_forward_ios_24px from './icon/round_arrow_forward_ios_24px.svg';
-import './surveyNavBar.css'; 
+import './surveyNavBar.css';  
 export const SurveyNavBar = () => {
     return (
         <>
@@ -25,9 +25,9 @@ export const SurveyNavBar = () => {
             <div className="col-lg-2 col-md-2 col-sm-2 col-xs-2 offset-2">
                 <div className="navbar-link ">
                 <ul className="navbar-list">
-                    <li className="navbar-item border-click"><NavLink to="/build">build</NavLink></li>
+                    <li className="navbar-item active"><NavLink to="/build" className="navLink">build</NavLink></li>
                     <li className="navbar-item"><NavLink to="/design">design</NavLink></li>
-                    <li className="navbar-item active"><NavLink to="/share">share</NavLink></li>
+                    <li className="navbar-item"><NavLink to="/share">share</NavLink></li>
                     <li className="navbar-item"><NavLink to="/analyze">analyze</NavLink></li>
                 </ul>
                 </div>
@@ -48,8 +48,6 @@ export const SurveyNavBar = () => {
             </div>
             </div>
             </div>
-            <hr>
-            </hr>
             </div> 
         </>
     )

@@ -1,7 +1,6 @@
 import {SurveyNavBar} from '../components/surveyNavBar';
 // import icon_arrow_down from './icon_arrow_down.svg';
 import {UploadFile} from '../components/uploadFile';
-import '../skeleton.css';
 import './surveyShare.css';
 export const SurveyShare = () => {
     return (
@@ -18,13 +17,10 @@ export const SurveyShare = () => {
                 <span>Share it with people so they can visit and respond to your Survey</span>
                 </div>
                 <div className="link-container">
-                    <a href="#" className="lerom-link">https://loremipsum.com/random/a3ghtrtp</a>
+                    <a href="#" className="lerom-link ">https://loremipsum.com/random/a3ghtrtp</a>
                     <a href="#" className="copy">copy</a>
-                    {/* <button className="download"><img src={icon_arrow_down} alt="" />  Download QR Code */}
-                    {/* </button> */}
                     <UploadFile />
-                </div>
-            
+                </div>       
                 </div>  
                 </div>
                 <div className="box-container">

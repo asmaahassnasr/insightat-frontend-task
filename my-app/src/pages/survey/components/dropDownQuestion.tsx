@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import * as Survey from "survey-react";
 import "survey-react/survey.css";
+
+
+Survey.StylesManager.applyTheme("modern");
 interface IProps{
     theTitle:string,
     theVal:string[],
@@ -15,7 +18,7 @@ export const DropDownQuestion:React.SFC<IProps>  = ({theTitle,theVal,theName}) =
                 type: "dropdown",
                 name: theName,
                 title: theTitle,
-                colCount: 1,maxSelectedChoices:3,
+                colCount: 1,
                 choices: [...theVal]
             }
         ]
@@ -26,7 +29,7 @@ export const DropDownQuestion:React.SFC<IProps>  = ({theTitle,theVal,theName}) =
                  <Survey.Survey json={json} 
                   applyTheme="modern"
                  showNavigationButtons={false} 
-                 />; 
+                 />
             </>
         )
 }

@@ -3,6 +3,7 @@
     position: relative;
     margin: auto;
     margin-top: 4rem;
+    padding-top: 6% !important;
     width: 80%;
     background-image: url('../assets/image/contact_us_background.png');
     background-size: 100% auto;
@@ -23,8 +24,10 @@
 .contact__textarea {
     width: 100%;
     margin-bottom: 1.8rem;
+    min-height: 25% !important;
     border: 1px solid #dedee3;
     border-radius: 5px;
+    outline: none !important;
 }
 .contact__button {
     width: 100%;
@@ -75,7 +78,7 @@
     align-items: center;
 }
 .contact__right img {
-    width: 100%;
+    width: 90%;
 }
 .contact__footer {
     height: 20vh;

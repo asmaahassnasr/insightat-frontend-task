@@ -6,7 +6,7 @@ import { NavLink } from "react-router-dom";
 import './profile.css';
 export const Profile = () => {
     return (
-        <div style={{minHeight: '100vh', background: '#fafafa'}}>
+        <>
         <ProfileNavBar />
         <div className="profile">
             <div className="profile__image">
@@ -71,6 +71,6 @@ export const Profile = () => {
             </div>
             </div>
         </div>
-     </div>
+        </>
     )
 }

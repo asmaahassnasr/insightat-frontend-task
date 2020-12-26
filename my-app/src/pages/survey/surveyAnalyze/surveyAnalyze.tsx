@@ -45,12 +45,6 @@ export const SurveyAnalyze = () => {
                         <div className="container ">
                             <div className="analyze-table-header">
                                 <span>DEVICE</span>
-                                <span></span>
-                                <span></span>
-                                <span></span>
-                                <span></span>
-                                <span></span>
-                                <span></span>
                                 <span>VIEWED</span>
                                 <span>STARTED</span>
                                 <span>COMPLETED</span>

@@ -9,7 +9,6 @@ import { MatrixQuestion } from "../components/matrixQuestion";
 import { DropDownQuestion } from '../components/dropDownQuestion';
 import { ImgPickerQuestion } from "../components/imgPickerQuestion";
 import { CheckBoxQuestion } from '../components/checkBoxQuestion';
-import '../skeleton.css';
 import './surveyDesign.css';
 export const SurveyDesign = () => {
     return (
@@ -18,7 +17,7 @@ export const SurveyDesign = () => {
             <div className="container-fluid design design-content-sec">
                 <div className="row">
                     <SurveyDesignSideBar />
-                    <div className="col-lg-9 col-md-8 col-sm-8 col-xs-8">
+                    <div className="col-lg-9 col-md-8 col-sm-8 col-xs-8 design_cont">
                         <div className="build-content-detailes">
                             <div className="user-data">
                                 <span className="welcomebox cs">
@@ -27,7 +26,7 @@ export const SurveyDesign = () => {
                                     <p>EXTFOX - Web Development Agency</p>
                                 </div>
                             </div>
-
+ 
                             <div className="user-data user-informaion-container">
                                 <div className="numberBox number-user-data-container">
                                     <span className="pt-4"> 1</span>
@@ -87,26 +86,10 @@ export const SurveyDesign = () => {
                                     <img src={Rectangle_141} alt="" />
                                 </div>
                                 <div className="user-data-input design-user-data-container color-container-boxex-text favourite-artist-container" id="wlcome-screan" >
-                                    <span className="color-container-boxex-text-header">Which of these courses have you already attended?</span>
-                                    <span className="color-container-boxex-text-span">You can select multiple options.</span>
                                     <div className="user-informaion-continer-box-color">
-                                        <div className="user-informaion-continer-box-color-inside-content">
-                                            <span>a</span>
-                                            <span >course A</span>
-                                        </div>
-                                        <div className="user-informaion-continer-box-color-inside-content">
-                                            <span>b</span>
-                                            <span >course b<bdo dir=""></bdo></span>
-                                        </div>
-                                        <div className="user-informaion-continer-box-color-inside-content">
-                                            <span>c</span>
-                                            <span >course c</span>
-                                        </div>
-                                        <div className="user-informaion-continer-box-color-inside-content">
-                                            <span>d</span>
-                                            <span >course d</span>
-                                        </div>
-
+                                    <CheckBoxQuestion theTitle="Which of these courses have you already attended?"
+                                            theValues={["Course A", "Course B", "Course C", "Course D"]}
+                                        />
                                     </div>
                                 </div>
                             </div>
@@ -177,6 +160,7 @@ export const SurveyDesign = () => {
 
                                 </div>
                             </div>
+
                             <div className="user-data user-informaion-container ">
                                 <div className="numberBox number-user-data-container color-container-boxex-number">
                                     <span className="pt-4"> 10 </span>
@@ -238,6 +222,7 @@ export const SurveyDesign = () => {
                                     </div>
                                 </div>
                             </div>
+                           
                             <div className="user-data user-informaion-container ">
                                 <div className="numberBox number-user-data-container color-container-boxex-number">
                                     <span className="pt-4"> 11 </span>
@@ -247,50 +232,46 @@ export const SurveyDesign = () => {
                                     <p>How would you rate the different types of chocolate?</p>
                                     <div className="days-box">
                                         <div className="days-box-caption">
-                                            <span>Dark Chocolate</span>
                                             <div className="checolate-name-container">
-                                                <div className="checolate-name-box"><span>-2</span></div>
-                                                <div className="checolate-name-box"><span>-1</span></div>
-                                                <div className="checolate-name-box"><span>0</span></div>
-                                                <div className="checolate-name-box"><span>2</span></div>
-                                                <div className="checolate-name-box"><span>1</span></div>
+                                            <RatingQuestion
+                                            theTitle="Dark Chocolate"
+                                            theMin="" theMax=""
+                                            theVal={["-2","-1","0","2","1"]}
+                                        />
                                             </div>
                                         </div>
                                         <div className="days-box-caption">
-                                            <span>Milk Chocolate</span>
                                             <div className="checolate-name-container">
-                                                <div className="checolate-name-box1"><span>-2</span></div>
-                                                <div className="checolate-name-box1"><span>-1</span></div>
-                                                <div className="checolate-name-box1"><span>0</span></div>
-                                                <div className="checolate-name-box1"><span>2</span></div>
-                                                <div className="checolate-name-box1"><span>1</span></div>
+                                            <RatingQuestion
+                                            theTitle="Milk Chocolate"
+                                            theMin="" theMax=""
+                                            theVal={["-2","-1","0","2","1"]}
+                                        />
                                             </div>
                                         </div>
                                         <div className="days-box-caption">
-                                            <span>Sweet Chocolate</span>
                                             <div className="checolate-name-container">
-                                                <div className="checolate-name-box2"><span>-2</span></div>
-                                                <div className="checolate-name-box2"><span>-1</span></div>
-                                                <div className="checolate-name-box2"><span>0</span></div>
-                                                <div className="checolate-name-box2"><span>2</span></div>
-                                                <div className="checolate-name-box2"><span>1</span></div>
+                                            <RatingQuestion
+                                            theTitle="Sweet Chocolate"
+                                            theMin="" theMax=""
+                                            theVal={["-2","-1","0","2","1"]}
+                                        />
                                             </div>
                                         </div>
 
                                         <div className="days-box-caption">
-                                            <span>White Chocolate</span>
                                             <div className="checolate-name-container">
-                                                <div className="checolate-name-box3"><span>-2</span></div>
-                                                <div className="checolate-name-box3"><span>-1</span></div>
-                                                <div className="checolate-name-box3"><span>0</span></div>
-                                                <div className="checolate-name-box3"><span>2</span></div>
-                                                <div className="checolate-name-box3"><span>1</span></div>
+                                            <RatingQuestion
+                                            theTitle="White Chocolate"
+                                            theMin="" theMax=""
+                                            theVal={["-2","-1","0","2","1"]}
+                                        />
                                             </div>
                                         </div>
-
                                     </div>
                                 </div>
                             </div>
+
                             <div className="user-data user-informaion-container ">
                                 <div className="numberBox number-user-data-container color-container-boxex-number">
                                     <span className="pt-4"> 12 </span>
@@ -360,43 +341,25 @@ export const SurveyDesign = () => {
                                 <div className="user-data-input design-user-data-container color-container-boxex-text favourite-artist-container" id="wlcome-screan" >
                                     <p> How would you rate the popular brands of chocolate? </p>
                                     <div className="choclate-brand-container">
-                                        <span>2</span>
                                         <div className="choclate-brand-container-select-img">
-                                            <select name="" id="">
-                                                <option value="1"></option>
-                                                <option value="2">2</option>
-                                                <option value="3">3</option>
-                                                <option value="4">4</option>
-                                                <option value="5">5</option>
-                                            </select>
+                                            <DropDownQuestion theTitle="1"theName=""
+                                            theVal={["2","3","4","5"]}/>
                                         </div>
                                     </div>
                                     <div className="choclate-brand-container">
-                                        <span>2</span>
                                         <div className="choclate-brand-container-select-img">
-                                            <select name="" id="">
-                                                <option value="1"></option>
-                                                <option value="2">2</option>
-                                                <option value="3">3</option>
-                                                <option value="4">4</option>
-                                                <option value="5">5</option>
-                                            </select>
+                                        <DropDownQuestion theTitle="2"theName=""
+                                            theVal={["2","3","4","5"]}/>
                                         </div>
                                     </div>
                                     <div className="choclate-brand-container">
-                                        <span>3</span>
                                         <div className="choclate-brand-container-select-img">
-                                            <select name="" id="">
-                                                <option value="1"></option>
-                                                <option value="2">2</option>
-                                                <option value="3">3</option>
-                                                <option value="4">4</option>
-                                                <option value="5">5</option>
-                                            </select>
+                                        <DropDownQuestion theTitle="3"theName=""
+                                            theVal={["2","3","4","5"]}/>
                                         </div>
                                     </div>
                                 </div>
-                                </div>\
+                                </div>
                             <div className="user-data user-informaion-container ">
                                 <div className="numberBox number-user-data-container color-container-boxex-number">
                                     <span className="pt-4"> 14 </span>

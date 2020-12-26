@@ -3,6 +3,8 @@ import * as Survey from "survey-react";
 import "survey-react/survey.css";
 import { inherits } from 'util';
 
+
+Survey.StylesManager.applyTheme("default"); 
 export const UploadFile= () =>{
     const  json = {
         questions: [

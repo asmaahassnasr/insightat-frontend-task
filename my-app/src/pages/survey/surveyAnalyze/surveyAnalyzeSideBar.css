@@ -4,6 +4,13 @@
     margin-left: -14px;
   
   }
+  .analyze-link .active-link{
+    border-left: 2px solid #000 !important;
+  }
+  .analyze-link .active-link p a{
+    color: #000 !important;
+  }
+
   .analyze-link-box{
     width: 114%;
     border: 1px solid #f3f3f5;

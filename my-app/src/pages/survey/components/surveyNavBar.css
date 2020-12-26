@@ -1,8 +1,14 @@
-  h1,h2,h3,h4,h5,h6,p{
+  .share-navbar-sec h1,
+  .share-navbar-sec h2,
+  .share-navbar-sec h3,
+  .share-navbar-sec h4,
+  .share-navbar-sec h5,
+  .share-navbar-sec h6,
+  .share-navbar-sec p{
     text-transform: capitalize;
-  }a:hover{
+  }.share-navbar-sec a:hover{
     text-decoration: none;
-  }
+  } 
   
   .share-navbar-sec span,
   .share-navbar-sec a{
@@ -16,6 +22,11 @@
   .share-navbar-sec span{
     cursor: pointer;
   }
+  .share-navbar-sec{
+    border-bottom: 1px solid rgba(29, 28, 28,0.6) !important;
+    padding-bottom: 0 !important;
+  }
+  .navbar{padding: 0 !important;}
   .bulid-screan{
     width: 100%;
   }
@@ -29,11 +40,6 @@
     background-color: #f3f3f5;
     position: relative;
   }
-  .share-navbar-sec hr {
-    margin-top: -2rem;
-    border-top: 1px solid #f3f3f5;
-  }
-  
   .build-logo-sec{
     margin-top: 0px;
   }
@@ -71,7 +77,17 @@
     justify-content: space-evenly;
     list-style: none;
   }
-  
+  .navbar-item{
+    margin-bottom: 0px !important;
+    padding-bottom: 0px !important;
+  }
+  .navbar-item a.active{
+    color: #000 !important;
+    border-bottom: 1px solid #000 !important;
+  }
+  .navbar-item a.active:hover{
+    border: none !important;
+  }
   .navbar-list .navbar-item a{
     color: rgba(174, 161, 161, 0.81);
     margin-right: 20px;

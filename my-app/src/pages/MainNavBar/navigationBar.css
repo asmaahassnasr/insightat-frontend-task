@@ -20,7 +20,7 @@
 	font-size: 1.5rem;
 }
  .navbar-brand:hover, .navbar-brand:focus {
-	color: #fa7268;
+	color: #fa7268 !important;
 }
  .nav-link {
     color: #767680;
@@ -31,7 +31,11 @@
 	 margin-left: 0.5rem;
 }
  .nav-link:hover {
-	color: #70afe6 !important;
+	color: #fa7268 !important;
+}
+.nav-link.active{
+	border-bottom:1px solid #fa7268;
+	color: #fa7268 !important;
 }
  .nav-item {
 	 margin: 10px;
@@ -47,12 +51,13 @@
 }
  .nav__login {
 	cursor: pointer;
-    border: solid 1px #fa7268;
     border-radius: 1.5rem;
     padding: 0 20px 0 20px;
     display: flex;
     align-items: center;
-    color: #767680;
+}
+.nav__login .login_color{
+	color: #000 !important;
 }
  .nav__signup {
     cursor: pointer;
@@ -61,7 +66,9 @@
     padding: 0 20px 0 20px;
     display: flex;
     align-items: center;
-    color: #fff;
-    background-color: #fa7268;
+    background-color: transparent;
+}
+.nav__signup .signUp_color{
+    color: #000 !important;
 }
  

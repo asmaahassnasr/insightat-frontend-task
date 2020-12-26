@@ -1,4 +1,5 @@
 import React from 'react';
+import Header from './Header.png';
 import {NavLink} from 'react-router-dom';
 import { ProfileNavBar} from './profileNavBar';
 import './profile.css';
@@ -9,7 +10,7 @@ export const EditProfile = () => {
         <ProfileNavBar />
             <div className="profile">
             <div className="profile__image">
-            <img src=''/>
+            <img src={Header} />
             <input  hidden  type="file" accept="image/gif, image/jpg, image/jpeg, image/png"/>
             <div className="profile__toggle">
                 <button  style={ {backgroundColor: 'white',
@@ -19,7 +20,7 @@ export const EditProfile = () => {
                 Change Cover
                 </button>
                 <NavLink
-                className="d-flex"  to="/profile"
+                className="d-flex done_edit"  to="/profile"
                 style={ {backgroundColor: '#fa7268',
                     borderColor: '#fa7268',
                     border: '1px solid #fa7268',
@@ -40,7 +41,7 @@ export const EditProfile = () => {
                 <input hidden  type="file" accept="image/gif, image/jpg, image/jpeg, image/png"/>
             </div>
 
-            <div className="profile__content">
+            <div className="profile_edit_content">
                 <p>Edit Profile</p>
                 <div className="profile__content__form">
                 <p className="profile__content__form-title">General Information</p>
@@ -57,7 +58,7 @@ export const EditProfile = () => {
                 <div className="row">
                     <div className="col-xl-12">
                     <p className="profile__content__form-label">Page Description</p>
-                    <textarea className="profile__content__form-textarea" rows={8}  typeof="text" ></textarea>
+                    <textarea className="profile__content__form-textarea" rows={10} typeof="text" ></textarea>
                     </div>
                 </div>
                 <p className="profile__content__form-title">Contact Information</p>

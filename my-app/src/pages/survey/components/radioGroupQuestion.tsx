@@ -23,7 +23,7 @@ export const RadioGroupQuestion= () =>{
                  <Survey.Survey json={json} 
                   applyTheme="modern"
                  showNavigationButtons={false} 
-                 />; 
+                 />
             </>
         )
 }
