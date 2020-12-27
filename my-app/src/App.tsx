@@ -11,6 +11,7 @@ import {Solutions} from './pages/solutions/solutions';
 import {LogIn} from './pages/logIn/logIn';
 import {SignUp} from './pages/signUp/signUp';
 import {Pricing} from './pages/pricing/pricing';
+import SurveyComponent from './pages/survey/components/surveyCreeator';
 import {Template} from './pages/template/template';
 import {Profile} from './pages/profile/profile';
 import {SurveyAnalyze} from './pages/survey/surveyAnalyze/surveyAnalyze';
@@ -44,6 +45,7 @@ function App() {
       <Route path="/analyze" component={SurveyAnalyze} />
       <Route path="/share" component={SurveyShare} />
       <Route path="/build" component={SurveyBuild} />
+      <Route path="/creator" component={SurveyComponent} />
       </Switch>
       <Footer />
     </React.Fragment>
