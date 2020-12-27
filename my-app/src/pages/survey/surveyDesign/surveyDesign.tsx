@@ -155,7 +155,7 @@ export const SurveyDesign = () => {
                                     <span className="pt-4"> 9 </span>
                                     <img src={Rectangle_141} alt="" />
                                 </div>
-                                <div className="user-data-input design-user-data-container color-container-boxex-text favourite-artist-container table-container-box" id="wlcome-screan" >
+                                <div className="user-data-input design-user-data-container color-container-boxex-text favourite-artist-container table-container-box matrix-dropDown" id="wlcome-screan" >
                                     <MatrixQuestion />
 
                                 </div>

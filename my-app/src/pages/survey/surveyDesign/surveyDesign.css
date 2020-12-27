@@ -453,6 +453,7 @@
     font-style: italic;
     margin: 10px;
     margin-bottom: 15px;
+    font-size: small;
   }
   
   .user-informaion-continer-box-color-inside-content span{
@@ -743,7 +744,7 @@
   }
   
   .nature-photo-container{
-    height: 500px;
+    height: auto;
     display: block;
   }
   .nature-photo-content{
@@ -761,6 +762,17 @@
   position: relative;
   display: inline-block;
   margin-bottom: 10px;
+  width: 100% !important;
+  }
+  .nature-photo-content-box .sv_main .sv-root-modern .sv_container .sv_p_root .sv_row .sv_qstn div:first-child .sv-question__header .sv-question__title span:first-child,
+  .nature-photo-content-box .sv_main .sv-root-modern .sv_container .sv_p_root .sv_row .sv_qstn div:first-child .sv-question__header .sv-question__title span:first-child
+  {
+    display: none !important;
+  }
+  .nature-photo-content-box .sv_main .sv_container .sv_body .sv_p_root .sv_q .sv_q_checkbox_inline, .sv_main .sv_container .sv_body .sv_p_root .sv_q .sv_q_radiogroup_inline, .sv_main .sv_container .sv_body .sv_p_root .sv_q .sv_q_imagepicker_inline {
+    display: inline-block !important;
+    width: 30% !important;
+
   }
   .nature-photo-number{
     position: absolute;
@@ -846,3 +858,21 @@
     right: 85px !important;
     top: 15px !important;
   }
+
+  .matrix-dropDown .sv_qstn{
+    display: block;
+    overflow: hidden !important;
+  }
+  .matrix-dropDown .sv_main .sv_container .sv_body .sv_p_root table.sv_q_matrix th {
+    padding: 0 !important;
+  }
+
+  .matrix-dropDown .sv_main .sv_container .sv_body .sv_p_root table.sv_q_matrix td {
+    width: 10% !important;
+    min-width: auto !important;
+  }
+
+  .matrix-dropDown .sv_qstn .sv_q_matrix tr:nth-child(even){
+    background-color: #f3f3f5 !important;
+  }
+  

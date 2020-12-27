@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import * as Survey from "survey-react";
 import "survey-react/survey.css";
 
+Survey.StylesManager.applyTheme("modern");
 
 export const ImgPickerQuestion = () =>{
     const json = {
@@ -24,6 +25,15 @@ export const ImgPickerQuestion = () =>{
                     }, {
                         "value": "camel",
                         "imageLink": "https://surveyjs.io/Content/Images/examples/image-picker/camel.jpg"
+                    }, {
+                        "value": "giraffe",
+                        "imageLink": "https://surveyjs.io/Content/Images/examples/image-picker/giraffe.jpg"
+                    }, {
+                        "value": "panda",
+                        "imageLink": "https://surveyjs.io/Content/Images/examples/image-picker/panda.jpg"
+                    }, {
+                        "value": "camel",
+                        "imageLink": "https://surveyjs.io/Content/Images/examples/image-picker/camel.jpg"
                     }
                 ]
             }
@@ -32,7 +42,6 @@ export const ImgPickerQuestion = () =>{
         return (
             <>
                  <Survey.Survey json={json} 
-                  applyTheme="modern"
                  showNavigationButtons={false} 
                  />
             </>

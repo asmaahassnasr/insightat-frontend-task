@@ -19,6 +19,8 @@
     justify-content: center;
     align-items: center;
     margin-right: 8%;
+    width: 180px !important;
+    height: 50px;
     outline: none !important;
 }
 .profile__toggle button > span {
@@ -32,8 +34,9 @@
 }
 .profile__toggle .done_edit{
     width: 180px !important;
+    height: 50px;
     border-radius: 20px !important;
-    padding:3%;
+    padding:3% 0 0 6%;
 }
 .profile__toggle .done_edit .fa-edit{
     margin: 3% 3% 0% 0%;
