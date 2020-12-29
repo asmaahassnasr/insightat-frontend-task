@@ -19,7 +19,6 @@ import {EditProfile} from './pages/profile/editProfile';
 import {SurveyDesign} from './pages/survey/surveyDesign/surveyDesign';
 import {SurveyShare} from './pages/survey/surveyShare/surveyShare';
 import {SurveyBuild} from './pages/survey/surveyBuild/surveyBuild';
-
 import 'bootstrap/dist/css/bootstrap.css';
 import "survey-react/survey.css";
 import 'font-awesome/css/font-awesome.css';

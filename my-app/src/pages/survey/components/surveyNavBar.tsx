@@ -34,7 +34,7 @@ export const SurveyNavBar = () => {
             </div>
             <div className="col-lg-2 col-md-2 col-sm-2 col-xs-2 offset-2">
             <div className="previw">
-                <NavLink to="/surveyPerview">preview</NavLink>
+                <NavLink to="/creator">preview</NavLink>
             
                 <img id="list-control" src={Group_250} alt="" ></img>
                     <div className="side-list">
