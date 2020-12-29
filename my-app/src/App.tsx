@@ -46,7 +46,7 @@ function App() {
       <Route path="/build" component={SurveyBuild} />
       <Route path="/creator" component={SurveyComponent} />
       </Switch>
-      <Footer />
+      {/* <Footer /> */}
     </React.Fragment>
   );
 }

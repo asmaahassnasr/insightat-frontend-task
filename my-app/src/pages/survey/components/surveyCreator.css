@@ -4,7 +4,13 @@
     position: relative;
 }
 .svd_container{height: 300vh !important;}
-
+.creator-welcom{
+    width: 79% !important;
+    position: absolute !important;
+    top: 13% !important;
+    left: 19% !important;
+    z-index: 99 !important;
+}
 #creatorElement .svd_container .svd_commercial_container{display: none !important;}
  #creatorElement .svd_container svd-pages-editor  {display: none !important;}
  #creatorElement svd-splitter div.svd-splitter {
