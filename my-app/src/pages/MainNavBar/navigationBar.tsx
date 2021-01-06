@@ -15,25 +15,16 @@ export const NavigationBar = () => {
             <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
                 <ul className="navbar-nav">
                 <li className="nav-item">
+                    <NavLink className="nav-link"  to="/pricing">Pricing</NavLink>
+                </li>
+                <li className="nav-item">
                     <NavLink className="nav-link"  to="/solutions">Solutions</NavLink>
                 </li>
                 <li className="nav-item">
-                    <NavLink className="nav-link"  to="/howItWorks">How It Works</NavLink>
+                    <NavLink className="nav-link"  to="/howItWorks">Help</NavLink>
                 </li>
                 <li className="nav-item">
-                    <NavLink className="nav-link"  to="/profile">Profile</NavLink>
-                </li>
-                <li className="nav-item">
-                    <NavLink className="nav-link"  to="/creator">Create Survey</NavLink>
-                </li>
-                <li className="nav-item">
-                    <NavLink className="nav-link"  to="/faq">FAQ</NavLink>
-                </li>
-                <li className="nav-item">
-                    <NavLink className="nav-link"  to="/contactUs">Contact Us</NavLink>
-                </li>
-                <li className="nav-item">
-                    <NavLink className="nav-link"  to="/build">Survey</NavLink>
+                    <NavLink className="nav-link"  to="/contactUs">Contact </NavLink>
                 </li>
                 <li className="nav-item nav__login ">
                 <NavLink to="/logIn" className="login_color"> Log In</NavLink>

@@ -7,6 +7,8 @@ import {HowItWorks} from './pages/howItWorks/howItWorks';
 import {Terms} from './pages/terms/terms';
 import {ContactUs} from './pages/contactUs/contactUs';
 import {FAQ} from './pages/faq/faq';
+import {ChangePassword} from './pages/changePassword/changePassword';
+import {Account} from './pages/account/account';
 import {Solutions} from './pages/solutions/solutions';
 import {LogIn} from './pages/logIn/logIn';
 import {SignUp} from './pages/signUp/signUp';
@@ -38,6 +40,8 @@ function App() {
       <Route  path="/logIn" component={LogIn}/>
       <Route  path="/signUp" component={SignUp}/>
       <Route  path="/template" component={Template}/>
+      <Route  path="/changePassword" component={ChangePassword}/>
+      <Route  path="/account" component={Account}/>
       <Route  path="/profile" component={Profile}/>
       <Route  path="/editProfile" component={EditProfile}/>
       <Route path="/design" component={SurveyDesign} />
