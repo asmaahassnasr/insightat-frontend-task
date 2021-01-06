@@ -22,6 +22,9 @@
  .navbar-brand:hover, .navbar-brand:focus {
 	color: #fa7268 !important;
 }
+.navbar-nav.navbar-right{
+	padding-left: 45% !important;
+}
  .nav-link {
     color: #767680;
     font-size: 0.9rem;

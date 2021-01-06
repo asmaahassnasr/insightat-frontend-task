@@ -24,6 +24,10 @@
   .build-welcomebox span{
     font-size: 20px;
   }
+  .build-welcomebox {
+    padding-top: 1% !important;
+  }
+  
   .build-user-data-input{
   width: 100%;
   height: 54px;

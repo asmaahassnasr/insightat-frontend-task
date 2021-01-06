@@ -6,6 +6,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import "survey-knockout/survey.css";
 import "survey-creator/survey-creator.css";
 import './surveyCreator.css';
+import '../surveyBuild/surveyBuild.css';
 SurveyCreator.StylesManager.applyTheme("bootstrap");
 
 

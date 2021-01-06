@@ -13,7 +13,7 @@ export const NavigationBar = () => {
             <span className="navbar-toggler-icon"></span>
             </button>
             <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
-                <ul className="navbar-nav">
+                <ul className="navbar-nav navbar-right">
                 <li className="nav-item">
                     <NavLink className="nav-link"  to="/pricing">Pricing</NavLink>
                 </li>

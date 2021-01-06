@@ -14,7 +14,7 @@ import './surveyDesignSideBar.css';
 export const SurveyDesignSideBar = () => {
     return (
         <>
-        <div className="col-lg-3 side design-navbar-sec">
+        <div className="col-lg-2 side design-navbar-sec">
             <div className=" left-side">
              
                 <div className="header-sidebar">   

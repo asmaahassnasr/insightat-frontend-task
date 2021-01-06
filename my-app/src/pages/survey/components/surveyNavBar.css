@@ -23,7 +23,7 @@
     cursor: pointer;
   }
   .share-navbar-sec{
-    border-bottom: 1px solid rgba(29, 28, 28,0.6) !important;
+    border-bottom: 1px solid rgba(0,0,0,.1) !important;
     padding-bottom: 0 !important;
   }
   .navbar{
@@ -56,7 +56,7 @@
   
   
   .logo-content{
-    margin-top: -28px;
+    margin-top: -20px;
   }
   .logo-content span{
     text-transform: capitalize;
