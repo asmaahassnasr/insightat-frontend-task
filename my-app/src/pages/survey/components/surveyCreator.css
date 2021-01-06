@@ -62,6 +62,10 @@
 .svd-designer-tabbed-container__tab-header-active {
     border-bottom: 2px solid #f3f3f5;
 }
+.svd-survey-placeholder-root .svd-survey-placeholder .svd-empty-message-container .svd-empty-message
+{
+    color: #b4b4bf !important;
+}
 .svd-designer-tabbed-container__tab-header:hover {
     color: black;
 }
