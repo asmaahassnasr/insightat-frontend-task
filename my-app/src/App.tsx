@@ -19,6 +19,10 @@ import {Profile} from './pages/profile/profile';
 import {SurveyAnalyze} from './pages/survey/surveyAnalyze/surveyAnalyze';
 import {EditProfile} from './pages/profile/editProfile';
 import {SurveyDesign} from './pages/survey/surveyDesign/surveyDesign';
+import {AdminUser} from './pages/adminUser/adminUser';
+import {UserAccount} from './pages/userAccount/userAccount';
+import {Dashboard} from './pages/dashboard/dashboard';
+import {Results} from './pages/results/results'ك
 import {SurveyShare} from './pages/survey/surveyShare/surveyShare';
 import 'bootstrap/dist/css/bootstrap.css';
 import "survey-react/survey.css";
@@ -47,6 +51,10 @@ function App() {
       <Route path="/analyze" component={SurveyAnalyze} />
       <Route path="/share" component={SurveyShare} />
       <Route path="/build" component={SurveyComponent} />
+      <Route path="/adminUser" component={AdminUser} />
+      <Route path="/userAccount" component={UserAccount} />
+      <Route path="/dashboard" component={Dashboard} />
+      <Route path="/results" component={Results} />
       </Switch>
       {/* <Footer /> */}
     </React.Fragment>
