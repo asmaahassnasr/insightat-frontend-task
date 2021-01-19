@@ -65,7 +65,7 @@
   color: #fa7268;
 }
 
-.login__google__button {
+.login .login__google__button {
   width: 100%;
   border-radius: 2rem;
   border: 1px solid #b4b4bf !important;
