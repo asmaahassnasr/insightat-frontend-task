@@ -22,7 +22,7 @@ import {SurveyDesign} from './pages/survey/surveyDesign/surveyDesign';
 import {AdminUser} from './pages/adminUser/adminUser';
 import {UserAccount} from './pages/userAccount/userAccount';
 import {Dashboard} from './pages/dashboard/dashboard';
-import {Results} from './pages/results/results'ك
+import {Results} from './pages/results/results';
 import {SurveyShare} from './pages/survey/surveyShare/surveyShare';
 import 'bootstrap/dist/css/bootstrap.css';
 import "survey-react/survey.css";
