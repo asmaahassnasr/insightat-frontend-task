@@ -12,7 +12,7 @@ export const Account = () => {
                 <div className="account"> 
 
         <div className="account__wrapper">
-            <div className="account__error" >* errorMessage</div>
+            <div className="account__error" >*ErrorMessage</div>
             <div className="account__item">
             <label>Username</label>
             <input type="text" />

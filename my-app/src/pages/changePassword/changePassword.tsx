@@ -8,7 +8,7 @@ import './changePassword.css';
 export const ChangePassword = () => {
  
     return (  
-        <div className="container divContent" > 
+        <div className="divContent" > 
             <h3>Insightat</h3>
         <div className="change-password">
         <p>New Password</p>

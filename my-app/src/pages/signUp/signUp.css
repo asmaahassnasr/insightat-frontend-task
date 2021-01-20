@@ -136,8 +136,8 @@
     .signup__input input[type="password"] {
       width: 100%;
       padding: 1px;
-      border: 1px solid #bcbcc1;
-      outline: none;
+      border: 1px solid #bcbcc1; 
+      outline-color: #b1b1b4;
     }
 
     .signup__input select { 
@@ -154,7 +154,7 @@
     }
   
 
-    .signup__button {
+    .signup .signup__button {
     width: 100%;
     color: white;
     border-radius: 2rem;
@@ -165,9 +165,9 @@
     outline: none;
   }
 
-  .signup__button:hover { 
-    color: white;
+  .signup .signup__button:hover { 
     border: none;
+    background-color: #dd736c;
   }
   .row {
     margin-right: 0 !important;

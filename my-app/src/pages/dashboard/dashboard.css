@@ -21,15 +21,16 @@
     padding: 3px;
 }
 
-.BarStyle{
-    background-color:'#fff';
-    padding:'10px';
-    margin-left:'5%';
+.content .BarStyle{
+    background-color:#fff;
+    padding:20px;
+    margin-left:7%;
+    margin-bottom: 3%;
 }
 
-.DoughnutStyle{
-    background-color:'#fff';
-    padding:'10px';
-    margin-left:'5%';
-    margin-top:'20px';
+.content .DoughnutStyle{
+    background-color:#fff;
+    padding:20px;
+    margin-left:7%;
+    margin-top:10px;
 }
