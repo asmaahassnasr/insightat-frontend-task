@@ -36,8 +36,8 @@ export const Results = () => {
    
                     </div>
               
-              <div style={{marginTop:'20px'}}>
-                    <Table striped bordered hover>
+              <div className="containDataTable">
+                    <Table bordered hover>
                       <thead>
                         <tr>
                           <th style={{width:'26px'}}> 

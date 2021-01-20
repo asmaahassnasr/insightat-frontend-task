@@ -38,13 +38,18 @@
     text-align: center;
     color: red;
 }
-.account__submit {
+.account .account__submit {
     margin-top: 2rem;
     padding: 0.5rem 1.5rem 0.5rem 1.5rem;
     color: white;
     background: #fa7268;
     border: 1px solid #fa7268;
     border-radius: 50px;
+}
+
+.account .account__submit:hover {
+    background: #dd736c;
+    border: 1px solid #dd736c; 
 }
 
 @media screen and (max-width: 600px) {

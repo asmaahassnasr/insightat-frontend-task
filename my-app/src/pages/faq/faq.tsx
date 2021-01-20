@@ -8,27 +8,36 @@ export const FAQ = () => {
     return (
         <>
         <NavigationBar />
-        <div className="container" style={{width:'58%' , height:'80%',position:'fixed',top:'30%'}}>
-        <div> 
-                <div className="privacy container">
-                <h1>FAQ | Frequently Asked Questions</h1>
-                <div className="faq__item">
-                    <p className="faq__item__question">What is Insightat?</p>
-                    <p className="faq__item__answer">
-                    Paperform is an online platform that enables anyone to create online forms
-                    or product pages quickly, intuitively, and to brand them as they like, all
-                    without writing code. Whether you’re involved involved with organising
-                    events, sporting groups, marketing agencies, tech startups, or any other
-                    project, Paperform is a beautiful and robust solution. Quickly and simply
-                    create customisable forms and pages that take payments, and are easy for
-                    your customers and communities to complete on mobile or desktop. To see
-                    how it works, watch the 3 minute video.
-                    </p>
-                </div>
-                </div> 
+        <div className="container">
+    <br />
+    <br />
+    
+
+    <br />
+
+    <div className="" id="accordion">
+        <div className="faqHeader">FAQ | Frequently Asked Questions</div>
+        <div className="card ">
+            <div className="card-header">
+                <h4 className="card-header">
+                    <a className="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">What Is Insightat?</a>
+                </h4>
             </div>
-        
+         
+            <div id="collapseOne" className="panel-collapse collapse in">
+                <div className="card-block">
+                     Paperform Is An Online Platform That Enables Anyone To Create Online Forms Or 
+                     Product Pages Quickly, Intuitively, And To Brand Them As They Like, All Without 
+                     Writing Code. Whether You’re Involved Involved With Organising Events, Sporting 
+                     Groups, Marketing Agencies, Tech Startups, Or Any Other Project, Paperform Is A 
+                     Beautiful.
+                 </div>
+            </div>
         </div>
+       
+</div>
+</div>
+
         </>
      )
 }

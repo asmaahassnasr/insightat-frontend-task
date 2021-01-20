@@ -43,20 +43,20 @@ export const AdminUser = () => {
    
                     </div>
               
-              <div style={{marginTop:'20px'}}>
-                    <Table striped bordered hover>
+              <div className="containDataTable">
+                    <Table bordered hover>
                       <thead>
                         <tr>
                           <th style={{width:'26px'}}> 
                           <InputGroup.Checkbox/>
                           </th>
-                          <th>NAME</th>
-                          <th>EMAIL</th>
-                          <th>LAST SEEN</th>
-                          <th>SIGN UP</th>
-                          <th>PLAN</th>
+                          <th>Name</th>
+                          <th>Email</th>
+                          <th>Last Seen</th>
+                          <th>Sign Up</th>
+                          <th>Plan</th>
                           <th>ID</th>
-                          <th>COUNTRY</th>
+                          <th>Country</th>
                           <th></th> 
                         </tr>
                       </thead>
