@@ -3,7 +3,7 @@
 	position: relative;
 }
 
-.header-sidebar {
+.header-sidebar-creator {
 	position: absolute;
 	top: 62px;
 	left: 0px;
@@ -19,7 +19,7 @@
 .svd-designer-container {
 	margin-left: 15px !important;
 }
-.header-sidebar img {
+.header-sidebar-creator img {
 	margin-top: 30px;
 	width: 15px !important;
 	height: 15px !important;

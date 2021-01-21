@@ -41,7 +41,7 @@ class SurveyComponent extends Component {
                     </div>
                 </div>
                 
-                <div className="header-sidebar">   
+                <div className="header-sidebar-creator">   
                         <p>
                             <img src={icon_grid} alt="" />
                         </p> 
