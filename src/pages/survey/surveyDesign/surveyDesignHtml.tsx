@@ -25,7 +25,7 @@ export const SurveyDesignHtml = () => {
             <div className="container-fluid design design-content-sec">
                 <div className="row">
                     <SurveyDesignSideBar />
-                   
+                    
       <div className="col-lg-9 col-md-8 col-sm-8 col-xs-8">
         <div className="build-content-detailes">
           <div className="user-data">
@@ -193,23 +193,23 @@ export const SurveyDesignHtml = () => {
             <div className="user-data-input design-user-data-container favourite-artist-container" id="wlcome-screan" >
               <p>How would you rate our product?</p>
               <div className="star-cotent">
-                <i className="far fa-star rate"></i>
+                <i className="fa  fa-star rate"></i>
                 <span>1</span>
               </div>
               <div className="star-cotent">
-                <i className="far fa-star rate"></i>
+                <i className="fa  fa-star rate"></i>
                 <span>2</span>
               </div>
               <div className="star-cotent">
-                <i className="far fa-star rate"></i>
+                <i className="fa  fa-star rate"></i>
                 <span>3</span>
               </div>
               <div className="star-cotent">
-                <i className="far fa-star rate"></i>
+                <i className="fa  fa-star rate"></i>
                 <span>4</span>
               </div>
               <div className="star-cotent">
-                <i className="far fa-star rate"></i>
+                <i className="fa  fa-star rate"></i>
                 <span>5</span>
               </div>
              </div>
@@ -501,51 +501,51 @@ export const SurveyDesignHtml = () => {
               <div className="rate-choclate-brand-container">
                 <span>Toblerone</span>
                 <div className="rate-choclate-brand-container-star">
-                <i className="far fa-star rate"></i>
-                <i className="far fa-star rate"></i>
-                <i className="far fa-star rate"></i>
-                <i className="far fa-star rate"></i>
-                <i className="far fa-star rate"></i>
+                <i className="fa  fa-star rate"></i>
+                <i className="fa  fa-star rate"></i>
+                <i className="fa  fa-star rate"></i>
+                <i className="fa  fa-star rate"></i>
+                <i className="fa  fa-star rate"></i>
                 </div>
               </div>
               <div className="rate-choclate-brand-container">
                 <span>Ferrero Rocher</span>
                 <div className="rate-choclate-brand-container-star">
-                <i className="far fa-star rate"></i>
-                <i className="far fa-star rate"></i>
-                <i className="far fa-star rate"></i>
-                <i className="far fa-star rate"></i>
-                <i className="far fa-star rate"></i>
+                <i className="fa  fa-star rate"></i>
+                <i className="fa  fa-star rate"></i>
+                <i className="fa  fa-star rate"></i>
+                <i className="fa  fa-star rate"></i>
+                <i className="fa  fa-star rate"></i>
                 </div>
               </div>
               <div className="rate-choclate-brand-container">
                 <span>Lindt</span>
                 <div className="rate-choclate-brand-container-star">
-                <i className="far fa-star rate"></i>
-                <i className="far fa-star rate"></i>
-                <i className="far fa-star rate"></i>
-                <i className="far fa-star rate"></i>
-                <i className="far fa-star rate"></i>
+                <i className="fa  fa-star rate"></i>
+                <i className="fa  fa-star rate"></i>
+                <i className="fa  fa-star rate"></i>
+                <i className="fa  fa-star rate"></i>
+                <i className="fa  fa-star rate"></i>
                 </div>
             </div>
             <div className="rate-choclate-brand-container">
               <span>Hershey's</span>
               <div className="rate-choclate-brand-container-star">
-                <i className="far fa-star rate"></i>
-                <i className="far fa-star rate"></i>
-                <i className="far fa-star rate"></i>
-                <i className="far fa-star rate"></i>
-                <i className="far fa-star rate"></i>
+                <i className="fa  fa-star rate"></i>
+                <i className="fa  fa-star rate"></i>
+                <i className="fa  fa-star rate"></i>
+                <i className="fa  fa-star rate"></i>
+                <i className="fa  fa-star rate"></i>
               </div>
             </div>
             <div className="rate-choclate-brand-container">
               <span>Cadbury</span>
               <div className="rate-choclate-brand-container-star">
-                <i className="far fa-star rate"></i>
-                <i className="far fa-star rate"></i>
-                <i className="far fa-star rate"></i>
-                <i className="far fa-star rate"></i>
-                <i className="far fa-star rate"></i>
+                <i className="fa  fa-star rate"></i>
+                <i className="fa  fa-star rate"></i>
+                <i className="fa  fa-star rate"></i>
+                <i className="fa  fa-star rate"></i>
+                <i className="fa  fa-star rate"></i>
               </div>
             </div>
           
@@ -611,7 +611,7 @@ export const SurveyDesignHtml = () => {
                     <span className="nature-photo-address"><span>image 1</span></span>
                   </div>
                   <div className="nature-photo-content-box">
-                    {/* <img src={4k_wallpaper_close_up_dew_807598} alt="" /> */}
+                    <img src={chuttersnap_617671_unsplash} alt="" />
                     <span className="nature-photo-number"> <span>b</span></span>
                     <span className="nature-photo-address"><span>image 2</span></span>
                   </div>
