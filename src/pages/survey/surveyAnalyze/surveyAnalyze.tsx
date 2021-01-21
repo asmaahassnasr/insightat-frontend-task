@@ -4,7 +4,7 @@ import { SurveyAnalyzeSideBar } from './surveyAnalyzeSideBar';
 import './surveyAnalyze.css';
 export const SurveyAnalyze = () => {
     return (
-        <>
+        <> 
             <SurveyNavBar />
             <div className="container-fluid analyze">
                 <div className="row">
@@ -42,9 +42,15 @@ export const SurveyAnalyze = () => {
 
                             </div>
                         </div>
-                        <div className="container ">
+                        <div className="container tab-header">
                             <div className="analyze-table-header">
                                 <span>DEVICE</span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
                                 <span>VIEWED</span>
                                 <span>STARTED</span>
                                 <span>COMPLETED</span>
