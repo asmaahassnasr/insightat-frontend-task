@@ -65,6 +65,8 @@
 }
 .nav-brand {
 	color: #fd6969;
+	font-size: 15px !important;
+	font-weight: 400px;
 }
 .nav-brand:hover {
 	color: #fd6969;

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
-import { Footer } from './components/footer/footer';
+import { Footer } from './pages/footer/footer';
 import { Home } from './pages/home/home';
 import { Privacy } from './pages/privacy/privacy';
 import { HowItWorks } from './pages/howItWorks/howItWorks';

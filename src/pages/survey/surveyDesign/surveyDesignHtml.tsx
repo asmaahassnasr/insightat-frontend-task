@@ -6,7 +6,6 @@ import { TextQuestion } from '../components/textQuestion';
 import { RatingQuestion } from '../components/ratingQuestion';
 import { MatrixQuestion } from "../components/matrixQuestion";
 import Rectangle_141 from '../components/icon/Rectangle_141.svg';
-// import 4k_wallpaper_close_up_dew_807598 from '../components/icon/4k_wallpaper_close_up_dew_807598.svg';
 import fog_foggy_forest_4827_svg from '../components/icon/fog_foggy_forest_4827.svg';
 import aaron_burden_363695_unsplash from '../components/icon/aaron_burden_363695_unsplash.svg';
 import shifaaz_shamoon_1113388_unsplash from '../components/icon/shifaaz_shamoon_1113388_unsplash.svg'

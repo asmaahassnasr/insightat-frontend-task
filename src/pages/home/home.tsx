@@ -1,6 +1,7 @@
 import React from 'react';
 import {NavigationBar} from '../MainNavBar/navigationBar';
 import {NavLink} from 'react-router-dom';
+import {Footer} from '../footer/footer';
 import contact_us_background from '../assets/image/contact_us_background.png';
 import drag_drop from '../assets/image/drag_drop.png';
 import './home.css';
@@ -36,6 +37,7 @@ export const Home = () => {
                 <img className="template__drag__drop" src={drag_drop} />
                 </div>
             </div>
+            <Footer />
             </div>
         </>
     )
