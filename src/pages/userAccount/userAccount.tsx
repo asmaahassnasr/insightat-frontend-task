@@ -25,13 +25,14 @@ export const UserAccount = () => {
                         <span>
                             <h5>Mike Fox</h5>
                             <p>Standard User</p>
-                            <p>
+                            <p className="userdataP">
                                <i className="fa fa-map-marker"></i>Czech Republic
                                <i className="fa fa-clock"></i> Last Interction Yesterday
                             </p>
                         </span>
                          
-                        <span style={{width:'43%'}}></span>
+                         
+                        <span style={{width:'40%'}}></span>
 
                          <button className="btnStyle">Send Email</button>
                          <button className="btnStyle" 

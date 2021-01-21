@@ -18,23 +18,24 @@ export const AdminUser = () => {
             <div className="container-fluid analyze">
                 <div className="row">
                     <SurveyAnalyzeSideBar />
-                    <div className="col">
+                    <div  className="col-lg-10">
                      
                         <div className="row header"> 
                          
                          <p><strong>Users</strong> 1390 total</p>
 
-                          <div className="col-3"></div>
+
                          <button className="btnStyle" style={{marginRight:'5px'}}>Export</button>
                          
                          <button className="btnStyle">Delete</button>
                          
-                          <InputGroup className="col-4">
+                          <InputGroup className="col-5">
                           <FormControl
                             placeholder="Search" 
+                            className="textSearch"
                           />
                           <InputGroup.Append>
-                            <button><i className="fa fa-search"></i></button>
+                            <button  className="btn_search_icon"><i className="fa fa-search"></i></button>
                           </InputGroup.Append>
                         </InputGroup>
 

@@ -1,30 +1,36 @@
-.header{
-    margin-top: 20px;
-    margin-left: 20%;
-}
-.header .btnStyle{ 
-    border-radius: 15px;
-    border: 1px solid #ccc;
-    color: #000;
-    width: 10%;
-    font-size: 9px;
-    padding: 3px;
+.header {
+	width: 100%;
 }
 
-.header p{ 
-    font-size: 12px;
+.header .textSearch {
+	height: 30px;
+}
+.header .btn_search_icon {
+	border: 1px solid #ccc;
+	height: 30px;
+}
+.header .btnStyle {
+	border-radius: 15px;
+	border: 1px solid #ccc;
+	color: #000;
+	width: 10%;
+	font-size: 9px;
+	padding: 3px;
 }
 
-.containDataTable{
-    margin-top:20px;
-    background-color: #fff;
+.header p {
+	font-size: 12px;
+	margin-right: 13%;
 }
 
+.containDataTable {
+	margin-top: 20px;
+	background-color: #fff;
+}
 
-
-.containDataTable table img{
-    width:23px;
-    height:23px;
-    border-radius:50%;
-    margin-right:5px;
+.containDataTable table img {
+	width: 23px;
+	height: 23px;
+	border-radius: 50%;
+	margin-right: 5px;
 }

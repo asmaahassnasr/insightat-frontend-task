@@ -1,29 +1,23 @@
 import React from 'react';
-import {NavigationBar} from '../MainNavBar/navigationBar';
-
- 
+import { NavigationBar } from '../MainNavBar/navigationBar';
 
 import './changePassword.css';
 
 export const ChangePassword = () => {
- 
-    return (  
-        <div className="divContent" > 
-            <h3>Insightat</h3>
-        <div className="change-password">
-        <p>New Password</p>
-        <input type="password"/>
+	return (
+		<div className="divContent">
+			<h3>Insightat</h3>
+			<div className="change-password">
+				<p>New Password</p>
+				<input type="password" />
 
-        <p>Confirm Password</p>
-        <input type="password"/>
+				<p>Confirm Password</p>
+				<input type="password" />
 
-        <div className="d-flex justify-content-end">
-            <button className="btn btn-success">Update Password</button>
-        </div>
-        </div>
-
-         </div>
-         
-     )
-}
-
+				<div className="d-flex justify-content-end">
+					<button className="btn">Update Password</button>
+				</div>
+			</div>
+		</div>
+	);
+};

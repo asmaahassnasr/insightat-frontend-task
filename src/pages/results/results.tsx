@@ -21,13 +21,14 @@ export const Results = () => {
                     <div className="col">
                      
                         <div className="row header"> 
-                         <div className="col-6"></div>
+                        <div className="col-6"></div>
                           <InputGroup className="col-4">
                           <FormControl
                             placeholder="Search" 
+                            className="textSerch"
                           />
                           <InputGroup.Append>
-                            <button><i className="fa fa-search"></i></button>
+                            <button className="btn_search_icon"><i className="fa fa-search"></i></button>
                           </InputGroup.Append>
                         </InputGroup>
 
