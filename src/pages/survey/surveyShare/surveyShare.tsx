@@ -1,5 +1,5 @@
 import { SurveyNavBar } from '../components/surveyNavBar';
-// import icon_arrow_down from './icon_arrow_down.svg';
+import icon_arrow_down from './icon_arrow_down.svg';
 import { UploadFile } from '../components/uploadFile';
 import './surveyShare.css';
 export const SurveyShare = () => {
@@ -7,7 +7,7 @@ export const SurveyShare = () => {
         <>
             <SurveyNavBar />
             <div className="container share-content">
-                <div className="caption">
+                <div className="caption"> 
                     <h6>How do you want to share your survey?</h6>
                 </div>
 
@@ -20,7 +20,7 @@ export const SurveyShare = () => {
                         <div className="link-container">
                             <a href="#" className="lerom-link">https://loremipsum.com/random/a3ghtrtp</a>
                             <a href="#" className="copy">copy</a>
-                            <button className="download"><img src="icon/icon-arrow-down.svg" alt="" />
+                            <button className="download"><img src={icon_arrow_down} alt="" />
                                 Download QR Code
                             </button>
                         </div>
