@@ -2,6 +2,7 @@ import React from 'react';
 import create_your_project from '../assets/image/create_your_project.png';
 import build_your_project from '../assets/image/build_your_project.png';
 import design_your_project from '../assets/image/design_your_project.png';
+import {Footer} from '../footer/footer';
 import share_your_project from '../assets/image/share_your_project.png';
 import {NavigationBar} from '../MainNavBar/navigationBar';
 import analyze_your_project from '../assets/image/analyze_your_project.png';
@@ -73,6 +74,7 @@ export const HowItWorks = () => {
                 <img src={analyze_your_project} />
                 </div>
             </div>
+            <Footer />
             </div>
 
         </>
