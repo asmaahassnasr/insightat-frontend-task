@@ -2,6 +2,7 @@ import React from 'react';
 import create_your_project from '../assets/image/create_your_project.png';
 import build_your_project from '../assets/image/build_your_project.png';
 import design_your_project from '../assets/image/design_your_project.png';
+import {Link} from 'react-router-dom';
 import {Footer} from '../footer/footer';
 import share_your_project from '../assets/image/share_your_project.png';
 import {NavigationBar} from '../MainNavBar/navigationBar';
@@ -28,7 +29,7 @@ export const HowItWorks = () => {
 
             <div className="how-it-works__item">
                 <div className="how-it-works__item__image">
-                <img src={build_your_project} />
+               <Link to="/build"><img src={build_your_project} /></Link>
                 </div>
                 <div className="how-it-works__item__desc">
                 <h1>Build Your Project</h1>
@@ -45,13 +46,13 @@ export const HowItWorks = () => {
                 <p>Make Your Project Looks Beautiful In The Way You Want</p>
                 </div>
                 <div className="how-it-works__item__image">
-                <img src={design_your_project} />
+                <Link to="/design"><img src={design_your_project} /></Link>
                 </div>
             </div>
 
             <div className="how-it-works__item">
                 <div className="how-it-works__item__image">
-                <img src={share_your_project} />
+                <Link to="/share"><img src={share_your_project} /></Link>
                 </div>
                 <div className="how-it-works__item__desc">
                 <h1>Share Your Project</h1>
@@ -71,7 +72,7 @@ export const HowItWorks = () => {
                 </p>
                 </div>
                 <div className="how-it-works__item__image">
-                <img src={analyze_your_project} />
+                <Link to="/analyze"><img src={analyze_your_project} /></Link>
                 </div>
             </div>
             <Footer />
