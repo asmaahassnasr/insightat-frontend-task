@@ -1,3 +1,5 @@
+/* .........................................Start Common............................................. */
+
 * {
 	box-sizing: border-box;
 	-webkit-box-sizing: border-box;
@@ -6,19 +8,23 @@
 	padding: 0;
 	margin: 0;
 }
-
+body {
+	background-color: #fff;
+}
 :root {
 	--main-bg-color: #fd6969;
 	--second-color: #3080c5;
 	--yellow-color: #fdc769;
 	--light-black: #333340;
 	--light-gray: rgb(158 158 165);
+	--dark-gray: rgb(187 189 196);
 }
+/* .........................................End Common............................................. */
+
+/* ......................................... Start NavBar............................................. */
 .navbar {
 	background-color: #fff !important;
-}
-.navbar-nav {
-	margin-right: 10%;
+	padding: 1% 8%;
 }
 .navbar-brand {
 	color: var(--light-black) !important;
@@ -44,7 +50,6 @@
 	color: var(--light-black) !important;
 	width: 100%;
 	text-align: center;
-	margin-right: 10px !important;
 	outline: none;
 	transition: all .5s ease-in-out;
 }
@@ -52,3 +57,26 @@
 	color: #fff !important;
 	background-color: var(--main-bg-color);
 }
+
+/* .........................................End NavBar............................................. */
+/* .........................................Start Home Page ............................................. */
+.home-container {
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+}
+.home-details {
+	padding-top: 5%;
+}
+.home-data {
+	padding: 10%;
+}
+.home-img {
+	width: 50%;
+	height: 80%;
+}
+.home-img img {
+	width: 100%;
+	height: 100%;
+}
+/* .........................................End Home Page ............................................. */
