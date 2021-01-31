@@ -7,7 +7,7 @@ import icon_trash from '../components/icon/icon_trash.svg';
 import {ToggleQuestion} from '../components/toggelQuestion';
 import {RadioGroupQuestion} from '../components/radioGroupQuestion';
 import {BooleanQuestion} from '../components/booleanQuestion';
-import './surveyBuild.css';
+// import './surveyBuild.css';
 export const SurveyBuild = () => {
     return (
         <>

@@ -28,7 +28,7 @@ import { SurveyShare } from './pages/survey/surveyShare/surveyShare';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'survey-react/survey.css';
 import 'font-awesome/css/font-awesome.css';
-
+import './App.css';
 function App() {
 	return (
 		<React.Fragment>

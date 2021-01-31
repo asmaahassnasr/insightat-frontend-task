@@ -1,7 +1,7 @@
 import React from 'react';
 import { SurveyNavBar } from '../components/surveyNavBar';
 import { SurveyAnalyzeSideBar } from './surveyAnalyzeSideBar';
-import './surveyAnalyze.css';
+// import './surveyAnalyze.css';
 export const SurveyAnalyze = () => {
     return (
         <> 

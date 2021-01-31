@@ -3,7 +3,7 @@ import Header from './Header.png';
 import customer from './customer.png';
 import { ProfileNavBar} from './profileNavBar';
 import { NavLink } from "react-router-dom";
-import './profile.css';
+// import './profile.css';
 export const Profile = () => {
     return (
         <>

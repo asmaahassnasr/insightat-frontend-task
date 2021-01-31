@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavigationBar } from '../MainNavBar/navigationBar';
 
-import './changePassword.css';
+// import './changePassword.css';
 
 export const ChangePassword = () => {
 	return (

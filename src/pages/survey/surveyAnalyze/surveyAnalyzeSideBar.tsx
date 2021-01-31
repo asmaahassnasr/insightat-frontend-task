@@ -1,5 +1,5 @@
 import {Link} from 'react-router-dom';
-import './surveyAnalyzeSideBar.css';
+// import './surveyAnalyzeSideBar.css';
 
 export const SurveyAnalyzeSideBar = () => {
     return (

@@ -9,7 +9,7 @@ import { MatrixQuestion } from "../components/matrixQuestion";
 import { DropDownQuestion } from '../components/dropDownQuestion';
 import { ImgPickerQuestion } from "../components/imgPickerQuestion";
 import { CheckBoxQuestion } from '../components/checkBoxQuestion';
-import './surveyDesign.css';
+// import './surveyDesign.css';
 export const SurveyDesign = () => {
     return (
         <>

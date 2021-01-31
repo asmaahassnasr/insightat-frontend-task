@@ -7,7 +7,7 @@ import {Footer} from '../footer/footer';
 import share_your_project from '../assets/image/share_your_project.png';
 import {NavigationBar} from '../MainNavBar/navigationBar';
 import analyze_your_project from '../assets/image/analyze_your_project.png';
-import './howItWorks.css'
+// import './howItWorks.css'
 
 export const HowItWorks = () => {
     return (

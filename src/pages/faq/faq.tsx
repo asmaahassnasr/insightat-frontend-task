@@ -1,7 +1,7 @@
 import React from 'react';
 import {NavigationBar} from '../MainNavBar/navigationBar';
 
-import './faq.css'; 
+// import './faq.css'; 
 
 
 export const FAQ = () => {

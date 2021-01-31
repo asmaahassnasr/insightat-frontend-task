@@ -1,7 +1,7 @@
 import { SurveyNavBar } from '../components/surveyNavBar';
 import icon_arrow_down from './icon_arrow_down.svg';
 import { UploadFile } from '../components/uploadFile';
-import './surveyShare.css';
+// import './surveyShare.css';
 export const SurveyShare = () => {
     return (
         <>

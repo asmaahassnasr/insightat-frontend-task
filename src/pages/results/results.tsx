@@ -8,7 +8,7 @@ import Table from 'react-bootstrap/Table';
 
 import customer from '../assets/image/customer.png';
 
-import './results.css';  
+// import './results.css';  
 
 
 export const Results = () => {

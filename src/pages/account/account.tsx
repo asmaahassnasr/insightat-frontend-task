@@ -1,7 +1,7 @@
 import React from 'react';
 import {NavigationBar} from '../MainNavBar/navigationBar';
 
-import './account.css'; 
+// import './account.css'; 
 
 
 export const Account = () => {

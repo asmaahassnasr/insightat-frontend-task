@@ -307,3 +307,31 @@ span.svd-main-color .svda-add-custom-item {
 	background-color: #fff;
 	padding: 20px;
 }
+
+ul.editor-tabs {
+	/* border: none;
+	padding: 0;
+	margin: 0;
+	height: 0;
+	width: 0; */
+}
+
+ul.editor-tabs li .svd-tab-text {
+	position: absolute;
+	z-index: 10000;
+	color: #66727e !important;
+}
+ul.editor-tabs li:first-child .svd-tab-text {
+	top: -3%;
+	left: 48%;
+}
+ul.editor-tabs li:last-child .svd-tab-text {
+	top: -3%;
+	right: 36%;
+}
+ul.editor-tabs li .svd-tab-text:hover {
+	color: #000 !important;
+}
+ul.editor-tabs li.active .svd-tab-text {
+	border-bottom: 2px solid red !important;
+}

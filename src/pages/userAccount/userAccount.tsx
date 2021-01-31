@@ -6,7 +6,7 @@ import Table from 'react-bootstrap/Table';
  
 import customer from '../assets/image/customer.png';
 
-import './userAccount.css';  
+// import './userAccount.css';  
 
 
 export const UserAccount = () => {

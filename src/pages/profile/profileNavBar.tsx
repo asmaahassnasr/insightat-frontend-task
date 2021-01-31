@@ -1,5 +1,5 @@
 import {NavLink} from 'react-router-dom';
-import './profileNav.css';
+// import './profileNav.css';
 import Group_250 from './Group_250.svg';
 export const ProfileNavBar = () => {
     return (

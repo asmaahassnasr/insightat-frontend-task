@@ -5,7 +5,7 @@ import {NavigationBar} from '../MainNavBar/navigationBar';
 import tick from '../assets/image/tick.png';
 
 
-import './pricing.css';
+// import './pricing.css';
 
 export const Pricing = () => {
 

@@ -16,7 +16,7 @@ import chuttersnap_617671_unsplash from '../components/icon/chuttersnap_617671_u
 import { DropDownQuestion } from '../components/dropDownQuestion';
 import { ImgPickerQuestion } from "../components/imgPickerQuestion";
 import { CheckBoxQuestion } from '../components/checkBoxQuestion';
-import './surveyDesign.css';
+// import './surveyDesign.css';
 export const SurveyDesignHtml = () => {
     return (
         <>

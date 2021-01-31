@@ -9,7 +9,7 @@ import Rectangle_20 from "../components/icon/Rectangle_20.svg" ;
 import Group_237 from "../components/icon/Group_237.svg";
 import icon_plus from "../components/icon/icon_plus.svg";
 import n_n from "../components/icon/n_n.svg"
-import './surveyDesignSideBar.css';
+// import './surveyDesignSideBar.css';
 
 export const SurveyDesignSideBar = () => {
     return (

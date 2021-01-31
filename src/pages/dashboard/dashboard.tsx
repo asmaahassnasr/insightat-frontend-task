@@ -3,7 +3,7 @@ import {SurveyNavBar} from '../survey/components/surveyNavBar';
 import { SurveyAnalyzeSideBar } from '../survey/surveyAnalyze/surveyAnalyzeSideBar';
 
 import { Bar ,Doughnut} from 'react-chartjs-2';
-import './dashboard.css';  
+// import './dashboard.css';  
 
 
 export const Dashboard = () => {

@@ -4,7 +4,7 @@ import Group_250 from './icon/Group_250.svg';
 import Rectangle_153 from './icon/Rectangle_153.svg';
 import icon_home from './icon/icon_home.svg';
 import round_arrow_forward_ios_24px from './icon/round_arrow_forward_ios_24px.svg';
-import './surveyNavBar.css';  
+// import './surveyNavBar.css';  
 export const SurveyNavBar = () => {
     return (
         <>

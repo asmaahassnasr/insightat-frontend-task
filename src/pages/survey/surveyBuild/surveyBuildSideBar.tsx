@@ -19,7 +19,7 @@ import Path_129 from "../components/icon/Path_129.svg";
 import Path_117 from "../components/icon/Path_117.svg";
 import baseline_vertical_align_top_24px from "../components/icon/baseline_vertical_align_top_24px.svg";
 import baseline_payment_24px from "../components/icon/baseline_payment_24px.svg";
-import './surveyBuildSideBar.css'; 
+// import './surveyBuildSideBar.css'; 
 export const SurveyBuildSideBar = () => {
   return (
     <>

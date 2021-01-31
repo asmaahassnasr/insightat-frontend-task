@@ -4,7 +4,7 @@ import {NavLink} from 'react-router-dom';
 import {Footer} from '../footer/footer';
 import contact_us_background from '../assets/image/contact_us_background.png';
 import drag_drop from '../assets/image/drag_drop.png';
-import './home.css';
+// import './home.css';
 export const Home = () => {
     return (
         <> 

@@ -8,7 +8,7 @@ import Table from 'react-bootstrap/Table';
 
 import customer from '../assets/image/customer.png';
 
-import './adminUser.css';  
+// import './adminUser.css';  
 
 
 export const AdminUser = () => {
