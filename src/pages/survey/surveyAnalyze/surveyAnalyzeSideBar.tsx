@@ -1,22 +1,13 @@
-import {Link} from 'react-router-dom';
-// import './surveyAnalyzeSideBar.css';
+import {NavLink} from 'react-router-dom';
 
 export const SurveyAnalyzeSideBar = () => {
     return (
         <>
-        <div className="col-lg-2 ">
-       <div className="analyze-link">
-        <div className="analyze-link-box active-link">
-          <p><Link to="/analyze"><a>Status</a></Link></p>
+        <div className="analyze-sideBar">
+          <div><NavLink className="sid-elem" to="/analyze">Status</NavLink></div>
+          <div><NavLink className="sid-elem"  to="/dashboard">Results</NavLink></div>
+          <div><NavLink className="sid-elem"  to="/results">Individual Response</NavLink></div>
         </div>
-        <div className="analyze-link-box">
-          <p><Link to="/dashboard"><a>Results</a></Link></p>
-        </div>
-        <div className="analyze-link-box">
-          <p><a>Individual Responses</a></p>
-        </div>
-       </div>  
-     </div>
         </>
      )
 }

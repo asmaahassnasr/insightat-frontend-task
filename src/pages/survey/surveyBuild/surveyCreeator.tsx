@@ -1,9 +1,9 @@
 import React, { Component, createRef } from "react";
 import * as Survey from "survey-knockout";
 import * as SurveyCreator from "survey-creator";
-import { SurveyNavBar } from './surveyNavBar';
-import icon_grid from './icon/icon_grid.svg';
-import icon_cog from './icon/icon_cog.svg';
+import { SurveyNavBar } from '../components/surveyNavBar';
+import icon_grid from '../components/icon/icon_grid.svg';
+import icon_cog from '../components/icon/icon_cog.svg';
 import 'bootstrap/dist/css/bootstrap.css';
 import "survey-knockout/survey.css";
 import "survey-creator/survey-creator.css";
