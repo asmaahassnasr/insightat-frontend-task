@@ -24,6 +24,9 @@ body {
 .clear-fix {
 	clear: both;
 }
+button {
+	outline: none !important;
+}
 /* .........................................End Common............................................. */
 
 /* ......................................... Start Main NavBar............................................. */
@@ -76,6 +79,7 @@ body {
 }
 .fa-angle-right:before,
 .fa-home::before,
+.fa-arrow-down::before,
 .survey-satisfy {
 	color: var(--light-black) !important;
 }
@@ -115,10 +119,12 @@ body {
 .survey-right {
 	margin-left: 30%;
 }
+
 .dropdown-menu {
-	position: absolute;
-	top: 100%;
+	position: absolute !important;
+	top: 100% !important;
 	right: 0 !important;
+	left: initial !important;
 }
 
 .dropdown-menu li {
@@ -599,7 +605,8 @@ ul.editor-tabs li.active .svd-tab-text {
 /* .....................................End Survey Creator ................................................ */
 
 /* .....................................Satart Analyze Status Page ................................................ */
-.analyze-status {
+.analyze-status,
+.survey-share {
 	height: 100vh;
 }
 .analyze-status-body {
@@ -659,3 +666,89 @@ ul.editor-tabs li.active .svd-tab-text {
 	font-size: 10px !important;
 }
 /* .....................................End  Analyze Status Page................................................ */
+/* .....................................Start Survey Share Page................................................ */
+
+.share-content {
+	height: 65vh;
+	color: var(--black) !important;
+	padding: 3% 20%;
+}
+.share-content .share-ques {
+	padding: 0;
+	margin: 0;
+	font-size: 18px;
+	font-weight: 500;
+	padding-bottom: 5%;
+}
+.share-ways {
+	border: 1px solid var(--light-silver);
+	height: 100%;
+}
+.web-share {
+	padding: 3%;
+}
+.share-main-p {
+	font-size: 12px;
+	font-weight: bold;
+	padding-bottom: 1% !important;
+	margin: 0 !important;
+}
+.share-second-p {
+	font-size: 10px;
+	font-weight: 500;
+	padding-bottom: 1% !important;
+	margin-top: 10px;
+}
+.web-share .share-generatedText {
+	background-color: var(--light-silver);
+	padding: 5px 10px;
+	width: 60%;
+	display: inline-block;
+	border-radius: 20px;
+}
+.web-share span {
+	font-size: 10px;
+	color: black !important;
+	font-weight: 500;
+}
+.copy-btn {
+	margin: 0 4%;
+	padding: 10px 20px !important;
+}
+.fa-arrow-down::before {
+	margin-right: 10px;
+}
+.other-share-ways {
+	border-top: 1px solid var(--light-silver);
+	width: 100%;
+	height: 85%;
+}
+
+.social-media-share,
+.web-page-share,
+.add-profile-share {
+	width: 33%;
+	float: left;
+	padding: 2%;
+}
+.social-media-share,
+.web-page-share {
+	border-right: 1px solid var(--light-silver) !important;
+}
+.share-btn {
+	background-color: #fff;
+	color: black !important;
+	border-radius: 20px;
+	border: 1px solid var(--light-silver);
+	padding: 8px 20px !important;
+	font-size: 12px;
+	font-weight: 500 !important;
+}
+.social-media-box span {
+	font-size: 10px !important;
+	padding: 8px 12px;
+	margin-left: 5px;
+	background-color: var(--light-silver);
+	border-radius: 50%;
+}
+/* .....................................End Survey Share Page............................................... */
