@@ -32,7 +32,10 @@ button {
 /* ......................................... Start Main NavBar............................................. */
 .navbar {
 	background-color: #fff !important;
-	padding: 1% 8%;
+	padding: 1% 2%;
+}
+.home-container .navbar {
+	padding: 1% 8% !important;
 }
 .navbar-brand {
 	color: black !important;
@@ -778,3 +781,41 @@ ul.editor-tabs li.active .svd-tab-text {
 	border-radius: 50%;
 }
 /* .....................................End Survey Share Page............................................... */
+
+/* .......................................Start Privacy Page ..............................................*/
+.privacy {
+	padding: 3% 0 6% 0 !important;
+	width: 100%;
+	position: relative;
+}
+.privacy h1 {
+	font-size: 1.5rem;
+	font-weight: 600;
+	margin: 0 !important;
+	color: var(--black);
+}
+.privacy-updates {
+	font-size: 13px;
+	font-weight: 400;
+	color: var(--dark-gray);
+	padding: 1% 0 2% 0 !important;
+	margin: 0 !important;
+}
+.privacy-hr {
+	width: 5%;
+	background-color: var(--main-bg-color) !important;
+	margin: 0 0 2% 0 !important;
+	padding: 1px;
+}
+.privacy-text {
+	font: 15px;
+	font-weight: 500;
+	color: var(--black);
+	padding: 1% 12% 1% 0 !important;
+	margin: 0 !important;
+	text-align: start;
+}
+.privacy-bolder-text {
+	font-weight: 700 !important;
+}
+/* ......................................................End Privacy Page..................................... */
