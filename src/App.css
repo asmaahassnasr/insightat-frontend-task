@@ -27,8 +27,17 @@ body {
 button {
 	outline: none !important;
 }
+.container {
+	position: relative;
+}
 .upper-text {
 	text-transform: uppercase;
+}
+.fl-left {
+	float: left;
+}
+.fl-right {
+	float: right;
 }
 /* .........................................End Common............................................. */
 
@@ -822,3 +831,42 @@ ul.editor-tabs li.active .svd-tab-text {
 	font-weight: 700 !important;
 }
 /* ......................................................End Privacy Page..................................... */
+/* ......................................................Start Solutions Page..................................... */
+
+.solutions-container {
+	position: relative;
+	width: 100%;
+	padding: 3% 5% !important;
+}
+.solution-box {
+	width: 100%;
+}
+.solution-box-data {
+	width: 75%;
+	padding: 2% !important;
+}
+.solution-box-data h4 {
+	color: var(--black);
+	padding: 0 0 0 1% !important;
+	font-weight: 500;
+}
+.solution-box-data p {
+	font-size: 22px;
+	color: var(--black);
+	font-weight: 400;
+	margin: 0 0 4% !important;
+	padding: 0 !important;
+}
+.solution-box-img {
+	width: 25%;
+	align-items: center !important;
+	padding: 2% !important;
+}
+.solution-box-img img {
+	box-shadow: 0 59px 99px rgb(0 0 0 / 16%);
+	border-radius: 50%;
+	border: white;
+	width: 70%;
+	vertical-align: middle !important;
+}
+/* ......................................................End Solutions Page..................................... */
