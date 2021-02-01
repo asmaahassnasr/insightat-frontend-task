@@ -7,8 +7,6 @@ import icon_cog from './icon/icon_cog.svg';
 import 'bootstrap/dist/css/bootstrap.css';
 import "survey-knockout/survey.css";
 import "survey-creator/survey-creator.css";
-// import './surveyCreator.css';
-// import '../surveyBuild/surveyBuild.css';
 SurveyCreator.StylesManager.applyTheme("bootstrap");
 
 class SurveyComponent extends Component {
@@ -54,6 +52,7 @@ class SurveyComponent extends Component {
         return (
             <>
                 <SurveyNavBar />
+                <hr className="survey-hr" />
                 {/* <div className="build-user-data creator-welcom">
                     <span className="build-welcomebox">
                         <span className="pt-3">W</span> </span>

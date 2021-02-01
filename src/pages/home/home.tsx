@@ -12,20 +12,20 @@ export const Home = () => {
 			<NavigationBar />
 			<div className="row home-details">
 				<div className="col-sm-6 home-data">
-					<p>
-						<span>New</span>
-						Choose from over 200 Templates
+					<p className="bg-p">
+						<span className="home-new">New</span>
+						<span className="home-choose">Choose from over 200 Templates</span>
 						<span>
 							<i className="fas fa-angle-right" />
 						</span>
 					</p>
-					<p>
-						Data Collection Tool,<br />Simply Powerful and Beautiful
+					<p className="home-text">
+						Data Collection Tool,<br />Simply Powerful and <br />Beautiful
 					</p>
 					<p>
-						<span>Sign Up for Free</span>
-						<span>|</span>
-						<span>14 Day Free Trial,No CC Required</span>
+						<NavLink className="sign-up-for-free" to="/signUp">Sign up for free</NavLink>
+						<span className="home-sep">|</span>
+						<span className="home-free-trial">14 Day Free Trial, No CC Required</span>
 					</p>
 				</div>
 				<div className="col-sm-6 home-img" >

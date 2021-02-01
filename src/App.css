@@ -15,13 +15,14 @@ body {
 	--main-bg-color: #fd6969;
 	--second-color: #3080c5;
 	--yellow-color: #fdc769;
-	--light-black: #333340;
-	--light-gray: rgb(158 158 165);
+	--light-black: #898992;
+	--black: #333340;
+	--light-gray: rgb(245 245 255);
 	--dark-gray: rgb(187 189 196);
 }
 /* .........................................End Common............................................. */
 
-/* ......................................... Start NavBar............................................. */
+/* ......................................... Start Main NavBar............................................. */
 .navbar {
 	background-color: #fff !important;
 	padding: 1% 8%;
@@ -33,7 +34,7 @@ body {
 	border-bottom: 1px solid var(--main-bg-color);
 }
 .nav-link {
-	color: var(--light-gray) !important;
+	color: var(--light-black) !important;
 	font-size: 13px;
 	font-weight: 400;
 	margin-left: 13px;
@@ -47,7 +48,7 @@ body {
 .signUp {
 	border: 1px solid var(--main-bg-color);
 	border-radius: 30px;
-	color: var(--light-black) !important;
+	color: var(--black) !important;
 	width: 100%;
 	text-align: center;
 	outline: none;
@@ -58,7 +59,109 @@ body {
 	background-color: var(--main-bg-color);
 }
 
-/* .........................................End NavBar............................................. */
+/* .........................................End Main NavBar............................................. */
+
+/* .........................................Start Survey NavBar ............................................. */
+.survey-nav {
+	padding: 0.5% 1% 0% 1% !important;
+}
+.survey-nav-brand {
+	color: var(--main-bg-color) !important;
+	font-weight: 500;
+	font-size: 17px;
+}
+.fa-angle-right:before,
+.fa-home::before,
+.survey-satisfy {
+	color: var(--light-black) !important;
+}
+/* .survey-nav-sep, */
+.fa-angle-right:before,
+.fa-home::before {
+	margin-left: 15px;
+}
+.fa-home::before {
+	border-left: 1px solid var(--light-black);
+	padding-left: 15px;
+}
+.survey-satisfy {
+	font-size: 10px;
+	font-weight: 400;
+}
+
+.survey-active.active {
+	color: var(--black) !important;
+	border: none !important;
+}
+.survey-build {
+	margin-left: 15%;
+}
+.survey-build-active {
+	font-size: 12px;
+}
+.survey-build-active.active {
+	font-weight: 500;
+	color: var(--black) !important;
+	border-color: var(--black) !important;
+}
+.survey-build-active:hover {
+	color: var(--black) !important;
+	font-weight: 500;
+}
+.survey-right {
+	margin-left: 30%;
+}
+.dropdown-menu {
+	position: absolute;
+	top: 100%;
+	right: 0 !important;
+}
+
+.dropdown-menu li {
+	padding-top: 10px;
+}
+.dropdown-menu li a {
+	text-decoration: none !important;
+	color: var(--black) !important;
+	font-size: 13px;
+	font-weight: 500;
+	margin-left: 15px;
+}
+.survey-dropdown-help {
+	padding-bottom: 5px;
+	border-bottom: 1px solid var(--light-black);
+}
+.survey-preview {
+	margin-right: 15px;
+	background: var(--light-gray);
+	color: var(--black);
+	font-size: 10px;
+	font-weight: 500;
+}
+.dropdown-D {
+	margin-right: 5px !important;
+	border: 1px solid var(--dark-gray);
+	color: var(--dark-gray);
+	border-radius: 20px;
+	padding: 5px 10px;
+	text-decoration: none;
+}
+.dropdown-toggle::after {
+	display: inline-block;
+	margin-left: 0.255em;
+	vertical-align: 0.255em;
+	content: "";
+	color: var(--dark-gray);
+	border-top: 0.2em solid;
+	border-right: 0.2em solid transparent;
+	border-bottom: 0;
+	border-left: 0.2em solid transparent;
+}
+.dropdown-D:hover {
+	border-bottom: none !important;
+}
+/* .........................................End Survey NavBar ............................................. */
+
 /* .........................................Start Home Page ............................................. */
 .home-container {
 	width: 100%;
@@ -79,4 +182,382 @@ body {
 	width: 100%;
 	height: 100%;
 }
+
+.bg-p {
+	background-color: var(--light-gray);
+	padding: 2px 5px;
+	border-radius: 20px;
+	width: 68%;
+}
+.home-new {
+	color: #fff;
+	background: var(--second-color);
+	border-radius: 20px;
+	padding: 3px 10px;
+	font-size: 11px;
+	text-transform: uppercase;
+}
+.home-choose {
+	color: var(--light-black);
+	font-size: 13px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.fa-angle-right:before {
+	color: var(--light-black);
+}
+.home-text {
+	color: var(--black);
+	font-size: 30px;
+	font-weight: 500;
+}
+.sign-up-for-free {
+	background-color: var(--main-bg-color);
+	color: #fff;
+	border-radius: 20px;
+	padding: 6px 14px;
+	font-size: 12px;
+	border: 1px solid var(--main-bg-color);
+	transition: .5s all ease-in;
+}
+.sign-up-for-free:hover {
+	text-decoration: none;
+	color: var(--main-bg-color);
+	background-color: #fff;
+}
+.home-sep {
+	color: var(--light-black);
+	margin: 0px 20px;
+	font-size: 20px;
+}
+
+.home-free-trial {
+	color: var(--light-black);
+	font-size: 11px;
+}
+
 /* .........................................End Home Page ............................................. */
+
+/* ...........................................Start Survey Creator .....................................*/
+
+#creatorElement {
+	height: 100vh;
+	position: relative;
+}
+.header-sidebar-creator {
+	position: absolute;
+	top: 62px;
+	left: 0px;
+	z-index: 1000;
+	height: 100% !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	padding-left: 5px !important;
+	padding-right: 8px !important;
+	border-right: 1px solid rgba(0, 0, 0, .1) !important;
+	padding-bottom: 0 !important;
+}
+.svd-designer-container {
+	margin-left: 15px !important;
+}
+.header-sidebar-creator img {
+	margin-top: 30px;
+	width: 15px !important;
+	height: 15px !important;
+}
+.svd_toolbox_item .svd_toolbox_item_text {
+	font-weight: 400;
+	line-height: 1.5;
+	color: #66727e;
+	text-align: left;
+	display: inline-block;
+	font-size: 10px;
+	text-transform: capitalize;
+	font-family: normaltext;
+}
+.svd_container {
+	height: 300vh !important;
+}
+.creator-welcom {
+	width: 79% !important;
+	position: absolute !important;
+	top: 13% !important;
+	left: 19% !important;
+	z-index: 99 !important;
+}
+#creatorElement .svd_container .svd_commercial_container {
+	display: none !important;
+}
+#creatorElement .svd_container svd-pages-editor {
+	display: none !important;
+}
+#creatorElement svd-splitter div.svd-splitter {
+	display: none !important;
+	width: 0px !important;
+	padding: 0px !important;
+}
+.svd_container .svd_content .svd_survey_designer .svd_editors .svd_questions_editor {
+	min-height: auto !important;
+}
+#creatorElement .svd_container .svd_toolbar {
+	display: none !important;
+}
+#creatorElement .svd-designer-container--left-side .svd-icon-container--left-open,
+.svd-designer-container--left-side .svd-icon-container--left-close {
+	display: none;
+}
+#creatorElement .svd_container .svd_content .svd_survey_designer .svd_editors .svd_questions_editor {
+	padding-top: 0 !important;
+}
+#creatorElement .svd_survey_designer .svd_editors {
+	padding: 5% 2% 0 2% !important;
+}
+.svd_container .svd_content {
+	padding: 0 !important;
+}
+.svd_container .svd_content .svd_survey_designer {
+	position: relative;
+}
+.svd-designer-container--left-side {
+	width: 17.51% !important;
+	max-width: 17.51% !important;
+	flex-basis: 17.51% !important;
+	position: relative !important;
+	background-color: #fff;
+}
+.svd-designer-tabbed-container__tab-header-container div:first-child,
+.svd-designer-tabbed-container__tab-header-container div:last-child {
+	width: 100% !important;
+	outline: none !important;
+	font-size: 9px;
+	color: black !important;
+	margin: 9% 0 0 5%;
+}
+.svd_container .svd-svg-icon {
+	width: 13px !important;
+	height: 13px !important;
+}
+.svd_toolbox_item .svd_toolbox_item_text {
+	font-size: 10px;
+	color: black;
+	font-weight: lighter;
+}
+.svd-designer-tabbed-container__tab-header-active {
+	border-bottom: 2px solid #f3f3f5;
+}
+.svd-survey-placeholder-root .svd-survey-placeholder .svd-empty-message-container .svd-empty-message {
+	color: #b4b4bf !important;
+}
+.svd-designer-tabbed-container__tab-header:hover {
+	color: black;
+}
+.svd-designer-tabbed-container__tab-header-container div:last-child {
+	display: none;
+}
+.svd_container .svd_toolbox {
+	margin: 7% 0 0 10%;
+	background-color: #fff;
+}
+.svd_toolbox_item {
+	padding: 3% !important;
+	background-color: #f3f3f5;
+	outline: none !important;
+	margin: 0 11% 6% 0;
+}
+.svd_container .svd_content .svd-toolbar-dropdown .svd_custom_select .svd-toolbar-dropdown__select {
+	outline: none;
+}
+.svd_container .svd_custom_select:before {
+	background-color: rgb(59, 56, 56) !important;
+	outline: none;
+	right: 1px !important;
+	border-radius: 4px !important;
+}
+.svd_editor_control {
+	border-bottom: 1px solid rgb(139, 133, 133) !important;
+	border-radius: 0 !important;
+	border-top: none !important;
+	border-left: none !important;
+	border-right: none !important;
+	padding: 5px !important;
+	align-items: center !important;
+	outline: none !important;
+}
+.svd_container .svd-main-background-color,
+.svd_container .svd-light-background-color {
+	background-color: rgb(59, 56, 56) !important;
+	outline: none !important;
+}
+.svd_container .svd-main-background-color:hover::after {
+	left: 8px;
+	top: 5px;
+	width: 7px;
+	height: 10px;
+	border: solid rgb(59, 56, 56);
+	outline: none !important;
+	border-width: 0 3px 3px 0;
+	transform: rotate(45deg);
+}
+.svd_container .svd-main-background-color:hover {
+	outline: none !important;
+	background-color: #fff !important;
+}
+.svd_container a,
+.svd_container .svd-main-color {
+	color: rgb(59, 56, 56);
+}
+.form-control.svd-control.svd-focusable,
+input.form-control .svd-accordion-tab-header,
+.svd-dark-border-color {
+	outline: none !important;
+}
+select {
+	height: 34px !important;
+	font-size: 12px !important;
+	line-height: 20px !important;
+}
+.svd_object_editor span {
+	font-size: 12px;
+}
+.btn-secondary,
+.btn,
+.sv-btn,
+.btn-primary,
+.svd-logic-button,
+.btn-danger,
+.svd-logic-add-condition-button,
+.svd-focusable {
+	outline: none !important;
+	font-size: 10px !important;
+	padding: 5px !important;
+	width: auto;
+}
+.sjs-cb-switch input:checked + .sjs-cb-switch_control {
+	background-color: #71e6c6;
+	border-color: #71e6c6;
+}
+.sjs-cb-switch input:checked + .sjs-cb-switch_control .sjs-cb-switch__button {
+	background-color: #f4f4f4;
+	border-color: #71e6c6;
+	right: 0;
+}
+table.svd_items_table thead,
+table.svd_items_table tbody tr td:first-child,
+table.svd_items_table tbody tr td:first-child .svd-drag-handle {
+	font-size: 8px !important;
+}
+table.svd_items_table tbody tr td:first-child .svd-drag-handle svg.svd-svg-icon,
+table.svd_items_table tbody tr td:first-child .svd-itemvalue-action svg.svd-svg-icon,
+table.svd_items_table tbody tr td.svd-textitems-column svg.svd-svg-icon {
+	width: 13px !important;
+	height: 13px !important;
+}
+.sv_main .sv_container {
+	background-color: #fff !important;
+}
+.card-header:first-child {
+	border: none !important;
+	border-radius: 0px !important;
+}
+.svd_container a:focus,
+.svd_container div:focus,
+.svd_container span:focus,
+.svd_container select:focus,
+.svd_container tr:focus,
+.svd_container input[type="checkbox"]:focus + span.checkmark {
+	outline: none !important;
+}
+.svd_container .svd-primary-icon .svd-svg-icon {
+	fill: #b4b4bf;
+}
+.sv_main .sv_logo img {
+	width: 150px;
+	height: 100px;
+}
+h4.title_editable {
+	padding-bottom: 1%;
+}
+.svd_page > .description_editable {
+	margin-bottom: 7%;
+}
+.svda-question-actions select.svda_current_type {
+	border: none;
+	outline: none;
+	cursor: pointer;
+	background: #e0e0e0;
+	color: rgb(78, 74, 74);
+	font-size: 10px !important;
+	align-items: center;
+	text-align: center;
+	height: 35px !important;
+	line-height: 19px !important;
+}
+.svda_question_action .svda_current_type {
+	height: 30px !important;
+	width: 165px !important;
+	align-items: center;
+	text-align: center;
+	padding: 4px;
+	border: none !important;
+	font-size: 10px !important;
+}
+.svda-question-actions select.svda_current_type option {
+	background: #e0e0e0;
+	color: rgb(78, 74, 74);
+}
+.sv_technical,
+.svda-add-new-item,
+span.svda_current_type,
+span.svd-main-color .svda-add-custom-item {
+	color: #b4b4bf !important;
+}
+.svda-select-items-editor .svda-select-items-title .svd-main-color,
+.svda_question_action--separated span:nth-child(2) {
+	color: #b4b4bf;
+	font-weight: bold;
+	font-size: small;
+}
+.sv_row div div:nth-child(2) div.btn-group label {
+	background-color: black;
+	color: #fff;
+	margin-right: 10px;
+}
+.sv-boolean__switch {
+	background-color: #71e6c6 !important;
+}
+.panel-body.card-block.mt-4 {
+	background-color: #f3f3f5;
+}
+.svd_container .svd_content .svd_survey_designer .svd_editors .svd_questions_editor .panel-body .svd_question,
+.svd_container .svd_content .svd_survey_designer .svd_editors .svd_questions_editor .card-block .svd_question {
+	background-color: #fff;
+	padding: 20px;
+}
+ul.editor-tabs.svd-tabs {
+	display: none;
+}
+ul.editor-tabs li .svd-tab-text {
+	position: absolute;
+	z-index: 10000;
+	color: #66727e !important;
+	display: none;
+}
+ul.editor-tabs li:first-child .svd-tab-text {
+	top: -3%;
+	left: 48%;
+}
+ul.editor-tabs li:last-child .svd-tab-text {
+	top: -3%;
+	right: 36%;
+}
+ul.editor-tabs li .svd-tab-text:hover {
+	color: #000 !important;
+}
+ul.editor-tabs li.active .svd-tab-text {
+	border-bottom: 2px solid red !important;
+}
+.survey-hr {
+	padding: 0 !important;
+	margin: 0 !important;
+}
+/* .....................................End Survey Creator ................................................ */

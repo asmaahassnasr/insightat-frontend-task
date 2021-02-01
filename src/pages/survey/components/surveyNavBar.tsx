@@ -1,54 +1,62 @@
 import React from 'react';
 import {NavLink} from 'react-router-dom';
-import Group_250 from './icon/Group_250.svg';
-import Rectangle_153 from './icon/Rectangle_153.svg';
-import icon_home from './icon/icon_home.svg';
-import round_arrow_forward_ios_24px from './icon/round_arrow_forward_ios_24px.svg';
-// import './surveyNavBar.css';  
 export const SurveyNavBar = () => {
     return (
-        <>
-            <div className="container-fluid share-navbar-sec">
-            <div className="row  navbar ">
-            <div className="col-lg-4 col-md-3 col-sm-3 col-xs-3">
-                <div className="logo-content">
-                <NavLink to="/" className="nav-brand">
-                    Insightat
-                </NavLink>
-                <img src={Rectangle_153} alt=""></img>
-                <img src={icon_home} alt=""></img>
-                <img src={round_arrow_forward_ios_24px} alt=""></img>
-                <span>
-                    Customer Satisfaction Survey</span>
-                </div>
-            </div>
-            <div className="col-lg-2 col-md-2 col-sm-2 col-xs-2 offset-2">
-                <div className="navbar-link ">
-                <ul className="navbar-list">
-                    <li className="navbar-item active"><NavLink to="/build" className="navLink">build</NavLink></li>
-                    <li className="navbar-item"><NavLink to="/design">design</NavLink></li>
-                    <li className="navbar-item"><NavLink to="/share">share</NavLink></li>
-                    <li className="navbar-item"><NavLink to="/analyze">analyze</NavLink></li>
-                </ul>
-                </div>
-            </div>
-            <div className="col-lg-2 col-md-2 col-sm-2 col-xs-2 offset-2">
-            <div className="previw">
-                <NavLink to="/">preview</NavLink>
-            
-                <img id="list-control" src={Group_250} alt="" ></img>
-                    <div className="side-list">
-                    <ul className="list">
-                        <li className="side-list-item">my accout </li>
-                        <li className="side-list-item">contacts</li>
-                        <li className="side-list-item border-link-slide">help</li>
-                        <li className="side-list-item">log out</li>
-                    </ul>
-                    </div> 
-            </div>
-            </div>
-            </div>
-            </div> 
-        </>
+        <> 
+		<nav className="navbar navbar-expand-lg navbar-light bg-light survey-nav">
+  			<NavLink className="navbar-brand survey-nav-brand" to="/">Insightat</NavLink>
+			  <button className="navbar-toggler" type="button"
+			   data-toggle="collapse" data-target="#navbarSupportedContent" 
+			   aria-controls="navbarSupportedContent" aria-expanded="false" 
+			   aria-label="Toggle navigation">
+   			 <span className="navbar-toggler-icon"></span>
+ 			</button>
+
+  <div className="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul className="nav navbar-nav survey-home-icons">
+      <li className="nav-item">
+        <NavLink className="nav-link survey-active" to="/">
+        {/* <span className="survey-nav-sep">|</span> */}
+        <i className="fal fa-home survey-nav-icon" />
+			  <i className="fas fa-angle-right survey-nav-icon" />
+        </NavLink>
+      </li>
+      <li className="nav-item">
+        <NavLink className="nav-link survey-satisfy survey-active" to="/profile">Customer Statisfaction Survey</NavLink>
+      </li>
+    </ul>
+    <ul className=" nav navbar-nav survey-build">
+    <li className="nav-item">
+        <NavLink className="nav-link survey-build-active" to="/build">Build</NavLink>
+      </li>
+      <li className="nav-item">
+        <NavLink className="nav-link survey-build-active" to="/design">Design</NavLink>
+      </li>
+      <li className="nav-item">
+        <NavLink className="nav-link survey-build-active" to="/share">Share</NavLink>
+      </li>
+	  <li className="nav-item">
+        <NavLink className="nav-link survey-build-active" to="/analyze">Analyze</NavLink>
+      </li>
+    </ul>
+    <ul className="nav navbar-nav navbar-right survey-right">
+      <li><NavLink className="nav-link survey-active survey-preview" to="/">Preview</NavLink></li>
+      <li className="dropdown"><a className="dropdown-toggle" data-toggle="dropdown" href="#">
+        <span className="dropdown-D">D</span>
+        <span className="caret"></span>
+        </a>
+        <ul className="dropdown-menu">
+          <li><a href="#">My Account</a></li>
+          <li><a href="#">Contacts</a></li>
+          <li className="survey-dropdown-help"><a href="#">Help</a></li>
+          <li><a href="#">Log out</a></li>
+        </ul>
+      </li>
+    </ul>
+
+  </div>
+</nav>
+		</>
+
     )
 }

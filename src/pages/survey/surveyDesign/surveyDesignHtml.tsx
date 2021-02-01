@@ -2,20 +2,13 @@
 import React from 'react';
 import { SurveyNavBar } from '../components/surveyNavBar';
 import { SurveyDesignSideBar } from './surveyDesignSideBar';
-import { TextQuestion } from '../components/textQuestion';
-import { RatingQuestion } from '../components/ratingQuestion';
-import { MatrixQuestion } from "../components/matrixQuestion";
 import Rectangle_141 from '../components/icon/Rectangle_141.svg';
-import fog_foggy_forest_4827_svg from '../components/icon/fog_foggy_forest_4827.svg';
 import aaron_burden_363695_unsplash from '../components/icon/aaron_burden_363695_unsplash.svg';
 import shifaaz_shamoon_1113388_unsplash from '../components/icon/shifaaz_shamoon_1113388_unsplash.svg'
 import hd_wallpaper_landscape_mountain_peak_51387 from '../components/icon/hd_wallpaper_landscape_mountain_peak_51387.svg';
 import  fernando_paredes_murillo_462122_unsplash from '../components/icon/fernando_paredes_murillo_462122_unsplash.svg';
 import  fog_foggy_forest_4827 from '../components/icon/fog_foggy_forest_4827.jpg';
 import chuttersnap_617671_unsplash from '../components/icon/chuttersnap_617671_unsplash.svg';
-import { DropDownQuestion } from '../components/dropDownQuestion';
-import { ImgPickerQuestion } from "../components/imgPickerQuestion";
-import { CheckBoxQuestion } from '../components/checkBoxQuestion';
 // import './surveyDesign.css';
 export const SurveyDesignHtml = () => {
     return (
