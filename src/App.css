@@ -27,6 +27,9 @@ body {
 button {
 	outline: none !important;
 }
+.upper-text {
+	text-transform: uppercase;
+}
 /* .........................................End Common............................................. */
 
 /* ......................................... Start Main NavBar............................................. */
@@ -784,7 +787,7 @@ ul.editor-tabs li.active .svd-tab-text {
 
 /* .......................................Start Privacy Page ..............................................*/
 .privacy {
-	padding: 3% 0 6% 0 !important;
+	padding: 3% 0 4% 0 !important;
 	width: 100%;
 	position: relative;
 }
@@ -808,10 +811,10 @@ ul.editor-tabs li.active .svd-tab-text {
 	padding: 1px;
 }
 .privacy-text {
-	font: 15px;
+	font: 18px;
 	font-weight: 500;
 	color: var(--black);
-	padding: 1% 12% 1% 0 !important;
+	padding: 1% 6% 1% 0 !important;
 	margin: 0 !important;
 	text-align: start;
 }
