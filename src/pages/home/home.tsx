@@ -2,9 +2,7 @@ import React from 'react';
 import { NavigationBar } from '../MainNavBar/navigationBar';
 import { NavLink } from 'react-router-dom';
 import { Footer } from '../footer/footer';
-import contact_us_background from '../assets/image/contact_us_background.png';
 import drag_drop from '../assets/image/drag_drop.png';
-// import './home.css';
 export const Home = () => {
 	return (
         <>
@@ -12,13 +10,13 @@ export const Home = () => {
 			<NavigationBar />
 			<div className="row home-details">
 				<div className="col-sm-6 home-data">
-					<p className="bg-p">
+					<div className="bg-p">
 						<span className="home-new">New</span>
 						<span className="home-choose">Choose from over 200 Templates</span>
 						<span>
 							<i className="fas fa-angle-right" />
 						</span>
-					</p>
+					</div>
 					<p className="home-text">
 						Data Collection Tool,<br />Simply Powerful and <br />Beautiful
 					</p>
@@ -32,8 +30,9 @@ export const Home = () => {
                     <img src={drag_drop}></img>
                 </div>
 			</div>
-			<Footer />
+			
 		</div>
+		<Footer />
         </>
 	);
 };
