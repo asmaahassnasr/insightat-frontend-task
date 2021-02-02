@@ -810,7 +810,7 @@ ul.editor-tabs li.active .svd-tab-text {
 	position: relative;
 }
 .privacy h1 {
-	font-size: 1.5rem;
+	font-size: 2rem;
 	font-weight: 600;
 	margin: 0 !important;
 	color: var(--black);
