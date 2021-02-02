@@ -1,60 +1,60 @@
 import React from 'react';
 import question from '../assets/image/question.png';
 import { NavigationBar } from '../MainNavBar/navigationBar';
+import { Footer } from '../footer/footer';
 import customer from '../assets/image/customer.png';
-// import './contactUs.css';
-
+import { NavLink } from 'react-router-dom';
 export const ContactUs = () => {
 	return (
-		<div>
+		<>
 			<NavigationBar />
-			<div className="contact container row">
-				<div className="contact__left col-xl-6 col-12">
-					<div className="contact__form">
-						<h1>Contact Insightat</h1>
-						<p className="contact__label">Name</p>
-						<input className="contact__input" placeholder="Type your name here..." />
-
-						<p className="contact__label">Email</p>
-						<input className="contact__input" placeholder="Type your email here..." />
-
-						<p className="contact__label">Message</p>
-						<textarea className="contact__textarea" rows={10} />
-						<br />
-
-						<button className="contact__button">Send</button>
+			<div className="container">
+				<div className="contactUs-container">
+						<div className="contactUs-form-container fl-left">
+							<h3>Contact Insightat</h3>
+						<form className="form-horizontal" action="/action_page.php">
+						<div className="form-group">
+						<div className="form-group">
+								<label className="control-label col-sm-2" htmlFor="txt">Name</label>
+								<div className="col-sm-10  contact-input">
+									<input type="text" className="form-control" id="txt" 
+									placeholder="Enter Name" name="pwd" />
+      					</div>
 					</div>
-
-					<div className="contact__links">
-						<p>Stay in touch</p>
-						<div className="d-flex">
-							<div className="contact__links__item">
-								<img src={question} />
+							<label className="control-label col-sm-2" htmlFor="email">Email</label>
+							<div className="col-sm-10  contact-input">
+								<input type="email" className="form-control"
+								 id="email" placeholder="Enter email" name="email" />
+      						</div>
 							</div>
-
-							<div className="contact__links__item">
-								<img src={question} />
+								<div className="form-group">
+									<label className="control-label col-sm-2" htmlFor="comment">Message</label>
+									<div  className="col-sm-10  contact-input">
+									<textarea className="form-control" rows={5} id="comment"></textarea>
+									</div>
+								</div>
+						<div className="form-group">
+							<div className="col-sm-10  contact-input">
+								<NavLink to="/" className="form-control contact-button">Send</NavLink>
 							</div>
-
-							<div className="contact__links__item">
-								<img src={question} />
-							</div>
-
-							<div className="contact__links__item">
-								<img src={question} />
-							</div>
-
-							<div className="contact__links__item">
-								<img src={question} />
-							</div>
+								</div>
+  						</form>
+						</div>
+						<div className="contactUs-img fl-right">
+							<img className="fl-right" src={customer} />
+						</div>
+						<div className="clear-fix"></div>
+						<div className="contactUs-icons">
+							<p> Stay in touch</p>
+							<img src={question} />
+							<img src={question} />
+							<img src={question} />
+							<img src={question} />
+							<img src={question} />
 						</div>
 					</div>
-				</div>
-
-				<div className="contact__right col-xl-6 col-12">
-					<img src={customer} />
-				</div>
+				<Footer />
 			</div>
-		</div>
+		</>		
 	);
 };

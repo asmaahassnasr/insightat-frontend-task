@@ -870,7 +870,8 @@ ul.editor-tabs li.active .svd-tab-text {
 	padding: 2% 0 !important;
 }
 .how-it-works__item__desc h1,
-.solution-box-data h4 {
+.solution-box-data h4,
+.contactUs-form-container h3 {
 	color: var(--black);
 	padding: 0 0 0 1% !important;
 	font-weight: 500;
@@ -919,5 +920,89 @@ ul.editor-tabs li.active .svd-tab-text {
 	border: white;
 }
 /* ......................................................End Solutions Page..................................... */
-/* ......................................................End Solutions Page..................................... */
-/* ......................................................End Solutions Page..................................... */
+/* ......................................................Start ContactUs Page..................................... */
+.contactUs-container {
+	position: relative;
+	width: 100%;
+	padding: 2% 0 5% 0 !important;
+}
+.contactUs-form-container {
+	width: 50%;
+	position: absolute;
+	top: 10%;
+	left: 12%;
+	background-color: #fff;
+	border: 1px solid #fff;
+	border-radius: 20px;
+	box-shadow: 0 59px 99px rgb(0 0 0 / 8%);
+	padding: 4rem 3rem 4rem 3rem;
+	z-index: 3;
+}
+.contactUs-form-container h3 {
+	margin-left: 30%;
+	padding-bottom: 5% !important;
+}
+.contactUs-form-container form label {
+	padding-bottom: 1% !important;
+}
+.contact-input {
+	max-width: 100% !important;
+}
+.contact-input input {
+	padding: 25px 10px !important;
+}
+.contact-input input:focus {
+	outline: none !important;
+}
+.contact-input input,
+.contact-input textarea {
+	border: 1px solid var(--light-black);
+	border-radius: 5px !important;
+}
+.contactUs-form-container form {
+	font-size: 15px !important;
+	font-weight: 500 !important;
+	color: var(--black) !important;
+}
+.contact-button {
+	outline: none;
+	background-color: var(--main-bg-color);
+	color: #fff;
+	border: 2px solid var(--main-bg-color);
+	font-weight: 500;
+	text-align: center;
+	text-decoration: none !important;
+	transition: .5s all ease-in-out;
+}
+.contact-button:hover {
+	text-decoration: none;
+	background-color: #fff;
+	color: var(--main-bg-color);
+}
+.contactUs-img {
+	width: 50%;
+	border: 1px solid #fff;
+	border-radius: 20px;
+}
+.contactUs-img img {
+	width: 90%;
+	height: 90%;
+}
+.contactUs-icons {
+	padding: 3% 0% 3% 10% !important;
+}
+.contactUs-icons p {
+	font-size: 30px;
+	font-weight: 400;
+	color: var(--light-black);
+	padding: 0 0 2% 0 !important;
+	margin: 0 !important;
+}
+.contactUs-icons img {
+	margin-right: 1% !important;
+	background-color: var(--light-silver);
+	border: 1px solid var(--light-silver);
+	border-radius: 50%;
+	padding: 1%;
+}
+/* ......................................................End ContactUs Page..................................... */
