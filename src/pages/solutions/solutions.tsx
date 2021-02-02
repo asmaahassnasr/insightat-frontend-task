@@ -9,7 +9,7 @@ import { NavigationBar } from '../MainNavBar/navigationBar';
 
 export const Solutions = () => {
 	return (
-		<>
+		<> 
 			<NavigationBar />
 			<div className="container">
 				<div className=" solutions-container">
