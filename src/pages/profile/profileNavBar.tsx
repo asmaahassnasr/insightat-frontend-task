@@ -1,5 +1,4 @@
 import {NavLink ,Link} from 'react-router-dom';
-// import './profileNav.css';
 
 export const ProfileNavBar = () => {
     return (
@@ -14,15 +13,13 @@ export const ProfileNavBar = () => {
  			</button>
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="nav navbar-nav ml-auto profile-nav-link">
-                <li className="nav-item">
-                    <span className="nav-link profile-sep">|</span>
-                </li>
-                <li className="nav-item">
-                    <span className="nav-link profile-search-icon"><i className="fas fa-search "></i></span>
-                </li>
-                <li className="nav-item">
-                <input type="text" className="nav-link profile-search-input form-control" placeholder="Search" />
-                </li>
+                <li className="nav-item profile-navlinks-container">
+                    <span className="profile-sep"> </span>
+                    <span><i className="fal fa-search "></i></span>
+                    <span><input type="text" className="profile-search-input" placeholder="search companies" /></span>
+                </li>    
+               
+               
                 <li className="dropdown profile-dropdown"><a className="dropdown-toggle" data-toggle="dropdown" href="#">
                     <span className="dropdown-D">D</span>
                     <span className="caret"></span>
@@ -34,6 +31,7 @@ export const ProfileNavBar = () => {
                     <li><Link to="/">Log out</Link></li>
                     </ul>
                 </li>
+               
                 </ul>
 
             </div>

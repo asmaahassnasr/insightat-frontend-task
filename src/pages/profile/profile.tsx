@@ -3,11 +3,14 @@ import Header from './Header.png';
 import customer from './customer.png';
 import { ProfileNavBar} from './profileNavBar';
 import { NavLink } from "react-router-dom";
+import { Footer } from '../footer/footer';
 // import './profile.css';
 export const Profile = () => {
     return (
         <>
+        <div className="profile-container">
         <ProfileNavBar />
+        </div>
         {/* <div className="profile">
             <div className="profile__image">
             <img src={Header} />

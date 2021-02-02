@@ -1006,3 +1006,51 @@ ul.editor-tabs li.active .svd-tab-text {
 	padding: 2%;
 }
 /* ......................................................End ContactUs Page..................................... */
+/* ......................................................Start Profile Page..................................... */
+.profile-container {
+	position: relative;
+	padding: 0 3% 5% !important;
+	height: 100vh;
+}
+.profile-sep {
+	border-left: 1px solid var(--dark-gray);
+}
+.profile-navlinks-container span:first-child {
+	margin: 0px 21px 0 0 !important;
+	padding: 10px 0 !important;
+}
+.profile-navlinks-container span:last-child {
+	margin: 0 25px 0 0 !important;
+}
+.fa-search:before {
+	content: "\f002";
+	color: var(--dark-gray);
+	font-size: 18px;
+	font-weight: 500;
+	margin: 0 10px 0 0 !important;
+}
+input.profile-search-input {
+	border: none !important;
+	outline: none !important;
+	font-size: 13px;
+	font-weight: 400;
+	color: var(--light-black);
+}
+::-webkit-input-placeholder {
+	color: var(--dark-gray);
+	font-size: 14px;
+	font-weight: 600;
+}
+
+:-ms-input-placeholder {
+	color: var(--dark-gray);
+	font-size: 14px;
+	font-weight: 500;
+}
+
+::placeholder {
+	color: var(--dark-gray);
+	font-size: 14px;
+	font-weight: 500;
+}
+/* ......................................................End Profile Page..................................... */
