@@ -39,6 +39,13 @@ button {
 .fl-right {
 	float: right;
 }
+.template-container {
+	height: 100vh;
+	position: relative;
+}
+.template-data {
+	margin: 2% 0 0 10% !important;
+}
 /* .........................................End Common............................................. */
 
 /* ......................................... Start Main NavBar............................................. */
@@ -51,6 +58,8 @@ button {
 }
 .navbar-brand {
 	color: black !important;
+	font-size: 23px;
+	font-weight: 500;
 }
 .nav-item .nav-link.active {
 	border-bottom: 1px solid var(--main-bg-color);
@@ -869,4 +878,6 @@ ul.editor-tabs li.active .svd-tab-text {
 	width: 70%;
 	vertical-align: middle !important;
 }
+/* ......................................................End Solutions Page..................................... */
+/* ......................................................End Solutions Page..................................... */
 /* ......................................................End Solutions Page..................................... */

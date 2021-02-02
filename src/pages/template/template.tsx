@@ -1,14 +1,17 @@
 import React from 'react';
 import { NavigationBar } from '../MainNavBar/navigationBar';
-
+import {Footer} from '../footer/footer';
 export const Template = () => {
     return (
-        <>
+        <> 
+            <div className="template-container">
         <NavigationBar />
-        <div className="container" style={{width:'58%' , height:'80%',position:'fixed',top:'30%'}}>
-            <p>
+            <div className="template-data">
+            <p> 
             template-page works!
             </p>
+            </div>
+        <Footer/>
         </div>
         </>
      )
