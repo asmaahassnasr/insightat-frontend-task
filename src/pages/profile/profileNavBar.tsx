@@ -1,49 +1,44 @@
-import {NavLink} from 'react-router-dom';
+import {NavLink ,Link} from 'react-router-dom';
 // import './profileNav.css';
-import Group_250 from './Group_250.svg';
+
 export const ProfileNavBar = () => {
     return (
         <> 
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
-            <NavLink className="navbar-brand" to="/">Insightat</NavLink>
-            <button className="navbar-toggler" type="button" data-toggle="collapse" 
-            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
-            aria-expanded="false" aria-label="Toggle navigation">
-                <span className="navbar-toggler-icon"></span>
-            </button>
+        <nav className="navbar navbar-expand-lg navbar-light bg-light survey-nav">
+  			<NavLink className="navbar-brand survey-nav-brand" to="/">Insightat</NavLink>
+			  <button className="navbar-toggler" type="button"
+			   data-toggle="collapse" data-target="#navbarSupportedContent" 
+			   aria-controls="navbarSupportedContent" aria-expanded="false" 
+			   aria-label="Toggle navigation">
+   			 <span className="navbar-toggler-icon"></span>
+ 			</button>
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
-               <ul className="navbar-nav mr-auto">
-                   <li className="nav-item">
-                       {/* <a>Home </a> */}
-                   </li>
-               </ul>
-                <ul className="navbar-nav navbar-right ">
+                <ul className="nav navbar-nav ml-auto profile-nav-link">
                 <li className="nav-item">
-                <form className="form-inline my-2 my-lg-0">
-                    <div className="navbar-survey__search">
-                        <span className="navbar-survey__search__border"
-                        ><i className="fa fa-search"></i
-                        ></span>
-                        <input type="text"  className="search_box"
-                        placeholder="Search companies" />
-                    </div>
-                    </form>
+                    <span className="nav-link profile-sep">|</span>
                 </li>
-                <li className="nav-item dropdown">
-                    <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <img src={Group_250}></img>
+                <li className="nav-item">
+                    <span className="nav-link profile-search-icon"><i className="fas fa-search "></i></span>
+                </li>
+                <li className="nav-item">
+                <input type="text" className="nav-link profile-search-input form-control" placeholder="Search" />
+                </li>
+                <li className="dropdown profile-dropdown"><a className="dropdown-toggle" data-toggle="dropdown" href="#">
+                    <span className="dropdown-D">D</span>
+                    <span className="caret"></span>
                     </a>
-                    <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a className="dropdown-item" href="#">My Account</a>
-                    <a className="dropdown-item" href="#">My Profile</a>
-                    <div className="dropdown-divider"></div>
-                    <a className="dropdown-item" href="#">Help</a>
-                    <a className="dropdown-item" href="#">LogOut</a>
-                    </div>
+                    <ul className="dropdown-menu">
+                    <li><Link to="/profile">My Account</Link></li>
+                    <li><Link to="/contactUs">Contacts</Link></li>
+                    <li className="survey-dropdown-help"><Link to="/howItWorks">Help</Link></li>
+                    <li><Link to="/">Log out</Link></li>
+                    </ul>
                 </li>
-                </ul> 
+                </ul>
+
             </div>
             </nav>
-           </>
+
+        </>
     )
 }

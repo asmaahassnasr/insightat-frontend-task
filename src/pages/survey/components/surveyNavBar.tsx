@@ -1,5 +1,5 @@
 import React from 'react';
-import {NavLink} from 'react-router-dom';
+import {NavLink,Link} from 'react-router-dom';
 export const SurveyNavBar = () => {
     return (
         <> 
@@ -46,10 +46,10 @@ export const SurveyNavBar = () => {
         <span className="caret"></span>
         </a>
         <ul className="dropdown-menu">
-          <li><a href="#">My Account</a></li>
-          <li><a href="#">Contacts</a></li>
-          <li className="survey-dropdown-help"><a href="#">Help</a></li>
-          <li><a href="#">Log out</a></li>
+        <li><Link to="/profile">My Account</Link></li>
+                    <li><Link to="/contactUs">Contacts</Link></li>
+                    <li className="survey-dropdown-help"><Link to="/howItWorks">Help</Link></li>
+                    <li><Link to="/">Log out</Link></li>
         </ul>
       </li>
     </ul>

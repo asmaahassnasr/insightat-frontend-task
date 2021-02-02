@@ -8,7 +8,7 @@ export const Profile = () => {
     return (
         <>
         <ProfileNavBar />
-        <div className="profile">
+        {/* <div className="profile">
             <div className="profile__image">
             <img src={Header} />
             <div className="profile__toggle"
@@ -70,7 +70,7 @@ export const Profile = () => {
                 </div>
             </div>
             </div>
-        </div>
+        </div> */}
         </>
     )
 }
