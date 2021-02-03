@@ -22,7 +22,7 @@ export const Profile = () => {
 						<Link to="" className="profile-fav-button">
 							Favoriets
 						</Link>
-						<Link to="" className="profile-edit-button">
+						<Link to="/editProfile" className="profile-edit-button">
 							<i className="fal fa-edit" />
 						</Link>
 					</div>
