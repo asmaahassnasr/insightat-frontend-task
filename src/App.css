@@ -196,6 +196,51 @@ button {
 }
 /* .........................................End Survey NavBar ............................................. */
 
+/* ....................................................Start Profile navbar ............................... */
+
+.profile-sep {
+	border-left: 1px solid var(--dark-gray);
+}
+.profile-navlinks-container span:first-child {
+	margin: 0px 21px 0 0 !important;
+	padding: 10px 0 !important;
+}
+.profile-navlinks-container span:last-child {
+	margin: 0 25px 0 0 !important;
+}
+.fa-search:before {
+	content: "\f002";
+	color: var(--dark-gray);
+	font-size: 18px;
+	font-weight: 500;
+	margin: 0 10px 0 0 !important;
+}
+input.profile-search-input {
+	border: none !important;
+	outline: none !important;
+	font-size: 13px;
+	font-weight: 400;
+	color: var(--light-black);
+}
+::-webkit-input-placeholder {
+	color: var(--dark-gray);
+	font-size: 14px;
+	font-weight: 600;
+}
+
+:-ms-input-placeholder {
+	color: var(--dark-gray);
+	font-size: 14px;
+	font-weight: 500;
+}
+
+::placeholder {
+	color: var(--dark-gray);
+	font-size: 14px;
+	font-weight: 500;
+}
+/* ......................................End Profile navbar ..................................................... */
+
 /* ......................................Start Footer ..................................................... */
 
 .footer {
@@ -1008,49 +1053,158 @@ ul.editor-tabs li.active .svd-tab-text {
 /* ......................................................End ContactUs Page..................................... */
 /* ......................................................Start Profile Page..................................... */
 .profile-container {
+	padding: 0 3% 1% !important;
+}
+.profile-page {
 	position: relative;
-	padding: 0 3% 5% !important;
-	height: 100vh;
+	padding: 0 0 3% 0 !important;
 }
-.profile-sep {
-	border-left: 1px solid var(--dark-gray);
+.profile-body {
+	padding-bottom: 2% !important;
 }
-.profile-navlinks-container span:first-child {
-	margin: 0px 21px 0 0 !important;
-	padding: 10px 0 !important;
+.profile-head-details {
+	width: 100%;
+	height: 50vh;
+	position: relative;
 }
-.profile-navlinks-container span:last-child {
-	margin: 0 25px 0 0 !important;
+.profile-cover-img {
+	width: 100%;
+	height: 50vh;
 }
-.fa-search:before {
-	content: "\f002";
-	color: var(--dark-gray);
-	font-size: 18px;
+.profile-cover-img img {
+	width: 100%;
+	height: 100%;
+}
+.profile-user-img {
+	position: absolute;
+	bottom: -20%;
+	left: 15%;
+	width: 10%;
+	height: 20vh;
+}
+.profile-user-img img {
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	background-color: #fff;
+}
+.profile-buttons {
+	position: absolute;
+	bottom: 7%;
+	right: 20%;
+}
+.profile-fav-button {
+	margin-right: 10px;
+	font-size: 15px !important;
+	padding: 7px 30px;
+	background-color: var(--main-bg-color);
+	border: 1px solid var(--main-bg-color);
+	border-radius: 20px;
+	color: #fff !important;
+	text-decoration: none !important;
+	transition: .5s all ease-in-out;
+}
+.profile-fav-button:hover {
+	background-color: #fff;
+	color: var(--main-bg-color) !important;
+}
+.profile-edit-button {
+	color: var(--black) !important;
+	text-decoration: none !important;
+	padding: 10px;
+	border: 1px solid #fff;
+	background-color: #fff;
+	border-radius: 50%;
+}
+.fa-edit:before,
+.fa-pencil-square-o:before {
+	color: black;
 	font-weight: 500;
-	margin: 0 10px 0 0 !important;
+	font-size: medium;
 }
-input.profile-search-input {
-	border: none !important;
-	outline: none !important;
-	font-size: 13px;
+.profile-body-details {
+	width: 100%;
+	background-color: var(--light-silver) !important;
+	padding: 3% !important;
+}
+.profile-user-data {
+	width: 40%;
+	padding-top: 3%;
+	padding-left: 8%;
+}
+.profile-user-name {
+	padding: 0 !important;
+	margin: 0;
+	margin-left: 25% !important;
+	font-size: 30px;
+	font-weight: bolder;
+	color: var(--black);
+}
+.profile-user-userName {
+	padding: 0 !important;
+	margin: 0;
+	margin-left: 25% !important;
+	font-size: 15px;
 	font-weight: 400;
 	color: var(--light-black);
 }
-::-webkit-input-placeholder {
-	color: var(--dark-gray);
-	font-size: 14px;
-	font-weight: 600;
+.profile-user-caption {
+	/* margin-top: 20%; */
+	padding: 10% 10% 5% 0;
+	font-size: 13px;
+	font-weight: 500;
+	line-height: 1.7;
+	color: var(--black);
+}
+.profile-user-social {
+	padding-left: 3%;
+}
+.profile-user-social i {
+	margin-right: 3%;
+	padding: 3%;
+	border-radius: 50%;
+	font-size: smaller !important;
+	background-color: #fff;
+}
+.profile-user-questions {
+	width: 60%;
+	padding-bottom: 5%;
+	padding-right: 20%;
+}
+.profile-user-questions > p {
+	font-weight: 500;
+	color: var(--black);
+	font-size: 20px;
+}
+.profile-ques-container {
+	background-color: #fff;
+	padding: 3% 6% !important;
+}
+.profile-ques-container label {
+	font-size: 13px;
+	font-weight: 500;
+	color: var(--black);
+	margin-top: 3%;
+}
+.profile-ques-container input {
+	border: none;
+	border-radius: 0 !important;
+	border-bottom: 1px solid var(--black);
+	outline: none !important;
+	width: 70%;
+}
+.profile-ques-container input::-webkit-input-placeholder {
+	font-weight: 400 !important;
+	color: var(--dark-gray) !important;
 }
 
-:-ms-input-placeholder {
-	color: var(--dark-gray);
-	font-size: 14px;
-	font-weight: 500;
+.profile-ques-container input::-ms-input-placeholder {
+	color: var(--dark-gray) !important;
+	font-weight: 400 !important;
 }
 
-::placeholder {
-	color: var(--dark-gray);
-	font-size: 14px;
-	font-weight: 500;
+.profile-ques-container input::placeholder {
+	color: var(--dark-gray) !important;
+	font-weight: 400 !important;
 }
 /* ......................................................End Profile Page..................................... */
