@@ -18,9 +18,9 @@ export const AdminUser = () => {
             <div className="container-fluid analyze">
                 <div className="row">
                     <SurveyAnalyzeSideBar />
-                    <div  className="col-lg-10">
+                    <div  className="col contentAdminUser">
                      
-                        <div className="row header"> 
+                        <div className="row headerAdminUser"> 
                          
                          <p><strong>Users</strong> 1390 total</p>
 

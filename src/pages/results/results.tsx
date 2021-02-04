@@ -18,9 +18,9 @@ export const Results = () => {
             <div className="container-fluid analyze">
                 <div className="row">
                     <SurveyAnalyzeSideBar />
-                    <div className="col">
+                    <div className="col contentResults">
                      
-                        <div className="row header"> 
+                        <div className="row headerResults"> 
                         <div className="col-6"></div>
                           <InputGroup className="col-4">
                           <FormControl

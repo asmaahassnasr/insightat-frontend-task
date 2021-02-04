@@ -10,6 +10,7 @@
 }
 body {
 	background-color: #fff;
+	padding: 0px;
 }
 :root {
 	--main-bg-color: #fd6969;
@@ -1722,8 +1723,202 @@ ul.editor-tabs li.active .svd-tab-text {
 }
 
 /*---------------------------end FAQ page--------------------------------------*/
+/*-------------------------- dashboard page -------------------------------------*/
+.contentDashboard {
+	padding: 2% 5%;
+	background-color: #dad6d6;
+    margin-right: -37px;
+}
 
+.contentDashboard .colLeft p {
+	font-size: 11px;
+	font-weight: bold;
+}
 
+.contentDashboard .colRight {
+	text-align: right;
+}
+.contentDashboard .colRight button {
+	background-color: #fa7268;
+	border-radius: 15px;
+	border: none;
+	color: #fff;
+	width: 21%;
+	font-size: 9px;
+	padding: 3px;
+}
 
+.contentDashboard .BarStyle {
+	background-color: #fff;
+	padding: 20px;
+	margin-left: 7%;
+	margin-bottom: 3%;
+}
 
+.contentDashboard .DoughnutStyle {
+	background-color: #fff;
+	padding: 20px;
+	margin-left: 7%;
+	margin-top: 10px;
+}
+/*---------------------------- end dashboard --------------------------------*/
+/*-------------------------- userAccount page -----------------------------------*/
+.contentAccount{
+	background-color: #dad6d6;
+	height: 95vh;
+}
+.headerUserAccount {
+	padding: 2% 5%;
+	width: 80%;
+	padding-bottom: 3px;
+}
+.headerUserAccount img {
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	margin-right: 15px;
+}
+
+.headerUserAccount .userdataP {
+	color: #504c48;
+	line-height: 0;
+	font-size: 10px;
+	width: 100%;
+}
+
+.headerUserAccount .btnStyle {
+	border-radius: 15px;
+	border: 1px solid #ccc;
+	background-color: #fa7268;
+	color: #fff;
+	width: 10%;
+	font-size: 9px;
+	margin-right: 4px;
+	outline-color: none;
+	height: 30px;
+}
+
+.headerUserAccount .btnStyle:hover {
+	background-color: #dd736c;
+}
+
+.userData {
+	padding: 2% 5%;
+}
+
+.userData span {
+	margin-right: 10%;
+	background-color: #fff;
+	padding: 20px;
+	padding-right: 4rem;
+}
+
+.userData p {
+	border-bottom: 1px solid rgb(231, 231, 231);
+	font-size: 16px;
+	font-weight: bold;
+	color: #504c48;
+	padding-bottom: 3px;
+}
+
+td {
+	color: #504c48;
+}
+td,
+th {
+	border: none;
+	font-size: 12px;
+}
+/*------------------------ end userAccount page -----------------------------------*/
+/*---------------------------results page---------------------------------------*/
+.contentResults{
+	background-color: #dad6d6;
+	height: 95vh;
+}
+.headerResults {
+	width: 100%;
+	margin-top: 20px;
+}
+
+.headerResults .textSerch {
+	height: 30px;
+}
+
+.headerResults .btn_search_icon {
+	border: 1px solid #ccc;
+	border-radius: 0px 6px 6px 0px;
+	color: rgb(61, 56, 56);
+	height: 30px;
+	padding-left: 4px;
+}
+.headerResults .btnExport {
+	background-color: #fa7268;
+	border-radius: 15px;
+	border: none;
+	color: #fff;
+	font-size: 10px;
+	padding: 3px 15px;
+	height: 30px;
+}
+
+.headerResults .btnExport:hover {
+	background-color: #dd736c;
+}
+.containDataTable {
+	margin-top: 20px;
+	background-color: #fff;
+}
+
+.containDataTable table img {
+	width: 23px;
+	height: 23px;
+	border-radius: 50%;
+	margin-right: 5px;
+}
+/*--------------------------end results page------------------------------------*/
+/*---------------------------adminUser page -------------------------------------*/
+.contentAdminUser{
+	background-color: #dad6d6;
+	padding-top: 15px;
+	height: 95vh;
+}
+
+.headerAdminUser {
+	width: 100%;
+}
+
+.headerAdminUser .textSearch {
+	height: 30px;
+}
+.headerAdminUser .btn_search_icon {
+	border: 1px solid #ccc;
+	height: 30px;
+	padding-left: 4px;
+}
+.headerAdminUser .btnStyle {
+	border-radius: 15px;
+	border: 1px solid #ccc;
+	color: #000;
+	width: 7%;
+	font-size: 9px;
+	padding: 3px;
+}
+
+.headerAdminUser p {
+	font-size: 12px;
+	margin-right: 13%;
+}
+
+.containDataTable {
+	margin-top: 20px;
+	background-color: #fff;
+}
+
+.containDataTable table img {
+	width: 23px;
+	height: 23px;
+	border-radius: 50%;
+	margin-right: 5px;
+}
+/*--------------------------end adminUser page----------------------------------*/
 
