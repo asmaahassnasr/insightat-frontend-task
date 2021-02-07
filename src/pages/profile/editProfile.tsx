@@ -16,13 +16,13 @@ export const EditProfile = () => {
 					</div>
 					<div className="profile-buttons">
 						<Link
-							to=""
+							to="/profile"
 							className="profile-edit-button"
 							style={{ borderRadius: '20px', marginRight: '10px' }}
 						>
 							Change Cover
 						</Link>
-						<Link to="/editProfile" className="profile-fav-button" style={{ marginRight: '0' }}>
+						<Link to="/profile" className="profile-fav-button" style={{ marginRight: '0' }}>
 							Done Editing <i className="fal fa-edit" style={{ color: '#fff' }} />
 						</Link>
 					</div>
