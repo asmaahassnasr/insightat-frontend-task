@@ -16,9 +16,9 @@ export const UserAccount = () => {
             <div className="container-fluid analyze">
                 <div className="row">
                     <SurveyAnalyzeSideBar />
-                    <div className="col">
+                    <div className="col contentAccount">
                      
-                        <div className="row header"> 
+                        <div className="row headerUserAccount"> 
 
                         <img src={customer} alt=""/>
 

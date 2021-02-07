@@ -20,7 +20,7 @@ export const FAQ = () => {
         <div className="card ">
             <div className="card-header">
                 <h4 className="card-header">
-                    <a className="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">What Is Insightat?</a>
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" style={{color: "red"}}>What Is Insightat?</a>
                 </h4>
             </div>
          

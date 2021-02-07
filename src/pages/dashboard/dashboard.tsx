@@ -15,7 +15,7 @@ export const Dashboard = () => {
                     <SurveyAnalyzeSideBar />
                     <div className="col-lg-10">
                      
-                        <div className="row content">
+                        <div className="row contentDashboard">
                              <div className="col-3 colLeft">
                                  <p>Respondents:145 of 145</p>
                              </div>

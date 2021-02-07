@@ -43,30 +43,30 @@ export class SignUp extends React.Component {
 								<div className="signup__input">
 									<label>First Name *</label>
 
-									<input type="text" placeholder="Type your first name here..." name="firstname" />
+									<input type="text" name="firstname" />
 								</div>
 								<div className="signup__input">
 									<label>Last Name *</label>
-									<input type="text" placeholder="Type your last name here..." name="lastname" />
+									<input type="text" name="lastname" />
 								</div>
 								<div className="signup__input">
 									<label>Username *</label>
-									<input type="text" placeholder="Type your username here..." name="username" />
+									<input type="text" name="username" />
 								</div>
 
 								<div className="signup__input">
 									<label>Email *</label>
-									<input type="email" placeholder="Type your email here..." name="email" />
+									<input type="email" name="email" />
 								</div>
 
 								<div className="signup__input">
 									<label>Password *</label>
-									<input type="password" placeholder="Type your password here..." name="password" />
+									<input type="password" name="password" />
 								</div>
 
 								<div className="signup__input">
 									<label>Country *</label>
-									<select id="country" placeholder="Type your country here..." name="country">
+									<select id="country" name="country">
 										<option>Egypt </option>
 										<option>Egypt </option>
 										<option>Egypt </option>
@@ -75,7 +75,7 @@ export class SignUp extends React.Component {
 
 								<div className="signup__input">
 									<label>Phone number (Optional)</label>
-									<input type="text" placeholder="Type your number here..." name="phone" />
+									<input type="text" name="phone" />
 								</div>
 
 								<button className="btn signup__button" type="submit">
