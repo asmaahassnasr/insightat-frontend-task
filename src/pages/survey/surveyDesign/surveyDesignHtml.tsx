@@ -9,15 +9,16 @@ import hd_wallpaper_landscape_mountain_peak_51387 from '../components/icon/hd_wa
 import  fernando_paredes_murillo_462122_unsplash from '../components/icon/fernando_paredes_murillo_462122_unsplash.svg';
 import  fog_foggy_forest_4827 from '../components/icon/fog_foggy_forest_4827.jpg';
 import chuttersnap_617671_unsplash from '../components/icon/chuttersnap_617671_unsplash.svg';
-// import './surveyDesign.css';
+import './surveydesign.css';
 export const SurveyDesignHtml = () => {
     return (
         <>
             <SurveyNavBar />
+            <hr className="survey-hr"></hr>
             <div className="container-fluid design design-content-sec">
                 <div className="row">
+
                     <SurveyDesignSideBar />
-                    
       <div className="col-lg-9 col-md-8 col-sm-8 col-xs-8">
         <div className="build-content-detailes">
           <div className="user-data">
