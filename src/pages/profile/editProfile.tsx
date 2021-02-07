@@ -1,106 +1,66 @@
 import React from 'react';
 import Header from './Header.png';
-import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { ProfileNavBar } from './profileNavBar';
-// import './profile.css';
-
+import { Footer } from '../footer/footer';
 export const EditProfile = () => {
 	return (
-		<div style={{ minHeight: '100vh', background: '#fafafa' }}>
-			<ProfileNavBar />
-			<div className="profile">
-				<div className="profile__image">
-					<img src={Header} />
-					<input hidden type="file" accept="image/gif, image/jpg, image/jpeg, image/png" />
-					<div className="profile__toggle">
-						<button
-							style={{
-								backgroundColor: 'white',
-								borderColor: 'white',
-								border: '1px solid white',
-								color: '#343434'
-							}}
-						>
-							Change Cover
-						</button>
-						<NavLink
-							className="d-flex done_edit"
-							to="/profile"
-							style={{
-								backgroundColor: '#fa7268',
-								borderColor: '#fa7268',
-								border: '1px solid #fa7268',
-								color: 'white'
-							}}
-						>
-							<i className="fa fa-edit" />
-							<span> Done Editing</span>
-						</NavLink>
+		<div className="profile-page">
+			<div className="profile-container">
+				<ProfileNavBar />
+			</div>
+			<div className="profile-body">
+				<div className="profile-head-details">
+					<div className="profile-cover-img">
+						<img src={Header} />
+					</div>
+					<div className="profile-buttons">
+						<Link to="" className="profile-fav-button">
+							Favoriets
+						</Link>
+						<Link to="/editProfile" className="profile-edit-button">
+							<i className="fal fa-edit" />
+						</Link>
 					</div>
 				</div>
-
-				<div className="profile__wrapper">
-					<div className="profile__logo">
-						<div className="profile__logo-hover">
-							<i className="fa fa-camera" style={{ color: '#fff' }} />
-							<p>Change your profile photo</p>
+				<div className="profile-body-details">
+					<div className="fl-left profile-user-data">
+						<div className="change-your-photo">
+							<i className="fas fa-camera" />
+							<p>
+								Change Your <br />Profile Photo
+							</p>
 						</div>
-						<img className="profile__logo-img" />
-						<input hidden type="file" accept="image/gif, image/jpg, image/jpeg, image/png" />
 					</div>
-
-					<div className="profile_edit_content">
+					<div className="fl-right profile-user-questions">
 						<p>Edit Profile</p>
-						<div className="profile__content__form">
-							<p className="profile__content__form-title">General Information</p>
-							<div className="row">
-								<div className="col-xl-6 col-lg-6 col-md-6 col-12">
-									<p className="profile__content__form-label">Page Name</p>
-									<input className="profile__content__form-input" type="text" />
+						<div className="profile-ques-container">
+							<form action="/action_page.php">
+								<div className="form-group">
+									<label htmlFor="text">Page Name</label>
+									<input type="text" className="form-control" placeholder=" What is your name" />
 								</div>
-								<div className="col-xl-6 col-lg-6 col-md-6 col-12">
-									<p className="profile__content__form-label">Handle</p>
-									<input className="profile__content__form-input" type="text" />
+								<div className="form-group">
+									<label htmlFor="text">Handle</label>
+									<input type="text" className="form-control" placeholder=" How old are you" />
 								</div>
-							</div>
-							<div className="row">
-								<div className="col-xl-12">
-									<p className="profile__content__form-label">Page Description</p>
-									<textarea className="profile__content__form-textarea" rows={10} typeof="text" />
+								<div className="form-group">
+									<label htmlFor="email">Page Description</label>
+
+									<textarea
+										className="form-control"
+										rows={5}
+										cols={10}
+										placeholder=" Your Email Please"
+									/>
 								</div>
-							</div>
-							<p className="profile__content__form-title">Contact Information</p>
-							<div className="row">
-								<div className="col-xl-6 col-lg-6 col-md-6 col-12">
-									<p className="profile__content__form-label">Website</p>
-									<input className="profile__content__form-input" type="text" />
-								</div>
-								<div className="col-xl-6 col-lg-6 col-md-6 col-12">
-									<p className="profile__content__form-label">Facebook</p>
-									<input className="profile__content__form-input" type="text" />
-								</div>
-							</div>
-							<div className="row">
-								<div className="col-xl-6 col-lg-6 col-md-6 col-12">
-									<p className="profile__content__form-label">Twitter</p>
-									<input className="profile__content__form-input" type="text" />
-								</div>
-								<div className="col-xl-6 col-lg-6 col-md-6 col-12">
-									<p className="profile__content__form-label">LinkedIn</p>
-									<input className="profile__content__form-input" type="text" />
-								</div>
-								<div className="col-xl-6 col-lg-6 col-md-6 col-12">
-									<p className="profile__content__form-label">Google Plus</p>
-									<input className="profile__content__form-input" type="text" />
-								</div>
-							</div>
-							<div className="profile__content__save row">
-								<button>Save Changes</button>
-							</div>
+							</form>
 						</div>
 					</div>
+					<div className="clear-fix" />
 				</div>
 			</div>
+			<Footer />
 		</div>
 	);
 };

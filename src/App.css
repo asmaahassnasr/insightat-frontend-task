@@ -18,7 +18,7 @@ body {
 	--yellow-color: #fdc769;
 	--light-black: #898992;
 	--black: #333340;
-	--main-bg-hover-color:#e66161;
+	--main-bg-hover-color: #e66161;
 	--light-gray: rgb(245 245 255);
 	--dark-gray: rgb(187 189 196);
 	--light-silver: rgb(243 243 245);
@@ -1209,6 +1209,18 @@ ul.editor-tabs li.active .svd-tab-text {
 	color: var(--dark-gray) !important;
 	font-weight: 400 !important;
 }
+.change-your-photo {
+	background-color: #83838c;
+	color: #fff;
+	width: 45%;
+	text-align: center;
+	padding: 6%;
+	border-radius: 50%;
+	margin-left: 45%;
+}
+.fa-camera {
+	font-size: 22px;
+}
 /* ......................................................End Profile Page..................................... */
 /*--------------------------------login,sign up common style page-------------------------------------------*/
 .login__title,
@@ -1220,41 +1232,41 @@ ul.editor-tabs li.active .svd-tab-text {
 }
 
 .login__title:hover,
-.signup__title:hover{ 
-    color: var(--main-bg-hover-color);
-    text-decoration: none;
+.signup__title:hover {
+	color: var(--main-bg-hover-color);
+	text-decoration: none;
 }
 
-   .login__background,
-   .signup__background{
+.login__background,
+.signup__background {
 	background-size: cover;
 	background-repeat: no-repeat;
-        height: 100vh;
-  }
+	height: 100vh;
+}
 
- .login__text,
- .signup__text {
+.login__text,
+.signup__text {
 	color: #333340;
 	padding: 1rem 0 5rem 3rem;
-  }
+}
 
- .login__wrapper,
+.login__wrapper,
 .signup__wrapper {
 	padding: 4rem;
 	min-height: 100vh;
-  }
+}
 
- .login__divider,
- .signup__divider {
+.login__divider,
+.signup__divider {
 	border-bottom: 1px solid var(--light-black);
 	width: 100%;
 	margin-top: 2rem;
 	margin-bottom: 12px;
 	position: relative;
-  }
+}
 
-  .login__divider::after,
-  .signup__divider::after {
+.login__divider::after,
+.signup__divider::after {
 	content: 'or';
 	color: #333340;
 	position: absolute;
@@ -1263,31 +1275,27 @@ ul.editor-tabs li.active .svd-tab-text {
 	top: -12px;
 	padding-left: 1rem;
 	padding-right: 1rem;
-  }
+}
 
-
-
-  .login__google,
- .signup__google {
+.login__google,
+.signup__google {
 	color: #333340;
-  }
+}
 
+.login__google h1,
+.signup__google h1 {
+	font-size: 18px;
+	color: #49494d;
+	text-align: center;
+	font-weight: 400;
+	font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
 
-    .login__google h1,
-   .signup__google h1 {
-      font-size: 18px;
-      color: #49494d;
-      text-align: center;
-      font-weight: 400;
-      font-family: Tahoma, Geneva, Verdana, sans-serif; 
-    }
-
-  .login__google p,
-.signup__google p{
+.login__google p,
+.signup__google p {
 	font-size: 0.9375rem;
 	color: var(--light-black);
-  }
-
+}
 
 .login__google span,
 .signup__google span {
@@ -1295,71 +1303,70 @@ ul.editor-tabs li.active .svd-tab-text {
 	font-size: 0.9375rem;
 	font-weight: 600;
 	color: var(--main-bg-color);
-  }
+}
 
- .login__google span a,
- .signup__google span a{
+.login__google span a,
+.signup__google span a {
 	text-decoration: none;
 	font-size: 12px;
 	color: var(--main-bg-color);
-  }
+}
 
- .login .login__google__button,
-  .signup .signup__google__button{
+.login .login__google__button,
+.signup .signup__google__button {
 	width: 100%;
 	border-radius: 2rem;
 	border: 1px solid var(--light-black) !important;
 	background-color: white;
 	padding: 0.8rem 0 0.8rem 0;
-  }
+}
 
-.login__google__button  span,
-.signup__google__button  span {
+.login__google__button span,
+.signup__google__button span {
 	color: #333340;
 	font-weight: 600;
 	padding-left: 1rem;
-  }
+}
 
 .login__input,
-.signup__input
- {
+.signup__input {
 	display: flex;
 	flex-direction: column;
-  }
+}
 
- .login__input label,
- .signup__input label {
+.login__input label,
+.signup__input label {
 	font-weight: 700;
 	color: var(--light-black);
-  }
+}
 
- .login__input span,
- .signup__input span {
+.login__input span,
+.signup__input span {
 	font-size: 0.875rem;
 	font-weight: 700;
 	color: var(--main-bg-color);
-  }
-  .login__input input::placeholder,
-  .signup__input input::placeholder {
+}
+.login__input input::placeholder,
+.signup__input input::placeholder {
 	color: #dedee3;
-  }
+}
 
- .login__input input,
- .signup__input input {
+.login__input input,
+.signup__input input {
 	border: none;
 	border-bottom: 1px solid #dedee3;
-  }
+}
 
-    .signup__input input[type="text"],
-    .signup__input input[type="email"] ,
-    .signup__input input[type="password"],
-    .login__input input[type="email"] ,
-    .login__input input[type="password"] {
-      width: 100%;
-      padding: 1px;
-      border: 1px solid #bcbcc1; 
-      outline-color: #b1b1b4;
-    }
+.signup__input input[type="text"],
+.signup__input input[type="email"],
+.signup__input input[type="password"],
+.login__input input[type="email"],
+.login__input input[type="password"] {
+	width: 100%;
+	padding: 1px;
+	border: 1px solid #bcbcc1;
+	outline-color: #b1b1b4;
+}
 
 .login__input .text_remember,
 .signup__input .text_remember {
@@ -1367,97 +1374,93 @@ ul.editor-tabs li.active .svd-tab-text {
 	margin-left: 0.5rem;
 	color: #333340;
 	font-weight: 500;
-  }
+}
 
- .login .login__button,
+.login .login__button,
 .signup .signup__button {
 	width: 100%;
 	color: white;
 	background-color: var(--main-bg-color);
 	margin-top: 2rem;
 	padding: 0.8rem 0 0.8rem 0;
-  }
+}
 
- .login .login__button:hover,
-.signup .signup__button:hover { 
-	background-color: var(--main-bg-hover-color); 
-  }
-  
-  .login .row,
- .signup .row {
+.login .login__button:hover,
+.signup .signup__button:hover {
+	background-color: var(--main-bg-hover-color);
+}
+
+.login .row,
+.signup .row {
 	margin-right: 0 !important;
 	margin-left: 0 !important;
-  }
+}
 
-
-  @media screen and (max-width: 600px) {
-   
+@media screen and (max-width: 600px) {
 	.login__background,
-        .signup__background {
-	  height: 0; 
-	 }
-	.login__background__text,
-        .signup__background__text {
-	  display:none; 
+	.signup__background {
+		height: 0;
 	}
-  }
+	.login__background__text,
+	.signup__background__text {
+		display: none;
+	}
+}
 /*---------------------------------- end common style log in sign up--------------------------------*/
 /*----------------------------------------log in page ----------------------------------------------*/
 .login__background {
-	background-image:  url('pages/assets/image/login.png');
-  }
+	background-image: url('pages/assets/image/login.png');
+}
 
-  
-  .login__input {
+.login__input {
 	margin-bottom: 2rem;
-  }
-  .login__input label {
+}
+.login__input label {
 	font-size: 0.875rem;
-  }
-  
-  
-  .login .row {
+}
+
+.login .row {
 	margin-right: 0 !important;
 	margin-left: 0 !important;
-  }
+}
 /*--------------------------------------end log in page ----------------------------------------------*/
 /*--------------------------------------sign up in page ----------------------------------------------*/
 .signup__background {
-    background-image: url('pages/assets/image/signup.png');
-  }
+	background-image: url('pages/assets/image/signup.png');
+}
 
-  .signup__agreement {
-    font-size: 0.875rem;
-    color: #767680;
-    text-align: center;
-  }
-    .signup__agreement a {
-      color: var(--main-bg-color);
-      text-decoration: underline;
-      text-decoration-color: var(--main-bg-color);
-    }
+.signup__agreement {
+	font-size: 0.875rem;
+	color: #767680;
+	text-align: center;
+}
+.signup__agreement a {
+	color: var(--main-bg-color);
+	text-decoration: underline;
+	text-decoration-color: var(--main-bg-color);
+}
 
-    .signup__input {
-    margin-bottom: 4px;
-  }
-    .signup__input_error {
-      border-color: #d8000c !important;
-    }
+.signup__input {
+	margin-bottom: 4px;
+}
+.signup__input_error {
+	border-color: #d8000c !important;
+}
 
-    .signup__input label {
-      font-size: 12px;
-      margin-bottom: 0 !important;
-    }
+.signup__input label {
+	font-size: 12px;
+	margin-bottom: 0 !important;
+}
 
-    .signup__input select { 
-      border-bottom: 1px solid #dedee3;
-      width: 100%;
-      border: 1px solid #bdbaba;
-	}
-	
-  .signup .signup__button {
-    margin-bottom: 0.5rem; 
-  }
+.signup__input select {
+	border-bottom: 1px solid #dedee3;
+	width: 100%;
+	border: 1px solid #bdbaba;
+}
+
+.signup .signup__button {
+	margin-bottom: 0.5rem;
+}
 /*--------------------------------------end sign up page ----------------------------------------------*/
 /*----------------------------------- change password page---------------------------------*/
 .divContent {
@@ -1490,7 +1493,7 @@ ul.editor-tabs li.active .svd-tab-text {
 
 .change-password p {
 	font-size: 0.9375rem;
-	color:  var(--light-black);
+	color: var(--light-black);
 	margin-bottom: 0.5rem;
 	margin-top: 3rem;
 	margin-left: 50px;
@@ -1519,207 +1522,198 @@ ul.editor-tabs li.active .svd-tab-text {
 /*------------------------------------account page -------------------------------------*/
 
 .account {
-    min-height: 100vh;
-    background-color: #fafafa;
-    padding-top: 6rem;
+	min-height: 100vh;
+	background-color: #fafafa;
+	padding-top: 6rem;
 }
 .account__wrapper {
-    width: 50%;
-    padding: 3rem;
-    border-radius: 5px;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
-    background-color: white;
-    margin-left: auto;
-    margin-right: auto;
+	width: 50%;
+	padding: 3rem;
+	border-radius: 5px;
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
 }
 .account__item {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 1rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 1rem;
 }
 .account__item input {
-    width: 50%;
-    border: 1px solid #707070;
-    border-radius: 2px;
-    font-size: 1rem;
+	width: 50%;
+	border: 1px solid #707070;
+	border-radius: 2px;
+	font-size: 1rem;
 	color: #333340;
 	outline-color: #767680;
 }
 .account__item label {
 	font-weight: 600;
-	color:var(--light-black);
+	color: var(--light-black);
 }
 .account__error {
-    text-align: center;
-    color: red;
+	text-align: center;
+	color: red;
 }
 .account .account__submit {
-    margin-top: 2rem;
-    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
-    color: white;
-    background: var(--main-bg-color);
-    border: 1px solid var(--main-bg-color);
-    border-radius: 50px;
+	margin-top: 2rem;
+	padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+	color: white;
+	background: var(--main-bg-color);
+	border: 1px solid var(--main-bg-color);
+	border-radius: 50px;
 }
 
 .account .account__submit:hover {
-    background: var(--main-bg-hover-color);
-    border: 1px solid var(--main-bg-hover-color); 
+	background: var(--main-bg-hover-color);
+	border: 1px solid var(--main-bg-hover-color);
 }
 
 @media screen and (max-width: 600px) {
-    .account__wrapper {
-        width: 90%; 
-    }  
-  }
+	.account__wrapper {
+		width: 90%;
+	}
+}
 /*-----------------------------------end account page---------------------------------------*/
 /*---------------------------------- pricing page ------------------------------------------*/
-.pricing { 
-    padding: 3rem; 
-  }
-    .pricing__title {
-      text-align: center;
-      color: #333340;
-      margin-bottom: 2.5rem;
-    }
-      .pricing__title h3 {
-        font-size: 2rem;
-        font-weight: 400;
-      }
-    
-  
-      .pricing__plans-item {
-      padding: 0;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      border-radius: 5px;
-      }
-      .pricing__plans-item__select-plan {
-        text-align: center;
-        border-top: 1px solid #dedee3;
-        padding-top: 1.5rem;
-      }
-        .pricing__plans-item__select-plan button {
-          color: white;
-          background: #3f82c7;
-          border-radius: 50px;
-          border: 1px solid #3f82c7;
-          font-weight: 500;
-          width: 75%;
-          margin-bottom: 15px;
-        }
-      
-  
-      .pricing__plans-item__content {
-        padding: 1rem 1rem 3rem 1rem;
-      }
-        .pricing__plans-item__content__header {
-          margin-top: 1.5rem;
-          border-bottom: 1px solid #dedee3;
-      }
-          .pricing__plans-item__content__header h4 {
-            font-size: 0.875rem;
-            color: #767680;
-            text-transform: uppercase;
-          }
-  
-          .pricing__plans-item__content__header h5 {
-            font-size: 0.875rem;
-            color: white;
-            background: #22d6a5;
-            border: 1px solid #22d6a5;
-            border-radius: 50px;
-            padding: 0.2rem 0.5rem 0.2rem 0.5rem;
-          }
-  
-          .pricing__plans-item__content__header .pricing__cash-symbol {
-            font-size: 1.5rem;
-            color: #333340;
-            margin-bottom: 0;
-          }
-  
-          .pricing__plans-item__content__header .pricing__amount {
-            font-size: 4rem;
-            color: #333340;
-            margin-bottom: 0;
-          }
-  
-          .pricing__plans-item__content__header .pricing__period {
-            display: flex;
-            align-items: flex-end;
-            font-size: 1.5rem;
-            color:  #767680;
-            margin-bottom: 1rem;
-          }
-        
-   
-              .pricing__plans-item__content__body img {
-            width: 20px;
-            height: 20px;
-            margin-top: 1.5rem;
-          }
-  
-          .pricing__plans-item__content__body .item {
-            font-size: 0.875rem;
-            color: #333340;
-            margin-left: 10px;
-            margin-bottom: 0px;
-            margin-top: 1.5rem;
-          }
-        
-      
-     .pricing__subtitle span {
-      color: var(--main-bg-color);
-      margin-left: 10px;
-      cursor: pointer;
-    }
-  
-    .pricing__footer {
-      position: relative;
-      height: 5vh;
-      margin-bottom: 2rem;
-    }
-   
-    @media screen and (max-width: 600px) {
- 
-      .pricing__plans-item__select-plan button { 
-        width:90%; 
-      }
-       
-    }
+.pricing {
+	padding: 3rem;
+}
+.pricing__title {
+	text-align: center;
+	color: #333340;
+	margin-bottom: 2.5rem;
+}
+.pricing__title h3 {
+	font-size: 2rem;
+	font-weight: 400;
+}
+
+.pricing__plans-item {
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	border-radius: 5px;
+}
+.pricing__plans-item__select-plan {
+	text-align: center;
+	border-top: 1px solid #dedee3;
+	padding-top: 1.5rem;
+}
+.pricing__plans-item__select-plan button {
+	color: white;
+	background: #3f82c7;
+	border-radius: 50px;
+	border: 1px solid #3f82c7;
+	font-weight: 500;
+	width: 75%;
+	margin-bottom: 15px;
+}
+
+.pricing__plans-item__content {
+	padding: 1rem 1rem 3rem 1rem;
+}
+.pricing__plans-item__content__header {
+	margin-top: 1.5rem;
+	border-bottom: 1px solid #dedee3;
+}
+.pricing__plans-item__content__header h4 {
+	font-size: 0.875rem;
+	color: #767680;
+	text-transform: uppercase;
+}
+
+.pricing__plans-item__content__header h5 {
+	font-size: 0.875rem;
+	color: white;
+	background: #22d6a5;
+	border: 1px solid #22d6a5;
+	border-radius: 50px;
+	padding: 0.2rem 0.5rem 0.2rem 0.5rem;
+}
+
+.pricing__plans-item__content__header .pricing__cash-symbol {
+	font-size: 1.5rem;
+	color: #333340;
+	margin-bottom: 0;
+}
+
+.pricing__plans-item__content__header .pricing__amount {
+	font-size: 4rem;
+	color: #333340;
+	margin-bottom: 0;
+}
+
+.pricing__plans-item__content__header .pricing__period {
+	display: flex;
+	align-items: flex-end;
+	font-size: 1.5rem;
+	color: #767680;
+	margin-bottom: 1rem;
+}
+
+.pricing__plans-item__content__body img {
+	width: 20px;
+	height: 20px;
+	margin-top: 1.5rem;
+}
+
+.pricing__plans-item__content__body .item {
+	font-size: 0.875rem;
+	color: #333340;
+	margin-left: 10px;
+	margin-bottom: 0px;
+	margin-top: 1.5rem;
+}
+
+.pricing__subtitle span {
+	color: var(--main-bg-color);
+	margin-left: 10px;
+	cursor: pointer;
+}
+
+.pricing__footer {
+	position: relative;
+	height: 5vh;
+	margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 600px) {
+	.pricing__plans-item__select-plan button {
+		width: 90%;
+	}
+}
 /*----------------------------------end pricing page ---------------------------------------*/
 /*---------------------------------- FAQ Page -----------------------------------------*/
 .faqHeader {
-    font-size: 27px;
-    margin: 20px;
+	font-size: 27px;
+	margin: 20px;
 }
-
 
 .panel-heading [data-toggle="collapse"]:after {
-    font-family: 'Glyphicons Halflings';
-    content: "e072"; 
-    float: right; 
-    font-size: 18px;
-    line-height: 22px;
-   
-    -webkit-transform: rotate(-90deg);
-    -moz-transform: rotate(-90deg);
-    -ms-transform: rotate(-90deg);
-    -o-transform: rotate(-90deg);
-    transform: rotate(-90deg);
+	font-family: 'Glyphicons Halflings';
+	content: "e072";
+	float: right;
+	font-size: 18px;
+	line-height: 22px;
+
+	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
+	transform: rotate(-90deg);
 }
 
-
 .panel-heading [data-toggle="collapse"].collapsed:after {
-   
-   -webkit-transform: rotate(90deg);
-    -moz-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    -o-transform: rotate(90deg);
-    transform: rotate(90deg);
-    color: #454444;
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	transform: rotate(90deg);
+	color: #454444;
 }
 
 /*---------------------------end FAQ page--------------------------------------*/
@@ -1727,7 +1721,7 @@ ul.editor-tabs li.active .svd-tab-text {
 .contentDashboard {
 	padding: 2% 5%;
 	background-color: #dad6d6;
-    margin-right: -37px;
+	margin-right: -37px;
 }
 
 .contentDashboard .colLeft p {
@@ -1763,7 +1757,7 @@ ul.editor-tabs li.active .svd-tab-text {
 }
 /*---------------------------- end dashboard --------------------------------*/
 /*-------------------------- userAccount page -----------------------------------*/
-.contentAccount{
+.contentAccount {
 	background-color: #dad6d6;
 	height: 95vh;
 }
@@ -1831,7 +1825,7 @@ th {
 }
 /*------------------------ end userAccount page -----------------------------------*/
 /*---------------------------results page---------------------------------------*/
-.contentResults{
+.contentResults {
 	background-color: #dad6d6;
 	height: 95vh;
 }
@@ -1877,7 +1871,7 @@ th {
 }
 /*--------------------------end results page------------------------------------*/
 /*---------------------------adminUser page -------------------------------------*/
-.contentAdminUser{
+.contentAdminUser {
 	background-color: #dad6d6;
 	padding-top: 15px;
 	height: 95vh;
@@ -1921,4 +1915,3 @@ th {
 	margin-right: 5px;
 }
 /*--------------------------end adminUser page----------------------------------*/
-
