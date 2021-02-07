@@ -15,11 +15,15 @@ export const EditProfile = () => {
 						<img src={Header} />
 					</div>
 					<div className="profile-buttons">
-						<Link to="" className="profile-fav-button">
-							Favoriets
+						<Link
+							to=""
+							className="profile-edit-button"
+							style={{ borderRadius: '20px', marginRight: '10px' }}
+						>
+							Change Cover
 						</Link>
-						<Link to="/editProfile" className="profile-edit-button">
-							<i className="fal fa-edit" />
+						<Link to="/editProfile" className="profile-fav-button" style={{ marginRight: '0' }}>
+							Done Editing <i className="fal fa-edit" style={{ color: '#fff' }} />
 						</Link>
 					</div>
 				</div>
